@@ -1,0 +1,1079 @@
+{
+ "name": "scenario-a-reopened",
+ "at": 1789767780.4517937,
+ "gates": {
+  "safety": 1,
+  "spending": 1,
+  "acquisition": 1,
+  "delivery": 1
+ },
+ "gate_audit": [
+  {
+   "id": 15,
+   "at": 1789767771.5846,
+   "gate": "delivery",
+   "action": "reopened",
+   "actor": "operator",
+   "reason": "deterministic_verification_passed",
+   "evidence": "{\"actor\": \"operator\", \"at\": 1789767771.4001749, \"checks\": {\"health\": {\"database\": \"reachable\", \"interrupted_maintenance\": 0, \"running_jobs\": 0, \"scratch_empty\": true}, \"interrupted_submissions_recovered\": 0, \"interrupted_submissions_remaining\": 0, \"ledger\": {\"pages\": 1, \"passed\": true, \"unresolved\": []}, \"raw_cleanup\": {\"bucket_raw_key_count\": 0, \"bucket_raw_key_sample\": [], \"orders_with_raw_pointer\": [], \"reconcile_passes\": 0, \"unresolved\": 0}, \"reservations\": {\"failed_ids\": [], \"sweep_passed\": true, \"sweep_unresolved\": 0}, \"stranded_jobs_failed\": []}, \"gate\": \"delivery\", \"passed\": true}"
+  },
+  {
+   "id": 14,
+   "at": 1789767746.743349,
+   "gate": "delivery",
+   "action": "verification_failed",
+   "actor": "operator",
+   "reason": "worker_busy",
+   "evidence": "{\"error\": \"worker_busy_retry_later\", \"passed\": false}"
+  },
+  {
+   "id": 13,
+   "at": 1789767714.975686,
+   "gate": "delivery",
+   "action": "closed",
+   "actor": "system",
+   "reason": "validator_incomplete_exit",
+   "evidence": "{\"order_id\": \"order_C\"}"
+  },
+  {
+   "id": 12,
+   "at": 1789680507.7348225,
+   "gate": "acquisition",
+   "action": "reopened",
+   "actor": "operator",
+   "reason": "deterministic_verification_passed",
+   "evidence": "{\"actor\": \"operator\", \"at\": 1789680506.6867437, \"checks\": {\"health\": {\"database\": \"reachable\", \"interrupted_maintenance\": 0, \"running_jobs\": 0, \"scratch_empty\": true}, \"interrupted_submissions_recovered\": 0, \"interrupted_submissions_remaining\": 0, \"ledger\": {\"pages\": 1, \"passed\": true, \"unresolved\": []}, \"raw_cleanup\": {\"bucket_raw_key_count\": 0, \"bucket_raw_key_sample\": [], \"orders_with_raw_pointer\": [], \"reconcile_passes\": 0, \"unresolved\": 0}, \"reservations\": {\"failed_ids\": [], \"sweep_passed\": true, \"sweep_unresolved\": 0}, \"stranded_jobs_failed\": []}, \"gate\": \"acquisition\", \"passed\": true}"
+  },
+  {
+   "id": 11,
+   "at": 1789680455.1173124,
+   "gate": "acquisition",
+   "action": "verification_failed",
+   "actor": "operator",
+   "reason": "worker_busy",
+   "evidence": "{\"error\": \"worker_busy_retry_later\", \"passed\": false}"
+  },
+  {
+   "id": 10,
+   "at": 1789680439.289348,
+   "gate": "acquisition",
+   "action": "verification_failed",
+   "actor": "operator",
+   "reason": "worker_busy",
+   "evidence": "{\"error\": \"worker_busy_retry_later\", \"passed\": false}"
+  },
+  {
+   "id": 9,
+   "at": 1789680433.701536,
+   "gate": "acquisition",
+   "action": "verification_failed",
+   "actor": "operator",
+   "reason": "worker_busy",
+   "evidence": "{\"error\": \"worker_busy_retry_later\", \"passed\": false}"
+  },
+  {
+   "id": 8,
+   "at": 1789680428.1600082,
+   "gate": "acquisition",
+   "action": "verification_failed",
+   "actor": "operator",
+   "reason": "worker_busy",
+   "evidence": "{\"error\": \"worker_busy_retry_later\", \"passed\": false}"
+  },
+  {
+   "id": 7,
+   "at": 1789680296.727654,
+   "gate": "acquisition",
+   "action": "closed",
+   "actor": "system",
+   "reason": "acceptance_verification_started",
+   "evidence": "{\"code\": \"verify_acceptance\"}"
+  },
+  {
+   "id": 6,
+   "at": 1789680114.1018188,
+   "gate": "delivery",
+   "action": "verification_failed",
+   "actor": "operator",
+   "reason": "deterministic_verification_failed",
+   "evidence": "{\"actor\": \"operator\", \"at\": 1789680113.1038227, \"checks\": {\"health\": {\"database\": \"reachable\", \"interrupted_maintenance\": 0, \"running_jobs\": 0, \"scratch_empty\": true}, \"interrupted_submissions_recovered\": 0, \"interrupted_submissions_remaining\": 0, \"ledger\": {\"pages\": 1, \"passed\": false, \"unresolved\": [\"order_T\"]}, \"raw_cleanup\": {\"bucket_raw_key_count\": 0, \"bucket_raw_key_sample\": [], \"orders_with_raw_pointer\": [], \"reconcile_passes\": 0, \"unresolved\": 0}, \"reservations\": {\"failed_ids\": [\"order_T\"], \"sweep_passed\": false, \"sweep_unresolved\": 1}, \"stranded_jobs_failed\": []}, \"gate\": \"delivery\", \"passed\": false}"
+  },
+  {
+   "id": 5,
+   "at": 1789680086.9499152,
+   "gate": "delivery",
+   "action": "verification_failed",
+   "actor": "operator",
+   "reason": "worker_busy",
+   "evidence": "{\"error\": \"worker_busy_retry_later\", \"passed\": false}"
+  },
+  {
+   "id": 4,
+   "at": 1789680077.8239813,
+   "gate": "delivery",
+   "action": "verification_failed",
+   "actor": "operator",
+   "reason": "worker_busy",
+   "evidence": "{\"error\": \"worker_busy_retry_later\", \"passed\": false}"
+  },
+  {
+   "id": 3,
+   "at": 1789680014.1556509,
+   "gate": "delivery",
+   "action": "verification_failed",
+   "actor": "operator",
+   "reason": "deterministic_verification_failed",
+   "evidence": "{\"actor\": \"operator\", \"at\": 1789680014.032797, \"checks\": {\"health\": {\"database\": \"reachable\", \"interrupted_maintenance\": 0, \"running_jobs\": 0, \"scratch_empty\": true}, \"interrupted_submissions_recovered\": 0, \"interrupted_submissions_remaining\": 0, \"ledger\": {\"pages\": 0, \"passed\": false, \"unresolved\": []}, \"raw_cleanup\": {\"bucket_raw_key_count\": 0, \"bucket_raw_key_sample\": [], \"orders_with_raw_pointer\": [], \"reconcile_passes\": 0, \"unresolved\": 0}, \"reservations\": {\"failed_ids\": [\"order_E\", \"order_T\"], \"sweep_passed\": false, \"sweep_unresolved\": 2}, \"stranded_jobs_failed\": []}, \"gate\": \"delivery\", \"passed\": false}"
+  },
+  {
+   "id": 2,
+   "at": 1789679417.1292439,
+   "gate": "delivery",
+   "action": "verification_failed",
+   "actor": "operator",
+   "reason": "deterministic_verification_failed",
+   "evidence": "{\"actor\": \"operator\", \"at\": 1789679417.005883, \"checks\": {\"health\": {\"database\": \"reachable\", \"interrupted_maintenance\": 0, \"running_jobs\": 0, \"scratch_empty\": true}, \"interrupted_submissions_recovered\": 0, \"interrupted_submissions_remaining\": 0, \"ledger\": {\"pages\": 1, \"passed\": false, \"unresolved\": [\"order_E\", \"order_F\", \"order_T\"]}, \"raw_cleanup\": {\"bucket_raw_key_count\": 0, \"bucket_raw_key_sample\": [], \"orders_with_raw_pointer\": [], \"reconcile_passes\": 0, \"unresolved\": 0}, \"reservations\": {\"failed_ids\": [\"order_E\", \"order_T\"], \"sweep_passed\": false, \"sweep_unresolved\": 2}, \"stranded_jobs_failed\": []}, \"gate\": \"delivery\", \"passed\": false}"
+  },
+  {
+   "id": 1,
+   "at": 1789679395.7480266,
+   "gate": "safety",
+   "action": "verification_failed",
+   "actor": "operator",
+   "reason": "deterministic_verification_failed",
+   "evidence": "{\"actor\": \"operator\", \"at\": 1789679394.787848, \"checks\": {\"health\": {\"database\": \"reachable\", \"interrupted_maintenance\": 0, \"running_jobs\": 0, \"scratch_empty\": true}, \"interrupted_submissions_recovered\": 0, \"interrupted_submissions_remaining\": 0, \"ledger\": {\"pages\": 1, \"passed\": false, \"unresolved\": [\"order_E\", \"order_F\", \"order_T\"]}, \"raw_cleanup\": {\"bucket_raw_key_count\": 0, \"bucket_raw_key_sample\": [], \"orders_with_raw_pointer\": [], \"reconcile_passes\": 0, \"unresolved\": 0}, \"reservations\": {\"failed_ids\": [\"order_E\", \"order_T\"], \"sweep_passed\": false, \"sweep_unresolved\": 2}, \"stranded_jobs_failed\": []}, \"gate\": \"safety\", \"passed\": false}"
+  }
+ ],
+ "orders": [
+  {
+   "id": "order_P",
+   "product_hash": "sha256:PRODUCT-10",
+   "access_hash": "sha256:REDACTED-31",
+   "recovery_hash": "sha256:REDACTED-32",
+   "session": "cs_REDACTED_1",
+   "payment_intent": null,
+   "payment": "expired",
+   "refund": "none",
+   "refund_id": null,
+   "job": "expired",
+   "attempts": 0,
+   "runs": 0,
+   "first_delivery": null,
+   "created": 1789653272.3252742,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": null,
+   "paired": null,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "released",
+   "reservation_expires": 1789739672.3252761,
+   "obligation_expires": 1790258072.325277,
+   "next_action": "none",
+   "retry_at": 0
+  },
+  {
+   "id": "order_B",
+   "product_hash": "sha256:PRODUCT-1",
+   "access_hash": "sha256:REDACTED-3",
+   "recovery_hash": "sha256:REDACTED-4",
+   "session": "cs_REDACTED_2",
+   "payment_intent": "pi_REDACTED_1",
+   "payment": "paid",
+   "refund": "none",
+   "refund_id": null,
+   "job": "awaiting_inputs",
+   "attempts": 0,
+   "runs": 0,
+   "first_delivery": null,
+   "created": 1789739205.1990225,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": null,
+   "paired": null,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "held",
+   "reservation_expires": 1789825605.1990247,
+   "obligation_expires": 1790344005.1990256,
+   "next_action": "reconcile_reservations",
+   "retry_at": 1789767911.3166382
+  },
+  {
+   "id": "order_A",
+   "product_hash": "sha256:PRODUCT-1",
+   "access_hash": "sha256:REDACTED-1",
+   "recovery_hash": "sha256:REDACTED-2",
+   "session": "cs_REDACTED_3",
+   "payment_intent": "pi_REDACTED_2",
+   "payment": "paid",
+   "refund": "none",
+   "refund_id": null,
+   "job": "delivered",
+   "attempts": 2,
+   "runs": 2,
+   "first_delivery": 1789767043.1164749,
+   "created": 1789739203.8040116,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": "008acd5cd764236b8d6915939c3a0c5b2a094d81957dc9e0298de50513c3dc0e",
+   "paired": true,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "spent",
+   "reservation_expires": 1789825603.804013,
+   "obligation_expires": 1790344003.8040135,
+   "next_action": "none",
+   "retry_at": 0
+  },
+  {
+   "id": "order_F",
+   "product_hash": "sha256:PRODUCT-3",
+   "access_hash": "sha256:REDACTED-11",
+   "recovery_hash": "sha256:REDACTED-12",
+   "session": null,
+   "payment_intent": null,
+   "payment": "expired",
+   "refund": "none",
+   "refund_id": null,
+   "job": "expired",
+   "attempts": 0,
+   "runs": 0,
+   "first_delivery": null,
+   "created": 1789569041.8293953,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": null,
+   "paired": null,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "released",
+   "reservation_expires": 1789655441.8293974,
+   "obligation_expires": 1790173841.8293982,
+   "next_action": "none",
+   "retry_at": 0
+  },
+  {
+   "id": "order_R",
+   "product_hash": "sha256:PRODUCT-12",
+   "access_hash": "sha256:REDACTED-35",
+   "recovery_hash": "sha256:REDACTED-36",
+   "session": "cs_REDACTED_4",
+   "payment_intent": null,
+   "payment": "expired",
+   "refund": "none",
+   "refund_id": null,
+   "job": "expired",
+   "attempts": 0,
+   "runs": 0,
+   "first_delivery": null,
+   "created": 1789653275.35764,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": null,
+   "paired": null,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "released",
+   "reservation_expires": 1789739675.3576422,
+   "obligation_expires": 1790258075.3576434,
+   "next_action": "none",
+   "retry_at": 0
+  },
+  {
+   "id": "order_E",
+   "product_hash": "sha256:PRODUCT-2",
+   "access_hash": "sha256:REDACTED-9",
+   "recovery_hash": "sha256:REDACTED-10",
+   "session": "cs_REDACTED_5",
+   "payment_intent": null,
+   "payment": "expired",
+   "refund": "none",
+   "refund_id": null,
+   "job": "expired",
+   "attempts": 0,
+   "runs": 0,
+   "first_delivery": null,
+   "created": 1789568455.4160473,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": null,
+   "paired": null,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "released",
+   "reservation_expires": 1789654855.4160485,
+   "obligation_expires": 1790173255.4160495,
+   "next_action": "none",
+   "retry_at": 0
+  },
+  {
+   "id": "order_N",
+   "product_hash": "sha256:PRODUCT-8",
+   "access_hash": "sha256:REDACTED-27",
+   "recovery_hash": "sha256:REDACTED-28",
+   "session": "cs_REDACTED_6",
+   "payment_intent": "pi_REDACTED_3",
+   "payment": "paid",
+   "refund": "succeeded",
+   "refund_id": "re_REDACTED_1",
+   "job": "refunded",
+   "attempts": 2,
+   "runs": 2,
+   "first_delivery": 1789644827.324828,
+   "created": 1789644528.3440647,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": "0c83c30f8a76f65a9d999358a276193d38f3c772d4e32daf2a004614b5679160",
+   "paired": false,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "spent",
+   "reservation_expires": 1789730928.3440669,
+   "obligation_expires": 1790249328.3440676,
+   "next_action": "none",
+   "retry_at": 0
+  },
+  {
+   "id": "order_O",
+   "product_hash": "sha256:PRODUCT-9",
+   "access_hash": "sha256:REDACTED-29",
+   "recovery_hash": "sha256:REDACTED-30",
+   "session": "cs_REDACTED_7",
+   "payment_intent": null,
+   "payment": "expired",
+   "refund": "none",
+   "refund_id": null,
+   "job": "expired",
+   "attempts": 0,
+   "runs": 0,
+   "first_delivery": null,
+   "created": 1789653117.4998572,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": null,
+   "paired": null,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "released",
+   "reservation_expires": 1789739517.4998596,
+   "obligation_expires": 1790257917.4998603,
+   "next_action": "none",
+   "retry_at": 0
+  },
+  {
+   "id": "order_K",
+   "product_hash": "sha256:PRODUCT-7",
+   "access_hash": "sha256:REDACTED-21",
+   "recovery_hash": "sha256:REDACTED-22",
+   "session": "cs_REDACTED_8",
+   "payment_intent": null,
+   "payment": "expired",
+   "refund": "none",
+   "refund_id": null,
+   "job": "expired",
+   "attempts": 0,
+   "runs": 0,
+   "first_delivery": null,
+   "created": 1789643807.785531,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": null,
+   "paired": null,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "released",
+   "reservation_expires": 1789730207.7855337,
+   "obligation_expires": 1790248607.7855346,
+   "next_action": "none",
+   "retry_at": 0
+  },
+  {
+   "id": "order_J",
+   "product_hash": "sha256:PRODUCT-7",
+   "access_hash": "sha256:REDACTED-19",
+   "recovery_hash": "sha256:REDACTED-20",
+   "session": "cs_REDACTED_9",
+   "payment_intent": null,
+   "payment": "expired",
+   "refund": "none",
+   "refund_id": null,
+   "job": "expired",
+   "attempts": 0,
+   "runs": 0,
+   "first_delivery": null,
+   "created": 1789643806.482995,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": null,
+   "paired": null,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "released",
+   "reservation_expires": 1789730206.4829972,
+   "obligation_expires": 1790248606.4829977,
+   "next_action": "none",
+   "retry_at": 0
+  },
+  {
+   "id": "order_L",
+   "product_hash": "sha256:PRODUCT-7",
+   "access_hash": "sha256:REDACTED-23",
+   "recovery_hash": "sha256:REDACTED-24",
+   "session": "cs_REDACTED_10",
+   "payment_intent": null,
+   "payment": "expired",
+   "refund": "none",
+   "refund_id": null,
+   "job": "expired",
+   "attempts": 0,
+   "runs": 0,
+   "first_delivery": null,
+   "created": 1789643822.712775,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": null,
+   "paired": null,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "released",
+   "reservation_expires": 1789730222.7127764,
+   "obligation_expires": 1790248622.7127771,
+   "next_action": "none",
+   "retry_at": 0
+  },
+  {
+   "id": "order_D",
+   "product_hash": "sha256:PRODUCT-1",
+   "access_hash": "sha256:REDACTED-7",
+   "recovery_hash": "sha256:REDACTED-8",
+   "session": "cs_REDACTED_11",
+   "payment_intent": "pi_REDACTED_4",
+   "payment": "paid",
+   "refund": "none",
+   "refund_id": null,
+   "job": "awaiting_inputs",
+   "attempts": 0,
+   "runs": 0,
+   "first_delivery": null,
+   "created": 1789739208.0953002,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": null,
+   "paired": null,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "held",
+   "reservation_expires": 1789825608.095302,
+   "obligation_expires": 1790344008.095303,
+   "next_action": "reconcile_reservations",
+   "retry_at": 1789767947.8465016
+  },
+  {
+   "id": "order_M",
+   "product_hash": "sha256:PRODUCT-7",
+   "access_hash": "sha256:REDACTED-25",
+   "recovery_hash": "sha256:REDACTED-26",
+   "session": "cs_REDACTED_12",
+   "payment_intent": null,
+   "payment": "expired",
+   "refund": "none",
+   "refund_id": null,
+   "job": "expired",
+   "attempts": 0,
+   "runs": 0,
+   "first_delivery": null,
+   "created": 1789643823.9543424,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": null,
+   "paired": null,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "released",
+   "reservation_expires": 1789730223.9543445,
+   "obligation_expires": 1790248623.9543452,
+   "next_action": "none",
+   "retry_at": 0
+  },
+  {
+   "id": "order_H",
+   "job": "delivered",
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "runs": 1,
+   "error": null,
+   "paired": true,
+   "refund": "none",
+   "source": "direct",
+   "created": 1789569423.1683319,
+   "payment": "paid",
+   "session": "cs_REDACTED_13",
+   "attempts": 2,
+   "retry_at": 1789768012.109128,
+   "refund_id": null,
+   "access_hash": "sha256:REDACTED-15",
+   "next_action": "reconcile_reservations",
+   "reservation": "held",
+   "job_deadline": 1789643655.3022373,
+   "product_hash": "sha256:PRODUCT-5",
+   "recovery_hash": "sha256:REDACTED-16",
+   "first_delivery": 1789642469.2933362,
+   "payment_intent": "pi_REDACTED_5",
+   "fixture_ids_hash": "c5d2435972c3199be3ce184c6e3fc366d3b46578a9f18c179b6facd706aeef86",
+   "obligation_expires": 1790174223.168335,
+   "reservation_expires": 1789655823.1683342,
+   "compute_reserve_pence": 200
+  },
+  {
+   "id": "order_Q",
+   "product_hash": "sha256:PRODUCT-11",
+   "access_hash": "sha256:REDACTED-33",
+   "recovery_hash": "sha256:REDACTED-34",
+   "session": "cs_REDACTED_14",
+   "payment_intent": null,
+   "payment": "expired",
+   "refund": "none",
+   "refund_id": null,
+   "job": "expired",
+   "attempts": 0,
+   "runs": 0,
+   "first_delivery": null,
+   "created": 1789653273.8265388,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": null,
+   "paired": null,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "released",
+   "reservation_expires": 1789739673.8265402,
+   "obligation_expires": 1790258073.8265407,
+   "next_action": "none",
+   "retry_at": 0
+  },
+  {
+   "id": "order_I",
+   "product_hash": "sha256:PRODUCT-6",
+   "access_hash": "sha256:REDACTED-17",
+   "recovery_hash": "sha256:REDACTED-18",
+   "session": "cs_REDACTED_15",
+   "payment_intent": null,
+   "payment": "expired",
+   "refund": "none",
+   "refund_id": null,
+   "job": "expired",
+   "attempts": 0,
+   "runs": 0,
+   "first_delivery": null,
+   "created": 1789569888.7904675,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": null,
+   "paired": null,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "released",
+   "reservation_expires": 1789656288.7904687,
+   "obligation_expires": 1790174688.7904694,
+   "next_action": "none",
+   "retry_at": 0
+  },
+  {
+   "id": "order_S",
+   "product_hash": "sha256:PRODUCT-13",
+   "access_hash": "sha256:REDACTED-37",
+   "recovery_hash": "sha256:REDACTED-38",
+   "session": "cs_REDACTED_16",
+   "payment_intent": null,
+   "payment": "expired",
+   "refund": "none",
+   "refund_id": null,
+   "job": "expired",
+   "attempts": 0,
+   "runs": 0,
+   "first_delivery": null,
+   "created": 1789653276.9179864,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": null,
+   "paired": null,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "released",
+   "reservation_expires": 1789739676.9179883,
+   "obligation_expires": 1790258076.9179897,
+   "next_action": "none",
+   "retry_at": 0
+  },
+  {
+   "id": "order_G",
+   "product_hash": "sha256:PRODUCT-4",
+   "access_hash": "sha256:REDACTED-13",
+   "recovery_hash": "sha256:REDACTED-14",
+   "session": "cs_REDACTED_17",
+   "payment_intent": null,
+   "payment": "expired",
+   "refund": "none",
+   "refund_id": null,
+   "job": "expired",
+   "attempts": 0,
+   "runs": 0,
+   "first_delivery": null,
+   "created": 1789569370.3004956,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": null,
+   "paired": null,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "released",
+   "reservation_expires": 1789655770.3004978,
+   "obligation_expires": 1790174170.3004985,
+   "next_action": "none",
+   "retry_at": 0
+  },
+  {
+   "id": "order_C",
+   "product_hash": "sha256:PRODUCT-1",
+   "access_hash": "sha256:REDACTED-5",
+   "recovery_hash": "sha256:REDACTED-6",
+   "session": "cs_REDACTED_18",
+   "payment_intent": "pi_REDACTED_6",
+   "payment": "paid",
+   "refund": "none",
+   "refund_id": null,
+   "job": "failed",
+   "attempts": 1,
+   "runs": 0,
+   "first_delivery": null,
+   "created": 1789739206.7229908,
+   "pair": "xrechnung-2025-07-10_to_2026-01-31",
+   "fixture_ids_hash": "008acd5cd764236b8d6915939c3a0c5b2a094d81957dc9e0298de50513c3dc0e",
+   "paired": true,
+   "error": null,
+   "source": "direct",
+   "compute_reserve_pence": 200,
+   "reservation": "held",
+   "reservation_expires": 1789825606.722993,
+   "obligation_expires": 1790344006.7229939,
+   "next_action": "reconcile_reservations",
+   "retry_at": 1789767932.5725873
+  }
+ ],
+ "submissions": [
+  {
+   "order_id": "order_C",
+   "key": "idem_C1",
+   "payload_hash": "4a0034b1e231",
+   "unfinished": false
+  },
+  {
+   "order_id": "order_H",
+   "key": "idem_H1",
+   "payload_hash": "4525645b616e",
+   "unfinished": false
+  },
+  {
+   "order_id": "order_H",
+   "key": "idem_H2",
+   "payload_hash": "4525645b616e",
+   "unfinished": false
+  },
+  {
+   "order_id": "order_N",
+   "key": "idem_N1",
+   "payload_hash": "9204ad2cf3d7",
+   "unfinished": false
+  },
+  {
+   "order_id": "order_N",
+   "key": "idem_N2",
+   "payload_hash": "9204ad2cf3d7",
+   "unfinished": false
+  },
+  {
+   "order_id": "order_A",
+   "key": "idem_A1",
+   "payload_hash": "4a0034b1e231",
+   "unfinished": false
+  },
+  {
+   "order_id": "order_A",
+   "key": "idem_A2",
+   "payload_hash": "4a0034b1e231",
+   "unfinished": false
+  }
+ ],
+ "events": [
+  {
+   "at": 1789767771.646219,
+   "kind": "gate_reopened",
+   "order_id": null,
+   "data": "{\"actor\": \"operator\", \"gate\": \"delivery\", \"reason\": \"deterministic_verification_passed\"}"
+  },
+  {
+   "at": 1789767715.8478591,
+   "kind": "validation_compute",
+   "order_id": "order_C",
+   "data": "{\"allocated_subscription_gbp\": null, \"api_equivalent_usd\": 0, \"cash_basis\": \"local_existing_capacity\", \"cash_gbp\": 0, \"cpu_seconds\": null, \"model_tokens\": 0, \"wall_seconds\": 14.32235667295754}"
+  },
+  {
+   "at": 1789767715.7852566,
+   "kind": "evidence_ready",
+   "order_id": "order_C",
+   "data": "{\"metrics\": {\"batches\": [{\"attempted\": 2, \"duration_seconds\": 3.1031586807221174, \"process_exit_code\": -9, \"temporary_directory_removed\": true}, {\"attempted\": 2, \"duration_seconds\": 3.7697631753981113, \"process_exit_code\": 0, \"temporary_directory_removed\": true}, {\"attempted\": 2, \"duration_seconds\": 3.643409064039588, \"process_exit_code\": 0, \"temporary_directory_removed\": true}, {\"attempted\": 2, \"duration_seconds\": 3.6290988717228174, \"process_exit_code\": 0, \"temporary_directory_removed\": true}], \"exit_code\": 2, \"summary\": {\"application_axis_regressions\": 0, \"attempted\": 8, \"execution_errors\": 2, \"incomplete_comparisons\": 4, \"passes\": 6, \"processed\": 6, \"rule_regressions\": 0, \"unmatched_pairs\": 0, \"validation_failures\": 0}, \"temporary_inputs_and_intermediates_removed\": true, \"validation_model_calls\": 0, \"validation_model_tokens\": 0, \"wall_seconds\": 14.32235667295754}, \"run\": -1, \"state\": \"failed\"}"
+  },
+  {
+   "at": 1789767715.1034117,
+   "kind": "purchases_paused",
+   "order_id": null,
+   "data": "{\"actor\": \"system\", \"gate\": \"delivery\", \"reason\": \"validator_incomplete_exit\"}"
+  },
+  {
+   "at": 1789767715.042151,
+   "kind": "gate_closed",
+   "order_id": null,
+   "data": "{\"actor\": \"system\", \"gate\": \"delivery\", \"reason\": \"validator_incomplete_exit\"}"
+  },
+  {
+   "at": 1789767697.8946753,
+   "kind": "job_started",
+   "order_id": "order_C",
+   "data": "{\"fixture_count\": 2, \"paired\": true}"
+  },
+  {
+   "at": 1789767697.0345442,
+   "kind": "submission_received",
+   "order_id": "order_C",
+   "data": "{}"
+  },
+  {
+   "at": 1789767110.721748,
+   "kind": "validation_compute",
+   "order_id": "order_A",
+   "data": "{\"allocated_subscription_gbp\": null, \"api_equivalent_usd\": 0, \"cash_basis\": \"local_existing_capacity\", \"cash_gbp\": 0, \"cpu_seconds\": null, \"model_tokens\": 0, \"wall_seconds\": 14.207651088014245}"
+  },
+  {
+   "at": 1789767110.659426,
+   "kind": "evidence_ready",
+   "order_id": "order_A",
+   "data": "{\"metrics\": {\"batches\": [{\"attempted\": 2, \"duration_seconds\": 3.533839115872979, \"process_exit_code\": 0, \"temporary_directory_removed\": true}, {\"attempted\": 2, \"duration_seconds\": 3.5811680741608143, \"process_exit_code\": 0, \"temporary_directory_removed\": true}, {\"attempted\": 2, \"duration_seconds\": 3.3485506121069193, \"process_exit_code\": 0, \"temporary_directory_removed\": true}, {\"attempted\": 2, \"duration_seconds\": 3.5562106166034937, \"process_exit_code\": 0, \"temporary_directory_removed\": true}], \"exit_code\": 0, \"summary\": {\"application_axis_regressions\": 0, \"attempted\": 8, \"execution_errors\": 0, \"incomplete_comparisons\": 0, \"passes\": 8, \"processed\": 8, \"rule_regressions\": 0, \"unmatched_pairs\": 0, \"validation_failures\": 0}, \"temporary_inputs_and_intermediates_removed\": true, \"validation_model_calls\": 0, \"validation_model_tokens\": 0, \"wall_seconds\": 14.207651088014245}, \"run\": 2, \"state\": \"delivered\"}"
+  },
+  {
+   "at": 1789767091.622233,
+   "kind": "job_started",
+   "order_id": "order_A",
+   "data": "{\"fixture_count\": 2, \"paired\": true}"
+  },
+  {
+   "at": 1789767089.8518634,
+   "kind": "submission_received",
+   "order_id": "order_A",
+   "data": "{}"
+  },
+  {
+   "at": 1789767044.470026,
+   "kind": "validation_compute",
+   "order_id": "order_A",
+   "data": "{\"allocated_subscription_gbp\": null, \"api_equivalent_usd\": 0, \"cash_basis\": \"local_existing_capacity\", \"cash_gbp\": 0, \"cpu_seconds\": null, \"model_tokens\": 0, \"wall_seconds\": 15.509528402239084}"
+  },
+  {
+   "at": 1789767044.4087586,
+   "kind": "evidence_ready",
+   "order_id": "order_A",
+   "data": "{\"metrics\": {\"batches\": [{\"attempted\": 2, \"duration_seconds\": 3.68744090013206, \"process_exit_code\": 0, \"temporary_directory_removed\": true}, {\"attempted\": 2, \"duration_seconds\": 3.771712327376008, \"process_exit_code\": 0, \"temporary_directory_removed\": true}, {\"attempted\": 2, \"duration_seconds\": 3.7836013678461313, \"process_exit_code\": 0, \"temporary_directory_removed\": true}, {\"attempted\": 2, \"duration_seconds\": 4.055911000818014, \"process_exit_code\": 0, \"temporary_directory_removed\": true}], \"exit_code\": 0, \"summary\": {\"application_axis_regressions\": 0, \"attempted\": 8, \"execution_errors\": 0, \"incomplete_comparisons\": 0, \"passes\": 8, \"processed\": 8, \"rule_regressions\": 0, \"unmatched_pairs\": 0, \"validation_failures\": 0}, \"temporary_inputs_and_intermediates_removed\": true, \"validation_model_calls\": 0, \"validation_model_tokens\": 0, \"wall_seconds\": 15.509528402239084}, \"run\": 1, \"state\": \"delivered\"}"
+  },
+  {
+   "at": 1789767024.8360577,
+   "kind": "job_started",
+   "order_id": "order_A",
+   "data": "{\"fixture_count\": 2, \"paired\": true}"
+  },
+  {
+   "at": 1789767022.763543,
+   "kind": "submission_received",
+   "order_id": "order_A",
+   "data": "{}"
+  },
+  {
+   "at": 1789766742.770711,
+   "kind": "webhook_processed",
+   "order_id": null,
+   "data": "{\"event_type\": \"checkout.session.completed\", \"simulated\": false}"
+  },
+  {
+   "at": 1789766742.6483085,
+   "kind": "payment_verified",
+   "order_id": "order_D",
+   "data": "{\"currency\": \"gbp\", \"gross_pence\": 29900, \"simulated\": false, \"tax_pence\": 0}"
+  },
+  {
+   "at": 1789766728.113437,
+   "kind": "webhook_processed",
+   "order_id": null,
+   "data": "{\"event_type\": \"checkout.session.completed\", \"simulated\": false}"
+  },
+  {
+   "at": 1789766727.9910758,
+   "kind": "payment_verified",
+   "order_id": "order_C",
+   "data": "{\"currency\": \"gbp\", \"gross_pence\": 29900, \"simulated\": false, \"tax_pence\": 0}"
+  },
+  {
+   "at": 1789766704.6458275,
+   "kind": "webhook_processed",
+   "order_id": null,
+   "data": "{\"event_type\": \"checkout.session.completed\", \"simulated\": false}"
+  },
+  {
+   "at": 1789766704.5229094,
+   "kind": "payment_verified",
+   "order_id": "order_B",
+   "data": "{\"currency\": \"gbp\", \"gross_pence\": 29900, \"simulated\": false, \"tax_pence\": 0}"
+  },
+  {
+   "at": 1789766643.34029,
+   "kind": "webhook_processed",
+   "order_id": null,
+   "data": "{\"event_type\": \"checkout.session.completed\", \"simulated\": false}"
+  },
+  {
+   "at": 1789766643.2167916,
+   "kind": "payment_verified",
+   "order_id": "order_A",
+   "data": "{\"currency\": \"gbp\", \"gross_pence\": 29900, \"simulated\": false, \"tax_pence\": 0}"
+  },
+  {
+   "at": 1789739678.9391165,
+   "kind": "webhook_processed",
+   "order_id": null,
+   "data": "{\"event_type\": \"checkout.session.expired\", \"simulated\": false}"
+  },
+  {
+   "at": 1789739678.8166285,
+   "kind": "payment_state_observed",
+   "order_id": "order_S",
+   "data": "{\"state\": \"unpaid\"}"
+  },
+  {
+   "at": 1789739676.250871,
+   "kind": "webhook_processed",
+   "order_id": null,
+   "data": "{\"event_type\": \"checkout.session.expired\", \"simulated\": false}"
+  },
+  {
+   "at": 1789739676.1286726,
+   "kind": "payment_state_observed",
+   "order_id": "order_R",
+   "data": "{\"state\": \"unpaid\"}"
+  },
+  {
+   "at": 1789739675.171941,
+   "kind": "webhook_processed",
+   "order_id": null,
+   "data": "{\"event_type\": \"checkout.session.expired\", \"simulated\": false}"
+  },
+  {
+   "at": 1789739675.0495303,
+   "kind": "payment_state_observed",
+   "order_id": "order_Q",
+   "data": "{\"state\": \"unpaid\"}"
+  },
+  {
+   "at": 1789739674.5562375,
+   "kind": "webhook_processed",
+   "order_id": null,
+   "data": "{\"event_type\": \"checkout.session.expired\", \"simulated\": false}"
+  },
+  {
+   "at": 1789739674.3728735,
+   "kind": "payment_state_observed",
+   "order_id": "order_P",
+   "data": "{\"state\": \"unpaid\"}"
+  },
+  {
+   "at": 1789739519.4367208,
+   "kind": "webhook_processed",
+   "order_id": null,
+   "data": "{\"event_type\": \"checkout.session.expired\", \"simulated\": false}"
+  },
+  {
+   "at": 1789739519.314131,
+   "kind": "payment_state_observed",
+   "order_id": "order_O",
+   "data": "{\"state\": \"unpaid\"}"
+  },
+  {
+   "at": 1789739208.280079,
+   "kind": "checkout_started",
+   "order_id": "order_D",
+   "data": "{\"currency\": \"gbp\", \"price_pence\": 29900, \"simulated\": false}"
+  },
+  {
+   "at": 1789739208.2187653,
+   "kind": "corpus_confirmed",
+   "order_id": "order_D",
+   "data": "{\"source\": \"direct\"}"
+  },
+  {
+   "at": 1789739206.906574,
+   "kind": "checkout_started",
+   "order_id": "order_C",
+   "data": "{\"currency\": \"gbp\", \"price_pence\": 29900, \"simulated\": false}"
+  },
+  {
+   "at": 1789739206.8453708,
+   "kind": "corpus_confirmed",
+   "order_id": "order_C",
+   "data": "{\"source\": \"direct\"}"
+  },
+  {
+   "at": 1789739205.3831117,
+   "kind": "checkout_started",
+   "order_id": "order_B",
+   "data": "{\"currency\": \"gbp\", \"price_pence\": 29900, \"simulated\": false}"
+  },
+  {
+   "at": 1789739205.3215728,
+   "kind": "corpus_confirmed",
+   "order_id": "order_B",
+   "data": "{\"source\": \"direct\"}"
+  },
+  {
+   "at": 1789739203.988465,
+   "kind": "checkout_started",
+   "order_id": "order_A",
+   "data": "{\"currency\": \"gbp\", \"price_pence\": 29900, \"simulated\": false}"
+  },
+  {
+   "at": 1789739203.9270852,
+   "kind": "corpus_confirmed",
+   "order_id": "order_A",
+   "data": "{\"source\": \"direct\"}"
+  },
+  {
+   "at": 1789730226.873572,
+   "kind": "webhook_processed",
+   "order_id": null,
+   "data": "{\"event_type\": \"checkout.session.expired\", \"simulated\": false}"
+  },
+  {
+   "at": 1789730226.7500706,
+   "kind": "payment_state_observed",
+   "order_id": "order_M",
+   "data": "{\"state\": \"unpaid\"}"
+  },
+  {
+   "at": 1789730224.1280167,
+   "kind": "webhook_processed",
+   "order_id": null,
+   "data": "{\"event_type\": \"checkout.session.expired\", \"simulated\": false}"
+  },
+  {
+   "at": 1789730224.0052981,
+   "kind": "payment_state_observed",
+   "order_id": "order_L",
+   "data": "{\"state\": \"unpaid\"}"
+  },
+  {
+   "at": 1789730210.1465337,
+   "kind": "webhook_processed",
+   "order_id": null,
+   "data": "{\"event_type\": \"checkout.session.expired\", \"simulated\": false}"
+  },
+  {
+   "at": 1789730210.0223486,
+   "kind": "payment_state_observed",
+   "order_id": "order_K",
+   "data": "{\"state\": \"unpaid\"}"
+  },
+  {
+   "at": 1789730207.4318671,
+   "kind": "webhook_processed",
+   "order_id": null,
+   "data": "{\"event_type\": \"checkout.session.expired\", \"simulated\": false}"
+  },
+  {
+   "at": 1789730207.3090777,
+   "kind": "payment_state_observed",
+   "order_id": "order_J",
+   "data": "{\"state\": \"unpaid\"}"
+  },
+  {
+   "at": 1789680507.796098,
+   "kind": "gate_reopened",
+   "order_id": null,
+   "data": "{\"actor\": \"operator\", \"gate\": \"acquisition\", \"reason\": \"deterministic_verification_passed\"}"
+  },
+  {
+   "at": 1789680305.145795,
+   "kind": "shared_maintenance",
+   "order_id": null,
+   "data": "{\"actual_cash_gbp\": 0, \"api_equivalent_usd\": null, \"code\": \"verify_acceptance\", \"evidence\": {\"exit_code\": 0, \"passed\": true}, \"operator_interventions\": 0, \"subscription_allocation_gbp\": null, \"wall_seconds\": 8.108804816380143}"
+  },
+  {
+   "at": 1789680296.912763,
+   "kind": "maintenance_started",
+   "order_id": null,
+   "data": "{\"code\": \"verify_acceptance\"}"
+  },
+  {
+   "at": 1789680296.851027,
+   "kind": "purchases_paused",
+   "order_id": null,
+   "data": "{\"actor\": \"system\", \"gate\": \"acquisition\", \"reason\": \"acceptance_verification_started\"}"
+  },
+  {
+   "at": 1789680296.7895799,
+   "kind": "gate_closed",
+   "order_id": null,
+   "data": "{\"actor\": \"system\", \"gate\": \"acquisition\", \"reason\": \"acceptance_verification_started\"}"
+  },
+  {
+   "at": 1789680111.795534,
+   "kind": "ledger_reconciliation_failed",
+   "order_id": "order_T",
+   "data": "{}"
+  },
+  {
+   "at": 1789679717.335988,
+   "kind": "reservation_reconciliation_failed",
+   "order_id": "order_E",
+   "data": "{}"
+  },
+  {
+   "at": 1789679415.7314522,
+   "kind": "ledger_reconciliation_failed",
+   "order_id": "order_T",
+   "data": "{}"
+  },
+  {
+   "at": 1789679414.9695652,
+   "kind": "ledger_reconciliation_failed",
+   "order_id": "order_F",
+   "data": "{}"
+  },
+  {
+   "at": 1789679414.0787375,
+   "kind": "ledger_reconciliation_failed",
+   "order_id": "order_E",
+   "data": "{}"
+  },
+  {
+   "at": 1789679393.5124862,
+   "kind": "ledger_reconciliation_failed",
+   "order_id": "order_T",
+   "data": "{}"
+  }
+ ],
+ "maintenance": [
+  {
+   "id": 1,
+   "code": "verify_acceptance",
+   "status": "verified",
+   "evidence": "{\"passed\": true, \"exit_code\": 0}"
+  }
+ ],
+ "bucket_raw_keys": [],
+ "bucket_raw_key_count": 0
+}

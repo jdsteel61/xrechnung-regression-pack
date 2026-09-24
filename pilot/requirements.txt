@@ -1,0 +1,4 @@
+# Worker lifetime containment only; the validation core remains unchanged.
+pywin32==311; sys_platform == 'win32'
+psycopg[binary]==3.2.3
+boto3==1.40.54

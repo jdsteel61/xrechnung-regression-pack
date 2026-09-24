@@ -1,0 +1,23 @@
+{
+  "status": "LAUNCH_BLOCKER_UNPROVISIONED",
+  "enabled": false,
+  "route": "Google Cloud Scheduler authenticated OIDC -> private Cloud Run operator -> OpenAI Responses API function calling",
+  "region": "europe-west1",
+  "schedule": "*/15 * * * *",
+  "model": "gpt-5-mini",
+  "max_response_output_tokens": 2000,
+  "max_calls_per_tick": 2,
+  "max_tool_calls_per_tick": 3,
+  "max_tick_seconds": 180,
+  "store": false,
+  "background": false,
+  "input": "pilot.service.Service.operator_snapshot aggregate allowlist only",
+  "tools": ["maintenance", "pause_acquisition"],
+  "maintenance_codes": ["verify_acceptance", "reconcile_refunds", "expire_reports"],
+  "forbidden": ["invoice content", "report content", "customer support free text", "shell", "budget changes", "gate weakening", "purchase enabling", "advertising activation", "arbitrary URLs", "deployment", "credentials"],
+  "durable_state": "Firestore transactions for business state, task leases, cost reservations and authority; never model memory",
+  "permissions": "read aggregate view and invoke bounded broker only; no raw-data bucket, secret, billing-admin or deploy permissions",
+  "additional_cash_authorised_gbp": 0,
+  "proposed_only": {"monthly_model_usd": 5, "max_call_usd": 0.01, "monthly_total_incremental_gbp": 30, "acquisition_gbp": 0},
+  "activation_requirements": ["owner authorisation and accounts", "durable adapter and scheduler deployment", "transactional worst-case spend reservation", "provider usage reconciliation", "unaided acceptance test with process restarts", "no invoice/report access proof"]
+}

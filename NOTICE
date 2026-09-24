@@ -1,0 +1,36 @@
+XRechnung Release Regression Pack
+
+This product includes first-party software copyright 2026 the repository
+author (see the copyright line in LICENSE), licensed under the Apache
+License, Version 2.0 (see LICENSE at the root of this repository).
+
+This repository does NOT include, bundle, or redistribute the third-party
+runtime and rule artefacts the service executes against at runtime,
+including (but not limited to):
+
+  - the KoSIT XML Validator (validator-v1.6.3)
+  - the KoSIT XRechnung validator-configuration bundles
+  - the XRechnung Schematron rules
+  - CEN EN 16931 validation artefacts (licensed under EUPL-1.2)
+  - Saxon-HE
+  - the Eclipse Temurin JRE
+  - the other validator dependency jars (JAXB runtime, Apache Commons,
+    Jansi, picocli, SLF4J, XML Resolver, etc.)
+
+Each of the above remains the property of, and under the licence terms of,
+its respective upstream project. None of them are owned by, or licensed
+from, the author of this repository. See:
+
+  - `licences/` — retained upstream licence/NOTICE texts for the pinned
+    components this project depends on;
+  - `manifests/` — the pinned versions, source URLs and SHA-256 hashes
+    that identify exactly which upstream artefacts this project targets
+    (the artefacts themselves are downloaded at setup time, not vendored
+    here — see README.md);
+  - `pilot/legal/notices.md` — the third-party attribution page the
+    service itself served to buyers, listing every bundled component and
+    its licence.
+
+No trademark rights are claimed or granted in KoSIT, XRechnung, CEN,
+Saxon, Eclipse Temurin, Peppol, UBL, UN/CEFACT, or any other product name
+referenced in this repository; all are used for identification only.

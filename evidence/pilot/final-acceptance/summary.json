@@ -1,0 +1,101 @@
+{
+  "additional_cash_gbp": 0,
+  "allocated_subscription_cost_gbp": null,
+  "cloud_isolation_tested": false,
+  "customer_data_processed": false,
+  "delivery": [
+    {
+      "http": 200,
+      "run": 1,
+      "status": {
+        "attempts": 1,
+        "error": null,
+        "first_delivery": 1789557689.0017695,
+        "id": "order_U",
+        "job": "delivered",
+        "pair": "xrechnung-2025-07-10_to_2026-01-31",
+        "payment": "paid",
+        "refund": "none",
+        "runs": 1
+      },
+      "wall_seconds": 39.919452699999965
+    },
+    {
+      "http": 200,
+      "run": 2,
+      "status": {
+        "attempts": 2,
+        "error": null,
+        "first_delivery": 1789557689.0017695,
+        "id": "order_U",
+        "job": "delivered",
+        "pair": "xrechnung-2025-07-10_to_2026-01-31",
+        "payment": "paid",
+        "refund": "none",
+        "runs": 2
+      },
+      "wall_seconds": 38.01106289999916
+    }
+  ],
+  "determinism": {
+    "junit.xml": true,
+    "report.html": true,
+    "results.json": true
+  },
+  "e2e_tool_created_directory_removed": true,
+  "fixture_ids": 2,
+  "idempotent_submission_verified": true,
+  "managed_operator": "UNPROVISIONED",
+  "model_api_equivalent_usd": null,
+  "originals_preserved": true,
+  "pair": "xrechnung-2025-07-10_to_2026-01-31",
+  "passed": false,
+  "payment_transport": "OFFLINE TEST DOUBLE; not Stripe sandbox verification",
+  "pilot_source_hashes": {
+    "pilot/__init__.py": "4a2bafa6fd7ce1a789f20ffe7fb7a3f234e03f379c7569d023a8228847bdfb93",
+    "pilot/benchmark.py": "423a793d7f4ddfeab4d290b17bf0a99eeca5ec22dbb519c451294464034e44cd",
+    "pilot/inventory.py": "cfb1ae3ee17d9a451699dd016a932d467211d6591521aaf4bf70434df0e288d5",
+    "pilot/operator.py": "ddf2be0c00ac62c5325cfaa8b174b806c0bd3688a57179f7e45fe477c99856d5",
+    "pilot/payments.py": "83adb0069026bc966d0c9aa0425a497c425a54daa218c33420709781595e91a3",
+    "pilot/server.py": "788cfa8b75f042df410662f32d65e19ad316024ecff0f9a384be3f4f37d4092c",
+    "pilot/service.py": "d327f71e3b345f41547cbcc5bb8602b5290bf7460e95369575c2bb2e42ada4d9",
+    "pilot/test_pilot.py": "6fe5a7870cc0b88ddc13012569adf98b93ed4f3b3d022cb05cb1f4156054528f",
+    "pilot/worker.py": "2db5c4f6f638d882c5b9db2388bdf07f29f61b3599bedbc5d6988268031edd98"
+  },
+  "pilot_source_unchanged_during_run": true,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "redirect_does_not_fulfil": true,
+  "refund_final": {
+    "refund": "succeeded"
+  },
+  "refund_request": {
+    "refund": "pending"
+  },
+  "requirements_http": 200,
+  "sample_http": 200,
+  "scope_http": 200,
+  "support": {
+    "access": 200,
+    "advice": 200,
+    "input": 200,
+    "rerun": 200,
+    "status": 200
+  },
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "run": 65
+  },
+  "third_run_denied": true,
+  "unauthenticated_denied": true,
+  "unchanged_core": {
+    "GATE1.md": true,
+    "location_matching.py": true,
+    "test_location_matching.py": true,
+    "test_xreg.py": true,
+    "xreg.py": true
+  },
+  "validations": 16,
+  "wall_seconds": 93.62328300000081,
+  "worker_temp_empty": false
+}

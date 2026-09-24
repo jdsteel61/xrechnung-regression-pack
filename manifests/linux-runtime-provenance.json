@@ -1,0 +1,11 @@
+{
+  "purpose": "Separately pinned Linux Java runtime provenance for Railway execution. The KoSIT engine and ruleset artefacts are byte-identical across OS and are pinned in evidence/gate1/verification-clean/maintenance/results.json; only the Java launcher differs per OS and is pinned here.",
+  "runtime": "Eclipse Temurin JRE 21.0.8+9 (Linux x64), installed via mise (temurin-21.0.8+9.0.LTS) at build",
+  "matches_windows_java_version": "jdk-21.0.8+9-jre",
+  "java_executable_path": "/mise/installs/java/temurin-21.0.8+9.0.LTS/bin/java",
+  "java_executable_sha256": "90d0a6d25da103678013f193db078b90ed8aeb27b66ebe78e0149616c9c1b811",
+  "java_version_report": "openjdk version \"21.0.8\" 2025-07-15 LTS\nOpenJDK Runtime Environment Temurin-21.0.8+9 (build 21.0.8+9-LTS)\nOpenJDK 64-Bit Server VM Temurin-21.0.8+9 (build 21.0.8+9-LTS, mixed mode, sharing)",
+  "recorded_utc": "2026-09-17T08:45:04Z",
+  "recorded_from": "Railway service xreg-api, environment staging, deployment container (railway ssh), captured from mise-installed Temurin launcher; the `java`/`/mise/shims/java` shim re-execs to this launcher.",
+  "note": "The Java launcher sha256 is the mise-installed Temurin 21.0.8+9 launcher (NOT the mise shim). worker.java_binary() must resolve to this launcher on Linux (set XREG_JAVA to java_executable_path). verify_pinned_core() reads java's bytes and fails closed with validated_java_runtime_drift on any mismatch."
+}

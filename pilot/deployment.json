@@ -1,0 +1,22 @@
+{
+  "status": "DESIGN_ONLY_NOT_DEPLOYED",
+  "provider": "Google Cloud",
+  "region": "europe-west1",
+  "architecture": "Cloud Run control service + one Cloud Run Job per pack execution + scheduled Cloud Run operator; Firestore metadata and private Cloud Storage evidence",
+  "worker": {
+    "cpu": 2, "memory_gib": 2, "tasks": 1, "parallelism": 1,
+    "task_timeout_seconds": 1200, "max_retries": 0,
+    "non_root": true, "java_heap_mib": 512,
+    "max_inputs_decoded_mib": 16, "max_output_mib": 128,
+    "temporary_volume_mib": 512,
+    "egress": "all traffic through Direct VPC; deny Internet; allow only dedicated storage/broker endpoint needed for job input/output; no model/Stripe access",
+    "input_access": "one job-scoped input object; tool-created copy only",
+    "credentials": "no static keys; narrowly scoped workload identity",
+    "image": "UNBUILT; pin Linux Python 3.13 + Temurin 21 JRE and existing KoSIT 1.6.3/bundles by digest before release"
+  },
+  "control": {"cpu": 1, "memory_mib": 512, "min_instances": 0, "max_instances": 1, "concurrency": 1, "body_logging": false},
+  "state": {"database": "Firestore", "reports": "private Cloud Storage", "local_sqlite_is_not_production": true},
+  "inputs": {"ttl_hours": 1, "delete_immediately_after_terminal_job": true, "soft_delete": "must explicitly configure and verify", "versioning": false},
+  "reports": {"authenticated_download_days": 8, "soft_delete": "must explicitly configure and disclose", "public_access": false},
+  "remaining_implementation": ["Linux image and parity test", "Firestore state adapter and leases", "private upload/download broker", "streaming bounds and disk/output watchdog", "VPC firewall and no-egress test", "timeout/SIGKILL/object cleanup acceptance", "real Stripe sandbox and operator provisioning"]
+}

@@ -1,0 +1,266 @@
+{
+  "access_issues": [
+    {
+      "status": "404; resolved through official adoptium/temurin21-binaries GitHub release",
+      "url": "https://api.adoptium.net/v3/assets/version/21.0.8+9?architecture=x64&heap_size=normal&image_type=jre&jvm_impl=hotspot&os=windows&vendor=eclipse"
+    },
+    {
+      "status": "404; versions available in build.xml and released scenarios.xml",
+      "url": "https://raw.githubusercontent.com/itplr-kosit/validator-configuration-xrechnung/v2026-01-31/build.properties"
+    },
+    {
+      "status": "404; inspected pinned source security implementation instead",
+      "url": "https://raw.githubusercontent.com/itplr-kosit/validator/v1.6.3/docs/security.md"
+    },
+    {
+      "status": "404; correct path is src/main/model/xsd/createReportInput.xsd",
+      "url": "https://raw.githubusercontent.com/itplr-kosit/validator/v1.6.3/src/main/resources/xsd/createReportInput.xsd"
+    }
+  ],
+  "artefact_notes": [
+    "January usage document has a release-2026-01-31 URL; actual verified release tag is v2026-01-31. Used API asset URL.",
+    "August scenarios.xml date is 2026-09-02 although release identifier is v2026-08-31; preserve released bytes. It contains unreplaced descriptive CVD-version placeholders.",
+    "Validator distribution has no standalone JAR or Main-Class. Run official CommandLineApplication with supplied libs on classpath.",
+    "Schematron source build refers to Peppol 3.0.21 and a 2026-Q2-QA2 branch because its tag was not yet released. Benchmark uses pinned compiled assets, never rebuilds from that moving branch."
+  ],
+  "artifacts": [
+    {
+      "bytes": 64318,
+      "name": "xrechnung-schematron-v2.5.0",
+      "sha256": "a0f3d82737759bee8591c298ff24983a8f1c667f85e45a34863c75a242bc6f43",
+      "url": "https://github.com/itplr-kosit/xrechnung-schematron/releases/download/v2.5.0/xrechnung-3.0.2-schematron-2.5.0.zip"
+    },
+    {
+      "bytes": 1392488,
+      "name": "xrechnung-schematron-source-v2.5.0",
+      "sha256": "67b7db4af4b3c6a750a6774a66121b3dd5ce99b9fc442eb6c3c55fb33478f8ca",
+      "url": "https://codeload.github.com/itplr-kosit/xrechnung-schematron/zip/refs/tags/v2.5.0"
+    },
+    {
+      "bytes": 66380,
+      "name": "xrechnung-schematron-v2.6.0",
+      "sha256": "ca5e07afd04e72cd283d581590ffff3a15f4aac9d2f40c993345d78e67ea22b4",
+      "url": "https://github.com/itplr-kosit/xrechnung-schematron/releases/download/v2.6.0/xrechnung-3.0.2-schematron-2.6.0.zip"
+    },
+    {
+      "bytes": 1401773,
+      "name": "xrechnung-schematron-source-v2.6.0",
+      "sha256": "b840e49de080360a6d7ca1ee9f91b0a823efbdea2c68a68cf6171c0a2b77214b",
+      "url": "https://codeload.github.com/itplr-kosit/xrechnung-schematron/zip/refs/tags/v2.6.0"
+    },
+    {
+      "bytes": 487782,
+      "name": "validator-configuration-xrechnung-v2026-01-31",
+      "sha256": "6a5a5911a421b25fbc423f62f93f894df7b236f5d73ca4f84bb222a945082704",
+      "url": "https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download/v2026-01-31/xrechnung-3.0.2-validator-configuration-2026-01-31.zip"
+    },
+    {
+      "bytes": 186502,
+      "name": "validator-configuration-xrechnung-source-v2026-01-31",
+      "sha256": "7bc5595f3ba6c090499d36e9375113880f7c31a64c89104e958229526b437c33",
+      "url": "https://codeload.github.com/itplr-kosit/validator-configuration-xrechnung/zip/refs/tags/v2026-01-31"
+    },
+    {
+      "bytes": 499607,
+      "name": "validator-configuration-xrechnung-v2026-08-31",
+      "sha256": "2530cd107c414511c5d0462ec10f886910395abfca820db82e83d70bf01221a8",
+      "url": "https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download/v2026-08-31/xrechnung-3.0.2-validator-configuration-2026-08-31.zip"
+    },
+    {
+      "bytes": 211973,
+      "name": "validator-configuration-xrechnung-source-v2026-08-31",
+      "sha256": "e431249ca90db71963a2a23957d4eb15248e38cfc6dab1d396fadb96c165de62",
+      "url": "https://codeload.github.com/itplr-kosit/validator-configuration-xrechnung/zip/refs/tags/v2026-08-31"
+    },
+    {
+      "bytes": 10211826,
+      "name": "validator-v1.6.3",
+      "sha256": "95d5a399ff5186dae5ddb7edd9a14a9c8352610159a90bfa27d4739a8bc37822",
+      "url": "https://github.com/itplr-kosit/validator/releases/download/v1.6.3/validator-1.6.3.zip"
+    },
+    {
+      "bytes": 48928520,
+      "name": "java",
+      "sha256": "238d74ec4ec9422d416fa98805ba375eecd8bc8f971bd0c61a21051a4fe42db8",
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jre_x64_windows_hotspot_21.0.8_9.zip"
+    },
+    {
+      "bytes": 825049,
+      "name": "validator-source-v1.6.3",
+      "sha256": "e4d86d930f38acd9d9446fe8f0a6839981590bda1051d713fada5f515bed2049",
+      "url": "https://codeload.github.com/itplr-kosit/validator/zip/refs/tags/v1.6.3"
+    }
+  ],
+  "compatibility": {
+    "decision": "Hold KoSIT 1.6.3 and its dependency jars constant. Both bundle usage docs recommend latest validator; new bundle explicitly names 1.6.3. Old bundle release names 1.6.0, but no upper version constraint. Validate actual compatibility by complete corpus execution.",
+    "isolation_limit": "Upstream bundle comparison includes XRechnung Schematron, CEN Schematron, report template, codelists and custom severity configuration; it does not isolate XRechnung Schematron alone.",
+    "sources": [
+      "https://github.com/itplr-kosit/validator-configuration-xrechnung/blob/v2026-01-31/docs/usage.md",
+      "https://github.com/itplr-kosit/validator-configuration-xrechnung/blob/v2026-08-31/docs/usage.md",
+      "https://github.com/itplr-kosit/validator/blob/v1.6.3/CHANGELOG.md"
+    ]
+  },
+  "engine": "KoSIT Validator 1.6.3",
+  "java": "Eclipse Temurin OpenJDK JRE 21.0.8+9 Windows x64",
+  "licences": [
+    {
+      "component": "validator v1.6.3",
+      "licence": "Apache-2.0",
+      "retained": "licences/validator-v1.6.3-LICENSE",
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "source_url": "https://github.com/itplr-kosit/validator/blob/v1.6.3/LICENSE"
+    },
+    {
+      "component": "validator v1.6.3",
+      "licence": "Apache-2.0",
+      "retained": "licences/validator-v1.6.3-NOTICE",
+      "sha256": "56e0cd9ecfcf7cc5c8e9542e4f21364cdcb3b761b82213b6d5fff694c7fe0483",
+      "source_url": "https://github.com/itplr-kosit/validator/blob/v1.6.3/NOTICE"
+    },
+    {
+      "component": "validator-configuration-xrechnung v2026-01-31",
+      "licence": "Apache-2.0",
+      "retained": "licences/validator-configuration-xrechnung-v2026-01-31-LICENSE",
+      "sha256": "73f2898ad26e1fcb9ec4649cdf8466ea0bda47644b7c12efc10a703bdfb94a9f",
+      "source_url": "https://github.com/itplr-kosit/validator-configuration-xrechnung/blob/v2026-01-31/LICENSE"
+    },
+    {
+      "component": "validator-configuration-xrechnung v2026-01-31",
+      "licence": "Apache-2.0",
+      "retained": "licences/validator-configuration-xrechnung-v2026-01-31-NOTICE",
+      "sha256": "aaba5a88c905a8d421877698396755abb3b9563b7655bfb02b76d634c9e861e4",
+      "source_url": "https://github.com/itplr-kosit/validator-configuration-xrechnung/blob/v2026-01-31/NOTICE"
+    },
+    {
+      "component": "validator-configuration-xrechnung v2026-08-31",
+      "licence": "Apache-2.0",
+      "retained": "licences/validator-configuration-xrechnung-v2026-08-31-LICENSE",
+      "sha256": "73f2898ad26e1fcb9ec4649cdf8466ea0bda47644b7c12efc10a703bdfb94a9f",
+      "source_url": "https://github.com/itplr-kosit/validator-configuration-xrechnung/blob/v2026-08-31/LICENSE"
+    },
+    {
+      "component": "validator-configuration-xrechnung v2026-08-31",
+      "licence": "Apache-2.0",
+      "retained": "licences/validator-configuration-xrechnung-v2026-08-31-NOTICE",
+      "sha256": "aaba5a88c905a8d421877698396755abb3b9563b7655bfb02b76d634c9e861e4",
+      "source_url": "https://github.com/itplr-kosit/validator-configuration-xrechnung/blob/v2026-08-31/NOTICE"
+    },
+    {
+      "component": "xrechnung-schematron v2.5.0",
+      "licence": "Apache-2.0",
+      "retained": "licences/xrechnung-schematron-v2.5.0-LICENSE",
+      "sha256": "57e93bb611b8aeb93ff0f23b271a23291217b0016f6e66297dfd5e9467538a5f",
+      "source_url": "https://github.com/itplr-kosit/xrechnung-schematron/blob/v2.5.0/LICENSE"
+    },
+    {
+      "component": "xrechnung-schematron v2.6.0",
+      "licence": "Apache-2.0",
+      "retained": "licences/xrechnung-schematron-v2.6.0-LICENSE",
+      "sha256": "57e93bb611b8aeb93ff0f23b271a23291217b0016f6e66297dfd5e9467538a5f",
+      "source_url": "https://github.com/itplr-kosit/xrechnung-schematron/blob/v2.6.0/LICENSE"
+    },
+    {
+      "component": "Bundled CEN Schematron",
+      "licence": "EUPL-1.2; retrieved official validation-1.3.16 LICENSE.txt and retained under licences/",
+      "source_url": "https://github.com/ConnectingEurope/eInvoicing-EN16931/blob/validation-1.3.16/LICENSE.txt"
+    },
+    {
+      "component": "UBL 2.1 XML schemas",
+      "licence": "OASIS copyright and permission notice in bundled schema headers; retain originals",
+      "source_url": "https://docs.oasis-open.org/ubl/os-UBL-2.1/"
+    },
+    {
+      "component": "UN/CEFACT CII D16B schemas",
+      "licence": "UN/CEFACT 2016 copyright and permission notice in bundled schema headers permits copying with notices retained; no modification of the schema itself.",
+      "source_url": "https://github.com/itplr-kosit/validator-configuration-xrechnung/blob/v2026-08-31/README.md"
+    },
+    {
+      "component": "Temurin JRE",
+      "licence": "GPLv2 with Classpath Exception and third-party notices, retained under .deps/java/*/legal and NOTICE",
+      "source_url": "https://github.com/adoptium/temurin21-binaries/releases/tag/jdk-21.0.8%2B9"
+    },
+    {
+      "component": "Validator transitive JARs",
+      "licence": "Per-component META-INF licence records within official jars; retained unmodified. See manifests/third-party-licences.json."
+    }
+  ],
+  "python": "3.13.7 (host; full build string in execution environment)",
+  "rules": {
+    "new": {
+      "cen_schematron": "1.3.16",
+      "configuration_release": "v2026-08-31",
+      "declared_build_engine": "1.6.3",
+      "schematron": "2.6.0",
+      "specification": "3.0.2",
+      "xsl_files": [
+        {
+          "bundle_sha256": "ec54f662803a87f527ec606d1320bc404f1657a848af6a76f37f32905e4aac40",
+          "format": "cii",
+          "schematron_release_sha256": "30e64d8bddf0bebded89e2bedab0b4856f0c4f1e852bd303e1957a7d627c0e6c",
+          "xml_tree_equal_ignoring_formatting": true
+        },
+        {
+          "bundle_sha256": "e32d831668facbbd5136cc0119bf1dd6f92ac20738aa3b3f021586f5a305c738",
+          "format": "ubl",
+          "schematron_release_sha256": "aa7d495e02990d88a9dc91b5eceb3349f7ee5565241d93ef99e90e1760fdd70f",
+          "xml_tree_equal_ignoring_formatting": true
+        }
+      ]
+    },
+    "old": {
+      "cen_schematron": "1.3.15",
+      "configuration_release": "v2026-01-31",
+      "declared_build_engine": "1.6.0",
+      "schematron": "2.5.0",
+      "specification": "3.0.2",
+      "xsl_files": [
+        {
+          "bundle_sha256": "156cdcc13d1cd9e23b8e9f165bde6b9177a7e3f91aba8c4c7744dab423407db1",
+          "format": "cii",
+          "schematron_release_sha256": "ce8f257114eccb49d369a2c77c6cccd7d3cd9f1286e9ff158b543a1311182b2a",
+          "xml_tree_equal_ignoring_formatting": true
+        },
+        {
+          "bundle_sha256": "6881a71d6fa7b9eba397f9ca913fb374483437a8fc6ce9505c0ac644c1e9a0d4",
+          "format": "ubl",
+          "schematron_release_sha256": "0cadcbde2eb320c2e7e83a8057b93bc48076e223dda36308e31704684ee9ecf3",
+          "xml_tree_equal_ignoring_formatting": true
+        }
+      ]
+    }
+  },
+  "saxon_runtime": "12.9",
+  "source_commits": [
+    {
+      "commit": "37cddce28e15ac3a0319db006ab21d3f1064ca8c",
+      "repository": "validator",
+      "tag": "v1.6.3",
+      "url": "https://api.github.com/repos/itplr-kosit/validator/commits/v1.6.3"
+    },
+    {
+      "commit": "4b8cd64524d9af0b8b5db7d541ff7a2bf9827617",
+      "repository": "validator-configuration-xrechnung",
+      "tag": "v2026-01-31",
+      "url": "https://api.github.com/repos/itplr-kosit/validator-configuration-xrechnung/commits/v2026-01-31"
+    },
+    {
+      "commit": "b436fc4bf05ad501ab5cbb4a53fdffee3d4e18be",
+      "repository": "validator-configuration-xrechnung",
+      "tag": "v2026-08-31",
+      "url": "https://api.github.com/repos/itplr-kosit/validator-configuration-xrechnung/commits/v2026-08-31"
+    },
+    {
+      "commit": "c4eb3dae54d65d60875a85c392122b5721a1108d",
+      "repository": "xrechnung-schematron",
+      "tag": "v2.5.0",
+      "url": "https://api.github.com/repos/itplr-kosit/xrechnung-schematron/commits/v2.5.0"
+    },
+    {
+      "commit": "217c6cbf8ac9a99d780cefb4f044b2c2778d4744",
+      "repository": "xrechnung-schematron",
+      "tag": "v2.6.0",
+      "url": "https://api.github.com/repos/itplr-kosit/xrechnung-schematron/commits/v2.6.0"
+    }
+  ],
+  "specification": "XRechnung 3.0.2"
+}

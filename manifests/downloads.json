@@ -1,0 +1,68 @@
+[
+  {
+    "bytes": 64318,
+    "name": "xrechnung-schematron-v2.5.0",
+    "sha256": "a0f3d82737759bee8591c298ff24983a8f1c667f85e45a34863c75a242bc6f43",
+    "url": "https://github.com/itplr-kosit/xrechnung-schematron/releases/download/v2.5.0/xrechnung-3.0.2-schematron-2.5.0.zip"
+  },
+  {
+    "bytes": 1392488,
+    "name": "xrechnung-schematron-source-v2.5.0",
+    "sha256": "67b7db4af4b3c6a750a6774a66121b3dd5ce99b9fc442eb6c3c55fb33478f8ca",
+    "url": "https://codeload.github.com/itplr-kosit/xrechnung-schematron/zip/refs/tags/v2.5.0"
+  },
+  {
+    "bytes": 66380,
+    "name": "xrechnung-schematron-v2.6.0",
+    "sha256": "ca5e07afd04e72cd283d581590ffff3a15f4aac9d2f40c993345d78e67ea22b4",
+    "url": "https://github.com/itplr-kosit/xrechnung-schematron/releases/download/v2.6.0/xrechnung-3.0.2-schematron-2.6.0.zip"
+  },
+  {
+    "bytes": 1401773,
+    "name": "xrechnung-schematron-source-v2.6.0",
+    "sha256": "b840e49de080360a6d7ca1ee9f91b0a823efbdea2c68a68cf6171c0a2b77214b",
+    "url": "https://codeload.github.com/itplr-kosit/xrechnung-schematron/zip/refs/tags/v2.6.0"
+  },
+  {
+    "bytes": 487782,
+    "name": "validator-configuration-xrechnung-v2026-01-31",
+    "sha256": "6a5a5911a421b25fbc423f62f93f894df7b236f5d73ca4f84bb222a945082704",
+    "url": "https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download/v2026-01-31/xrechnung-3.0.2-validator-configuration-2026-01-31.zip"
+  },
+  {
+    "bytes": 186502,
+    "name": "validator-configuration-xrechnung-source-v2026-01-31",
+    "sha256": "7bc5595f3ba6c090499d36e9375113880f7c31a64c89104e958229526b437c33",
+    "url": "https://codeload.github.com/itplr-kosit/validator-configuration-xrechnung/zip/refs/tags/v2026-01-31"
+  },
+  {
+    "bytes": 499607,
+    "name": "validator-configuration-xrechnung-v2026-08-31",
+    "sha256": "2530cd107c414511c5d0462ec10f886910395abfca820db82e83d70bf01221a8",
+    "url": "https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download/v2026-08-31/xrechnung-3.0.2-validator-configuration-2026-08-31.zip"
+  },
+  {
+    "bytes": 211973,
+    "name": "validator-configuration-xrechnung-source-v2026-08-31",
+    "sha256": "e431249ca90db71963a2a23957d4eb15248e38cfc6dab1d396fadb96c165de62",
+    "url": "https://codeload.github.com/itplr-kosit/validator-configuration-xrechnung/zip/refs/tags/v2026-08-31"
+  },
+  {
+    "bytes": 10211826,
+    "name": "validator-v1.6.3",
+    "sha256": "95d5a399ff5186dae5ddb7edd9a14a9c8352610159a90bfa27d4739a8bc37822",
+    "url": "https://github.com/itplr-kosit/validator/releases/download/v1.6.3/validator-1.6.3.zip"
+  },
+  {
+    "bytes": 48928520,
+    "name": "java",
+    "sha256": "238d74ec4ec9422d416fa98805ba375eecd8bc8f971bd0c61a21051a4fe42db8",
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jre_x64_windows_hotspot_21.0.8_9.zip"
+  },
+  {
+    "bytes": 825049,
+    "name": "validator-source-v1.6.3",
+    "sha256": "e4d86d930f38acd9d9446fe8f0a6839981590bda1051d713fada5f515bed2049",
+    "url": "https://codeload.github.com/itplr-kosit/validator/zip/refs/tags/v1.6.3"
+  }
+]

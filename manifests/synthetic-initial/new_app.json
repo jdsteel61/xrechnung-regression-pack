@@ -1,0 +1,62 @@
+{
+  "fixtures": [
+    {
+      "bytes": 10906,
+      "id": "synthetic/added_pair",
+      "mutation": "unchanged",
+      "parent_public_fixture": "test/instances/ubl-inv/ubl-inv-br-de-1-test.xml",
+      "parent_sha256": "c54a3b7c3a2630488fa131d1746029f24abaa2ddef12c0dca201d8d53c900f2c",
+      "sha256": "5ebd9dd2a74b01e684903bceab91094cf0ffb34dbf226f2738dbad51f9b6359b",
+      "source_path": "added_pair.xml"
+    },
+    {
+      "bytes": 10845,
+      "id": "synthetic/application_missing_buyer_reference",
+      "mutation": "missing_buyer_reference",
+      "parent_public_fixture": "test/instances/ubl-inv/ubl-inv-br-de-1-test.xml",
+      "parent_sha256": "c54a3b7c3a2630488fa131d1746029f24abaa2ddef12c0dca201d8d53c900f2c",
+      "sha256": "53083b6d57ab330c999792719b1f88d4a2a14c6290bfb1bcbbb62c4cfc6f059b",
+      "source_path": "application_missing_buyer_reference.xml"
+    },
+    {
+      "bytes": 11146,
+      "id": "synthetic/application_repairs_url",
+      "mutation": "absolute_url",
+      "parent_public_fixture": "test/instances/ubl-inv/ubl-inv-br-de-1-test.xml",
+      "parent_sha256": "c54a3b7c3a2630488fa131d1746029f24abaa2ddef12c0dca201d8d53c900f2c",
+      "sha256": "9c7b48a5558c6fb05f28de93ad3a9700264ed72a41a081f02b28f00b9e0c0776",
+      "source_path": "application_repairs_url.xml"
+    },
+    {
+      "bytes": 11122,
+      "id": "synthetic/interaction_bad_url",
+      "mutation": "relative_url",
+      "parent_public_fixture": "test/instances/ubl-inv/ubl-inv-br-de-1-test.xml",
+      "parent_sha256": "c54a3b7c3a2630488fa131d1746029f24abaa2ddef12c0dca201d8d53c900f2c",
+      "sha256": "bf3b6154540b687d2626fd949347c54e5ebd8cf6e6bdab746f7186703d98c5c7",
+      "source_path": "interaction_bad_url.xml"
+    },
+    {
+      "bytes": 11122,
+      "id": "synthetic/rule_axis_bad_url",
+      "mutation": "relative_url",
+      "parent_public_fixture": "test/instances/ubl-inv/ubl-inv-br-de-1-test.xml",
+      "parent_sha256": "c54a3b7c3a2630488fa131d1746029f24abaa2ddef12c0dca201d8d53c900f2c",
+      "sha256": "bf3b6154540b687d2626fd949347c54e5ebd8cf6e6bdab746f7186703d98c5c7",
+      "source_path": "rule_axis_bad_url.xml"
+    },
+    {
+      "bytes": 10906,
+      "id": "synthetic/unchanged",
+      "mutation": "unchanged",
+      "parent_public_fixture": "test/instances/ubl-inv/ubl-inv-br-de-1-test.xml",
+      "parent_sha256": "c54a3b7c3a2630488fa131d1746029f24abaa2ddef12c0dca201d8d53c900f2c",
+      "sha256": "5ebd9dd2a74b01e684903bceab91094cf0ffb34dbf226f2738dbad51f9b6359b",
+      "source_path": "unchanged.xml"
+    }
+  ],
+  "generation": "synthetic.py variants(); parses/reserializes source; modifies only described elements; example.invalid is inert and never fetched",
+  "label": "SYNTHETIC application-output demonstration, not customer releases",
+  "licence": "Apache-2.0 derivative; see licences/xrechnung-schematron-v2.6.0-LICENSE",
+  "schema": 1
+}

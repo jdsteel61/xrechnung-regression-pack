@@ -1,0 +1,2950 @@
+{
+  "archive": "xrechnung-schematron-source-v2.6.0",
+  "candidate_count": 354,
+  "exclusions": [
+    {
+      "bytes": 10133,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-15-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "b8addd9e90e7320fa6adf5c65095acfe33bfed81cb42797e10152e95d5248223",
+      "sha256": "0c2785dfd70457199459c990732e8fd343375117d913ee8372d097fb3e6a40ca",
+      "source_path": "test/instances/cii/cii-br-de-15-test.xml"
+    },
+    {
+      "bytes": 8294,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-16-negative-tests-bt-95-bt-151.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f87a3a15ebe8296eace3a2a2ac5265430f1ce5a3ec2612d31d95dd3878e9a3e9",
+      "sha256": "4b138e317c08bfb1b3ca6a7503d9aef5a2c3af283dc68d67c9c86ddef20b7f3c",
+      "source_path": "test/instances/cii/cii-br-de-16-negative-tests-bt-95-bt-151.xml"
+    },
+    {
+      "bytes": 8091,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-16-test-code-O-2.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "e7ff420246b4d38f617ab6b4cbddba2218e02e91abb9712da38f73643bf96a3b",
+      "sha256": "e072477bf6462589d9f36ee76286dbc126489729deb5eadeb454ae0540d0e7ec",
+      "source_path": "test/instances/cii/cii-br-de-16-test-code-O-2.xml"
+    },
+    {
+      "bytes": 8261,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-16-test-code-O.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "c31e615fdd6c49173671a4c7cd17f0831db08b69d5c8a2370e4774ef7230fff8",
+      "sha256": "9593a0211ad86cc6d715df2e3a579d1ce17317d7c3b43ed4112e2d800e275b88",
+      "source_path": "test/instances/cii/cii-br-de-16-test-code-O.xml"
+    },
+    {
+      "bytes": 9672,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-16-tests-bt-95-bt-151.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f613e2ce592c1afd0ad6ee1b5c39281a38d6a27a32a800be79d4393c085b5483",
+      "sha256": "b233bf39d2d6b025bc72798d56cc4aa08dd84832e04edab43c84071837f0c0e6",
+      "source_path": "test/instances/cii/cii-br-de-16-tests-bt-95-bt-151.xml"
+    },
+    {
+      "bytes": 9076,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-case-sensitive-keyword.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "e76bcc8f845632c5ee15c78a3f517543c808c81bb2da34288436bdc6fe58fe4c",
+      "sha256": "0ac89d30801f14be5a0db206a40554ba1a6d4940e843a8d1d581af553c7ccec4",
+      "source_path": "test/instances/cii/cii-br-de-18-case-sensitive-keyword.xml"
+    },
+    {
+      "bytes": 9130,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-freespace-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "b1f9b3574b0e7ff4097aa124e8daf0bd02fad2587ed55877fe87f99514604651",
+      "sha256": "b9fb8fbf456a71216d044621334c83643aba38f274a355483dc482eb01e82931",
+      "source_path": "test/instances/cii/cii-br-de-18-freespace-test.xml"
+    },
+    {
+      "bytes": 9078,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-test-incorrect-verzug.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "a9af0f42c4f0f38c135ec255f06f935929610eeb612432df471a36f32206da0f",
+      "sha256": "678fe320991426f18786a7f085b300bed0b6f3670262591f6b6c7c8c9066580e",
+      "source_path": "test/instances/cii/cii-br-de-18-test-incorrect-verzug.xml"
+    },
+    {
+      "bytes": 9088,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-text-after-end.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "fb60eada89ae55302a0ad4cbe3b06b3ae9d5ad79eab79c0203e5213bf6801539",
+      "sha256": "38f08aa51d3d9a27dc62d1aa3072d8593bcce0ae1b5ad41a72595f693e26129c",
+      "source_path": "test/instances/cii/cii-br-de-18-text-after-end.xml"
+    },
+    {
+      "bytes": 10419,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-19-iban-tests.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "b592a4329b54aec1ec58593ff92a80369c1e31c630806a1b68a93235afa4c788",
+      "sha256": "e2d8c6b1693096006e6f9baeaed1be654ee62b842eb3a6adfcf166631bd674f2",
+      "source_path": "test/instances/cii/cii-br-de-19-iban-tests.xml"
+    },
+    {
+      "bytes": 9898,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-23-test-bg-17-with-bg-18.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "c7ad2887c6d25af1a99aa90863c11f872d8fd746f3dcd88f01686c114748c1e1",
+      "sha256": "d2dcba94522b8e9fee7eb927f49b38740320dd112cc8f2756fb99589136bd7fa",
+      "source_path": "test/instances/cii/cii-br-de-23-test-bg-17-with-bg-18.xml"
+    },
+    {
+      "bytes": 9752,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-23-test-bg-17-with-bg-19-bt-89.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "d7e4a13e76e9e0f2703d3e0666db319b5c29b71ddce70003df477b5109fbda4b",
+      "sha256": "07189a31015e6918d97d6717c03dcd38ca54299db312eb3ebba5465720679e22",
+      "source_path": "test/instances/cii/cii-br-de-23-test-bg-17-with-bg-19-bt-89.xml"
+    },
+    {
+      "bytes": 9765,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-23-test-bg-17-with-bg-19-bt-90.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "ec03e54546ee9b70802aa5a3327f46156fa29642f4dc0052b50f89226a6cd711",
+      "sha256": "9c92ba691e21097a19f80090ea6362c48e176bef803874e51e14cb86d9ff7daf",
+      "source_path": "test/instances/cii/cii-br-de-23-test-bg-17-with-bg-19-bt-90.xml"
+    },
+    {
+      "bytes": 9876,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-23-test-bg-17-with-bg-19-bt-91.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "de8ffb17b08474b7eb0376508a4dd6bb5286b0237f231cdd4e32beef00f8df7f",
+      "sha256": "6684c36c356a610a5916e048576d8f6dc69df537c41a9a6841da353ade6e2d7d",
+      "source_path": "test/instances/cii/cii-br-de-23-test-bg-17-with-bg-19-bt-91.xml"
+    },
+    {
+      "bytes": 9938,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-24-test-bg-18-with-bg-19-bt-90.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "c08ea071f123b9b1e9cfcbdb296fc072028d7938b047500ad32e53077ea24be5",
+      "sha256": "0a37bb7322cf5c7c6b6b2871059de9f3893e5b26c8271eafde70ead7b7fde457",
+      "source_path": "test/instances/cii/cii-br-de-24-test-bg-18-with-bg-19-bt-90.xml"
+    },
+    {
+      "bytes": 10705,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-25-test-bg-19-with-bg-17.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "c193e1eb3377730ce0bf00d1ffb7edae1d363e2cb132c6190949cf2469381e98",
+      "sha256": "e655ed70483af45759e9b49dc2cadf2ce7060d8c19e98904ef75e22488ce8b90",
+      "source_path": "test/instances/cii/cii-br-de-25-test-bg-19-with-bg-17.xml"
+    },
+    {
+      "bytes": 10171,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-25-test-bg-19-with-bt-86-3.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "b093122cf94f3c88810825d4c34b9746e3f534a856c1edc6d000a216306c068d",
+      "sha256": "57c8e5a9b7c0fb911346f3b4cdab027a0e18c6a5da7140a7f95d28675161d0fe",
+      "source_path": "test/instances/cii/cii-br-de-25-test-bg-19-with-bt-86-3.xml"
+    },
+    {
+      "bytes": 12797,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-26-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f8d2f7ecd4e198a79596f17d15cd27ec5f934710e14e76270f019f821a69cbcb",
+      "sha256": "a7be85f18d74ad0c77fe69817de44b84a8ad33f62f7590867253f0f7661aba46",
+      "source_path": "test/instances/cii/cii-br-de-26-test.xml"
+    },
+    {
+      "bytes": 9949,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-27-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "c170a8794946e70634cb88e330729592542b89186fd57274a2b898f5ee9eeb8f",
+      "sha256": "7ac3d017ba386f23c2211c7223f29ec1eb557405f1c1d5feb19ddd46cffe2d91",
+      "source_path": "test/instances/cii/cii-br-de-27-test.xml"
+    },
+    {
+      "bytes": 9566,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-30-31-test-2.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f3824524088ecdb82a4da2c86956fd8bea033385679d4dd4706f6710b6c9a85a",
+      "sha256": "3eaa29eb8345fa83840bf51a3db1fbe48b2418312ea6466daff3ad9400868afa",
+      "source_path": "test/instances/cii/cii-br-de-30-31-test-2.xml"
+    },
+    {
+      "bytes": 9805,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-4-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "ca3d8ac568fd274b5ac9d7cf7f76f06fc7da15372f7abcb9aa43f4f7b5a9a32c",
+      "sha256": "26868d0e8f555ce9204577dae0d2ee8b415eb4cd9cedaabcd809f8027c18b0f4",
+      "source_path": "test/instances/cii/cii-br-de-4-test.xml"
+    },
+    {
+      "bytes": 9817,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-5-test2.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f9413e8ef22f81792126ccbd786643be00d62a955b74d40b6a593bb6c5c28143",
+      "sha256": "01665e5fb90099df9d1371d7888993ae4f78449f81fa487151c2ebb743e52c23",
+      "source_path": "test/instances/cii/cii-br-de-5-test2.xml"
+    },
+    {
+      "bytes": 9928,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-8-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "aef6cdcbcefdb08ff55faafc0b33f126fb4226a2905ec2e3b5e961ab25c99325",
+      "sha256": "441569ea0a509ec8e0ae2a36af9cbab27a4476f36e5af1da8697f0faabbc7f8d",
+      "source_path": "test/instances/cii/cii-br-de-8-test.xml"
+    },
+    {
+      "bytes": 14601,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-cvd-03-04-05-06-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "d46cfb999f96842c17ed7fac0ce6c3a439879f99aee008665c74d437fd1f77b9",
+      "sha256": "3950c694f54f2320c7d7e6aea611832b3974d4a0d7bbdf8d45dc3ee2083eaf62",
+      "source_path": "test/instances/cii/cii-br-de-cvd-03-04-05-06-test.xml"
+    },
+    {
+      "bytes": 8588,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-tmp-32-bg-26-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "fb3c748a95e346ccc08424b08fece9a38f93783caf4587d3f52dc2c51c1d3e80",
+      "sha256": "5362604f2aa69eb42b5cdd74368ff02e9b33a54a47a8c59e8ca1e9dd7e51809c",
+      "source_path": "test/instances/cii/cii-br-de-tmp-32-bg-26-test.xml"
+    },
+    {
+      "bytes": 8416,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-tmp-32-bt-72-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "c40d249dc92f039a323ba0012118ecdc1672c09fece4a1ba5e5db4e6ee3a6d19",
+      "sha256": "d76b6f1d5f4230ae2344d234b1f59f90c1a48d47be17f981348923182838fe9c",
+      "source_path": "test/instances/cii/cii-br-de-tmp-32-bt-72-test.xml"
+    },
+    {
+      "bytes": 9773,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-04-schemeid-test-3.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "be637138170ae4389d70ec4c7da0dd55ee6269f4affd4431f5dfaa8047df5ad7",
+      "sha256": "40331164412c0a4d817220eabd88eb32c90ffb18e171e430844599dab8125fee",
+      "source_path": "test/instances/cii/cii-br-dex-04-schemeid-test-3.xml"
+    },
+    {
+      "bytes": 9662,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-06-schemeid-test-2.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "e65a37f2fc80840311ad6469370da7844df5ce5da653a31e9cd892df864f0cf3",
+      "sha256": "d136947b9cca994ffb7bc6ef07cc4cf8211fda2b95acb6b57d5f8046e1c6e6cb",
+      "source_path": "test/instances/cii/cii-br-dex-06-schemeid-test-2.xml"
+    },
+    {
+      "bytes": 9662,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-06-schemeid-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "bfb6ac3580ed26ddc4199a3f192c29417d4b778d44ea0ea31e7bd95719e491b7",
+      "sha256": "559be40d2ed57bd8e1d3a2077f00612ed3a7a83fa5171681b9a9d686533c21c1",
+      "source_path": "test/instances/cii/cii-br-dex-06-schemeid-test.xml"
+    },
+    {
+      "bytes": 12460,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-08-schemeid-test-3.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "d198b943788fca0a75410a1ed8940b614302603bc99f17cbe2556b01f13c7fc5",
+      "sha256": "203766158ac1e2906e82f4f67e42d784088d7c24c09e92cdf583c994863bb2ba",
+      "source_path": "test/instances/cii/cii-br-dex-08-schemeid-test-3.xml"
+    },
+    {
+      "bytes": 12660,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-08-schemeid-test-4.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "dcccc7f8674a61683da231a6b33499221922c035fe8953ffac21f77a303e520d",
+      "sha256": "22ddcb4aafa91bb276a476cd2421318eae3783218109670cc91829313e9e6188",
+      "source_path": "test/instances/cii/cii-br-dex-08-schemeid-test-4.xml"
+    },
+    {
+      "bytes": 10005,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-15-test-on-sub-invoice-lines.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "c9aac98be65efc9e125f7c7d196ddc85ec9f29a9e9aed771064ed92cb4f3b9b2",
+      "sha256": "05b6fe73e595cfa557a04ae6b982464e94e3de81c4482a2b5f2dbaaa9999f215",
+      "source_path": "test/instances/cii/cii-br-dex-15-test-on-sub-invoice-lines.xml"
+    },
+    {
+      "bytes": 28885,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-tmp-2-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "e42377ee6c98f2f421d24194b9a7ee6576e95feea6f5050f7400e60de3288d7a",
+      "sha256": "c6f7eedc4b944b79d4ef642e1277930929bb52fc560489afcac831580949e838",
+      "source_path": "test/instances/cii/cii-br-tmp-2-test.xml"
+    },
+    {
+      "bytes": 29913,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-tmp-3-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "e893263a82547d49a6519036bf09eb722b19a321fc0794eca439c5a4d47f544b",
+      "sha256": "548ed700761d11973f0d78f0a83ac459f3bd4847ac5a79277d41b8291ad40329",
+      "source_path": "test/instances/cii/cii-br-tmp-3-test.xml"
+    },
+    {
+      "bytes": 8950,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-tmp-5-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "d58fd4211aff064fbcc7cbf2d336c2eb31fa5457882cbde7b27a163a66b92d04",
+      "sha256": "ae12018454cfb28ffb34807c111b82b917ff0baf634f9343025fd075fff11dcd",
+      "source_path": "test/instances/cii/cii-br-tmp-5-test.xml"
+    },
+    {
+      "bytes": 9994,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r020.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f83dea56c648c2e10a58a68341e744b7c89b18c677e8aaf3a50460f1486d2b58",
+      "sha256": "e21868af4365abde2a3750236232df8f3220eace920de09a36f33cbb9ed17847",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r020.xml"
+    },
+    {
+      "bytes": 29167,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r041.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "fd8bacb5c03e35af0f161f6287325376ec1645cb7f3110be3950081d7f045d74",
+      "sha256": "11630efbd96476ad2aa939490efb06d946ba12d3b4b094462fc966c9013b1bdd",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r041.xml"
+    },
+    {
+      "bytes": 27876,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r044.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "de4fb5f6294573a308774c4a83a5643ae606d6ba679b57bd431c6e27c48282a7",
+      "sha256": "ffb4f9f60678e12dbb60d0dd58c7466ffc9cb8e55aa42833f27151df67ee993f",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r044.xml"
+    },
+    {
+      "bytes": 28088,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r046-2.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "e2ba1f0028a1f0832611567d4e4bace61fcf543b52d82f68b4fc3288816b196a",
+      "sha256": "b987686739448511e2ee9df429908f757372f09de180c9582639106daa531259",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r046-2.xml"
+    },
+    {
+      "bytes": 10048,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r053-2-negative-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "e8b33c0347aa56510fe17182bd38c8b62a9860c509fb2918e3c004026104a2f3",
+      "sha256": "08cdbf0c70eb3ab488f762d385cc7db456bf99dc260836765bf151011f16429c",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r053-2-negative-test.xml"
+    },
+    {
+      "bytes": 10236,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r061-1.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "ea3f23986fed17a965c1056316d83c68be0f49f7ae3c4dc482519d1555830d09",
+      "sha256": "e339fbb205dfbcbe1f68e4568eaab57e015ecbf755d6f8a80a86a937bc86ef02",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r061-1.xml"
+    },
+    {
+      "bytes": 10392,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r061-2.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "b30ea129662fdc8b79f74fdbbfa226d66b7aed4a275c234d68f82091e365803c",
+      "sha256": "bbdddd381d330265221da4a9c44d020de0cd9caed52076d04cb259475f01398c",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r061-2.xml"
+    },
+    {
+      "bytes": 26759,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r120.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f5c0f0cf3370b1f64a52b19caddd0f088097704938bf8650f707fd90c0a59ba8",
+      "sha256": "f20407399d07547b034c848957ffe908f869e6749458fb371fe0ed52f7f0ba77",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r120.xml"
+    },
+    {
+      "bytes": 22446,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r121.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "ab54d5ce138f94148b7106fd49eb90b54bde3152d659083fbd0ff4ecde8e0fd9",
+      "sha256": "a59165b48b7d4bd05c0aaeb2afb4beab3af21a67301392ba3da91cf5a238b541",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r121.xml"
+    },
+    {
+      "bytes": 11009,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-1-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "e9bdd50bdc6d2b621890a76dcef3719d08b997dfea01ae37b8e5167498da7a19",
+      "sha256": "ceff22f2871d605e4fb34bec002f87bbf15c13b1bb3e1d812e8fe1da7560e111",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-1-test.xml"
+    },
+    {
+      "bytes": 10111,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-no-newline-3.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f4383f894f0415cbedc32054a8fa34e1b3e5d940d5f176cc7aa34628aab8674b",
+      "sha256": "e88ddcf625364ba6c4993d6cdaed6fe317b25d813c63e4278c6d673b5268aa5e",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-no-newline-3.xml"
+    },
+    {
+      "bytes": 11039,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-skonto-many-tests.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "e93aed9ae99a316535d14ba161bd7174fd021026f97932bb2c65767b41ad30e3",
+      "sha256": "6fe9aaecb17ebb6fb395e61550defd89581f5d51d8e1a605fa0966c7cdb639e1",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-skonto-many-tests.xml"
+    },
+    {
+      "bytes": 10966,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-wrong-numeric-seperator-2.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f37194f465236575010bb464a02e20f5f7e9824b6d78b2fca804db222d8f8be3",
+      "sha256": "b000482d541813af9c6c87473ace5e1ad97c09d1d137c58b28020c6f8b9dc18a",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-wrong-numeric-seperator-2.xml"
+    },
+    {
+      "bytes": 10206,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-23-test-bg-17-with-bg-18.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f966d1bc6e676e5adbafbc05ff301061f261b3fad5a703def8f61d7d269ada78",
+      "sha256": "76504ae0c3988e69dec75226e5c77ad82c6c450da07bc9403a6d44e277bee21e",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-23-test-bg-17-with-bg-18.xml"
+    },
+    {
+      "bytes": 15012,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-cvd-03-04-05-06-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f9b7560b5f2c66c8db474fb3e1db80a54634ea9c26448ef3b6073c6c967fe023",
+      "sha256": "cd12fe418e97591610f46ac6f75a05576f779358e0ae4a3584eb46ae326b1627",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-cvd-03-04-05-06-test.xml"
+    },
+    {
+      "bytes": 10230,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-tmp-32-bg-26-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f5c356ea81e01353ebaff15a969a90dd042fdee8d298371c4ed33721d3eaa4f6",
+      "sha256": "580f451ea3418382af6ce037fe19813c2c400f234bcd8b1979323ffac5178e26",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-tmp-32-bg-26-test.xml"
+    },
+    {
+      "bytes": 10291,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r001.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f73846532bfd71326ea1de60cf86d5501150898026bde3972bf0983d48213291",
+      "sha256": "cf7559969e7c01eaf1e58692a11065a9f6a84901c8a2231ec5b665676042ac05",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r001.xml"
+    },
+    {
+      "bytes": 11480,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r041.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "fd3559d6716b978fbc3e31cf28145cf3919bc215b332096ca9064aaf035631da",
+      "sha256": "5f19e2590b4f3011c07c1c9efa3ba6aa7afb83f9f0103c2a53f05780b64b96fd",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r041.xml"
+    },
+    {
+      "bytes": 11492,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r042.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f518bb28e3262841617845515969312b6dc303a38ac0cd2d5859b2ceee24090a",
+      "sha256": "9f0ff2e49f9abbd171227fe7a7c6ac42c49fa91d94580bd28f1cb85277308f52",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r042.xml"
+    },
+    {
+      "bytes": 11366,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-16-negative-test-bt-102.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "a4b6f7f45d8c9b9823ff4dc0763f493a25045eb5270ac9299a7af00bee7c143b",
+      "sha256": "6899a973e6216e3c94eb6c1097f5094b89aa416d1976c3ce8710eee046f44707",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-16-negative-test-bt-102.xml"
+    },
+    {
+      "bytes": 11244,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-16-test-bt-102.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f929b74321b5b8560df0e041449a864e7cbf792eb0f64208830238ba968046fd",
+      "sha256": "a9c795ca23136c2b6b6851f3a09231af023a78e68716fd76ad676e6c2ee7bea7",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-16-test-bt-102.xml"
+    },
+    {
+      "bytes": 6387,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-16-test-code-O.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "c0b595eb10cb0b706e6a7d203a7a0868187929d123699950a4d858da42d0b3ec",
+      "sha256": "23eee4b78db5678c43a8bf4b777148109805f05de8a9535909e93138667ee8a7",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-16-test-code-O.xml"
+    },
+    {
+      "bytes": 7181,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-17-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "d149c33407b37aa41b1edad464e37edd327752c55e43001b42bf753d764485b6",
+      "sha256": "e99cfe787f7e00a4a1753a9584753e1f7f7741d6fe8a590f619a6c25859da3f4",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-17-test.xml"
+    },
+    {
+      "bytes": 7308,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-case-sensitive-keyword.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "a4558def9b9490d90ea1e9f3efd23555071df9f7dc526b06e47279233d61a675",
+      "sha256": "12afb305dfc19d2c4e017a592d1f57613c3dda23938f62c4e2682ec9bd5b77d9",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-case-sensitive-keyword.xml"
+    },
+    {
+      "bytes": 7466,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-freespace-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "c2619c80009cb3a52cc2f54a5fe8fb0a92ed7f06d236911cbf830bb9d78d279b",
+      "sha256": "0aa4d1c7f4ae724b18185fe04f7cd7f9345a79df9b8a04cbd03cd565ded116da",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-freespace-test.xml"
+    },
+    {
+      "bytes": 7214,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-no-newline-2.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "d01021542d739bd23a9c7109779d81b5f1b91125789cd81b65b0796b43d90d90",
+      "sha256": "a87a938bee29cd4a41f6cc4d810c5b8f73b82231d705b0fa9299709699b0dc23",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-no-newline-2.xml"
+    },
+    {
+      "bytes": 7254,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-no-newline.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "ae496e5684b6f4d4810e86030dc5a370bdc0a6a9f9cd89828f801738ba0007a6",
+      "sha256": "ad689cb75d6e993da8135f44ed07d94f66cd00d3ee613cfe0bea46046039f9ce",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-no-newline.xml"
+    },
+    {
+      "bytes": 7284,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "cc8e73dca5acd8145e0917c7e80eecdf46baa81d71c008d76e5ad76e1e5dc418",
+      "sha256": "f0e630321c178c84a53d1c21439ddd04e8015f2e4bd66dd3aede44d0f41eae6b",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-test.xml"
+    },
+    {
+      "bytes": 7305,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-text-after-end-2.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "cbd2689ba7b326d1c3fc009830249f9bb73dacf1036b7fe0b85f798e09fd2676",
+      "sha256": "a489cb49660cb6322c97a49b3ba7fcd8676f75ad55c189d9175a4377c8be9f29",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-text-after-end-2.xml"
+    },
+    {
+      "bytes": 7297,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-text-after-end.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f5bacc199cc0aa3b94cc6bc60118c761e7aaace4033a8aa2a3628f05c6d074d4",
+      "sha256": "9274d515031ced56f91f7357ed5e854830670d93ec20664a41a2819c0b004cb3",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-text-after-end.xml"
+    },
+    {
+      "bytes": 7286,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-wrong-skonto-basisbetrag-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "ea8cdbb994ac77f602abac5ef1a55db2daa511b182d7dc6fbdffba8e37fdf458",
+      "sha256": "5c96c667bc61b326700d2c99043f5bc448a78c81caf0a230389aa64eac9a5071",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-wrong-skonto-basisbetrag-test.xml"
+    },
+    {
+      "bytes": 7283,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-wrong-whitespace-2.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "c216ddb5aed443d64191d9c81d48df9d9305d02fb70a5ecd2e0d1f593a0e67c7",
+      "sha256": "54bfd007aa2db877a8446894460f7c247f6423234e481a2a2e2c30504d7b85ff",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-wrong-whitespace-2.xml"
+    },
+    {
+      "bytes": 7280,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-wrong-whitespace.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "d154d8abeea9ba6557b9817b5720be3dc4696cde80c128bc53f1e62ea835eda7",
+      "sha256": "1d7eb7a587284ec28835f01a1a3937ccf04c839efcc7e2d0cb4e2a917a6018af",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-wrong-whitespace.xml"
+    },
+    {
+      "bytes": 16909,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-20-paymentmeans-code59-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "eec8d4305c1ee9e24d8c4754d2bde00c46dfaa2c28e7e6abbbb737f96bdc5dd1",
+      "sha256": "0ac65b81d552027d0914d37bb2dfd9058f6b24dc2eca2d40ad3db86a566b68ce",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-20-paymentmeans-code59-test.xml"
+    },
+    {
+      "bytes": 7203,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-23-test-bg-17-with-bg-18.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "e33d81aa194dc1db8198719dd9f325083d4ea44013aed00c41ed49c0b8b6ea27",
+      "sha256": "4f183fa665927a88952c72e9a534bffac05a9b4f3d7db44b78bc9dd6d2956591",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-23-test-bg-17-with-bg-18.xml"
+    },
+    {
+      "bytes": 7253,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-23-test-bg-17.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f294d6fd02a821fcecc14c5fe5c7ec637ecc1b46e10b7c980fc43508b063848e",
+      "sha256": "70bc40120a96cae4dcea4c8fa86511a5eda1ab72af9bea2d3537da9582ca9832",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-23-test-bg-17.xml"
+    },
+    {
+      "bytes": 7199,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-25-test-bg-19-with-bg-17.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "add900437aa0a889a66327ab36a33cc691451226edf673c6f05032319f9a1c8f",
+      "sha256": "21cf6e582e8d47d08d6cd5a37eec46bfb2dd1e0f8ef32c8b651fc41a56523eae",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-25-test-bg-19-with-bg-17.xml"
+    },
+    {
+      "bytes": 7282,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-25-test-bg-19.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "fa9d4438decf485f2ab35912bb46e33b5c43be2a00d84adeab7bb45c657bee1f",
+      "sha256": "ffb86bb8e06c6fcdde138d262d2a5a3bb2ff1d9e3710fc6f35c3991a5ddf28b7",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-25-test-bg-19.xml"
+    },
+    {
+      "bytes": 12713,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-28-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "c9b1dc37eccb6b918d03365962450b4951a20138d1dd61cd3137c4648fc82d0d",
+      "sha256": "39e487e188721a5c32c6d507458ec0c0e55562ba4568a9e14858ddfb9107138c",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-28-test.xml"
+    },
+    {
+      "bytes": 11308,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-3-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "d6926bf9e48b4c49a268c683d18c7904293da47b0a8cd0893af93ce914ebb2eb",
+      "sha256": "43f2a0adb70ee7041c55fd843ae0ba55ee41f784bee53e90762fd849c711524e",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-3-test.xml"
+    },
+    {
+      "bytes": 11325,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-5-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "dfd4bd17ed3ded90be03b207d47233d53b752c29540377b35fa3d5dfc866fd31",
+      "sha256": "38de686c093cbb96c6d47a06c2d3452a8906d2e36686cdec21b3bb4f7be5ad05",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-5-test.xml"
+    },
+    {
+      "bytes": 11348,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-8-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "d3ad0243e7713c1adc5d390406bedd3f3b8be0f0effcc9e5bee9d343a31d9027",
+      "sha256": "4b903ade2247cda454713e00b4fcc7f8d56f2151c8928945b150f7e36d0c5b8c",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-8-test.xml"
+    },
+    {
+      "bytes": 11355,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-9-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "dcfcb9d2933855dfb968b7715428548a341af25b4ed03f88636775e352cedf7e",
+      "sha256": "0b802c9dddf2d08fbfe0d16b0813dbb448411f9eec72f36c3fa8e1e363082d23",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-9-test.xml"
+    },
+    {
+      "bytes": 10327,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-cvd-03-04-05-06-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "e703e1b70792a27127f65ff10d9b6744b5929ae04efd1181a8d14e1933e3cfb1",
+      "sha256": "462bf268007efbd5a63a559e3adf25d278bb9d0c7c57a43ad2fa56a30bdbb3de",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-cvd-03-04-05-06-test.xml"
+    },
+    {
+      "bytes": 4585,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-tmp-32-bg-26-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f3382aa7835cd4cc5f8793248a7fa8884c327de357e43009f3f18a9bb498bc76",
+      "sha256": "63f7395c163e752085da3fbc7e8204b3a2850f5bd3fd6b0ad7c27ef9def79f92",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-tmp-32-bg-26-test.xml"
+    },
+    {
+      "bytes": 9697,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-03-invalid-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "b31085820afb3614e7a79e8e12bed6ff08f42fb3cbce8abf0d620d2a0715cc2d",
+      "sha256": "65ccffa2017c4546c1ae3aaa7286461e592faee032b2f9f7fcc2c2b4785deb5d",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-03-invalid-test.xml"
+    },
+    {
+      "bytes": 9288,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-03-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "b599af35f4353eae1df05e6987af0a1724db02a704b522ee8f9f5aeb5c470de8",
+      "sha256": "5fb14472c42bf695673059e84557ead002737baff713146ad53f6826d0cb0f0c",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-03-test.xml"
+    },
+    {
+      "bytes": 6964,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-04-schemeid-test-4.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "abddc4c34f079d9d7f99150d95fb6c48e481c7f5318ce81a7e376a6bd5061b57",
+      "sha256": "26639cf9af3817ca56954cbe0e57c64e91769365a6a3d7e59071c14d62e7b2bf",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-04-schemeid-test-4.xml"
+    },
+    {
+      "bytes": 6951,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-04-schemeid-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "ec9b55c7ccab0e256391f10c8906052e5faca807c8e4a90e9a3b933f2aefa996",
+      "sha256": "b5122f19686a1ee25566d639f75a717c99db5722fe834f62b3c4cbd6591dcbab",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-04-schemeid-test.xml"
+    },
+    {
+      "bytes": 7212,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-05-schemeid-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "db90fd6f00f3a139882f6189267bb06d75ace595b99dcb43a97340d08c58c86a",
+      "sha256": "a0f535ef8721a6bd584f58c5f37b2af7799c0591e91a625ebb06f6fc1fde18dd",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-05-schemeid-test.xml"
+    },
+    {
+      "bytes": 7131,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-06-schemeid-test-3.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "c11df532b318e0e8974c5331b34558dd04f86cc6da5cda4242039d4daf7280e5",
+      "sha256": "95c8d22a62a81b864b77f1a0ca7a6df0fe0e9f319c882e882bf801c012aaa0a1",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-06-schemeid-test-3.xml"
+    },
+    {
+      "bytes": 12524,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-07-schemeid-test-3.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "e1cd1621c9dfec6ed1ef0975875c2fd6756dbe2e0fae88ef7af8af996c411dd3",
+      "sha256": "86b2a348dfbe6af275be0d48380f5c43f4c59677161200f23522a62924c45da1",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-07-schemeid-test-3.xml"
+    },
+    {
+      "bytes": 12524,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-07-schemeid-test-4.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "d39b711e03272f6c3e2020044d3829cc60801c01318277f7e08744e10c9092a1",
+      "sha256": "9a8ba0393ec5a5e65d3395f2f36b4e547f30dbb1712453f12a04a9881bff8d6e",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-07-schemeid-test-4.xml"
+    },
+    {
+      "bytes": 12513,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-07-schemeid-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "ca6e19237541fb0f7f11ec4ead6590451ee1d522511a9550852b4f781f806cf0",
+      "sha256": "8d22860d275dd87bad140075f1eeb4e201e31d9616bc9916e9ea6c14bdced343",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-07-schemeid-test.xml"
+    },
+    {
+      "bytes": 12534,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-08-schemeid-test-2.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "e4b6d3a7a0aa400dab9b708530edb4f14cf8109501ac0be9b4fa639223b31855",
+      "sha256": "4a2835809c2b6fe74a33b62613b66db119d3b8e558827d24b30489120a275a29",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-08-schemeid-test-2.xml"
+    },
+    {
+      "bytes": 8052,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-09-negative-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "a4dcc563c8aa68ea7b57dbea51a96fe8f0e665d368bd825f9882cfe3153f448f",
+      "sha256": "3515fa7c2c1093108844a3e3a68b370b969b53da1d02f60871d2468862f01155",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-09-negative-test.xml"
+    },
+    {
+      "bytes": 7725,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-11-test.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "deaf89c3e428f7c40ecd9daa9d34fb2b8a340bf36eda566e8a2e025ce38020d7",
+      "sha256": "c462fa5416eade601e3b49c3435488f5c553468ca44efaf73487ef1b4e0c70f8",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-11-test.xml"
+    },
+    {
+      "bytes": 10099,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-contact-tests.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "b813ed188d283fefb1405ce99b53832e61c770a7cd94b2748c74104277de4eee",
+      "sha256": "085946711b13cb6f39543a23f7a799c7c1ccc3044e3cd5612792ae04bfd00a95",
+      "source_path": "test/instances/ubl-inv/ubl-inv-contact-tests.xml"
+    },
+    {
+      "bytes": 11354,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r005.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "fef0cb2fcdea52313064471f5a78776bb64a66dcf37ad97fc40a11bb4ff74f44",
+      "sha256": "3a03695e1d0c5c889d8a26a140a3ac94a3d54db08f5a5a6f3e819acde759e052",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r005.xml"
+    },
+    {
+      "bytes": 12936,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r040-charge.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "ea5709c426540bd56f80b26bca8aece18755e54ea0bd31c9ceb5dc03b6067bf4",
+      "sha256": "fb85e701bd1d98a46260df4f6d268ff1812a3d42b95a54704484854f5f103dd5",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r040-charge.xml"
+    },
+    {
+      "bytes": 12228,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r041.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "c0a2a900da2ecea58889e3081332ce73aa6253bff7ff214b010dd6d868613f52",
+      "sha256": "6d365867361f109f9960d3171ee668fffdf1f4237d1055ea760930b2c3b15390",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r041.xml"
+    },
+    {
+      "bytes": 12240,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r042.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "a4b21aa8477133aa84ccc3d95f3acd2fd73b0f37c4e54c8805f213de7abd2cd0",
+      "sha256": "37ff7a10991a235b7a44149257145b0190c03a2267cd5327bc7fd6a41cb6b584",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r042.xml"
+    },
+    {
+      "bytes": 11365,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r044.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f06db9a2763a265d0ba7e39e219a26ab6440057b2949b780d03ce1a49d9064d4",
+      "sha256": "8d0d0d36784aed18ae39e605a0e17439f29e907a24a0a9080edc97f27f4fc451",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r044.xml"
+    },
+    {
+      "bytes": 7420,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r053-2.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "ba659b5aa4f9dc1944010877ad67aed1d4b63b0341edb2e8398f6139ebcbd972",
+      "sha256": "c7cca5325920a8100dfb14a80a4277bf39bcb35fc206bc343ddc1dd0b82757b5",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r053-2.xml"
+    },
+    {
+      "bytes": 11172,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r055-without-bt6.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "ae73fc3a6b24e34d9de96158a33c0b435368abaaedefad9a0a1751e850866ed5",
+      "sha256": "649fada4c8fa6f803110872f4d8002f9edb51484b39c617a8dcf81f08d033689",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r055-without-bt6.xml"
+    },
+    {
+      "bytes": 11281,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r061-1.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "f83070322e03955e3b345bcce0f7cdd3f7819332f5a42fea8a3d5b60ae061ef4",
+      "sha256": "964ea97c638e5de579bcf9f642f7fff269391645c03504f917d19e0a2f19c784",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r061-1.xml"
+    },
+    {
+      "bytes": 10891,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r061-2.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "c05e2bf17ca223ed12ba0ef517debb8615a85416612f71b7be6bb629260b7f7c",
+      "sha256": "a7cecd331efdec2b69c6445e7c30182def60268c527735a6bfe7943ca8b2d3b8",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r061-2.xml"
+    },
+    {
+      "bytes": 11487,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r110.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "c5ae561052868669a2cc05408f7f6b55609329a38686180d3d44f04b725dd0fb",
+      "sha256": "cd39e5b4642150d054e180917951f31bb6ac2740954e6024b3a02d8b5a00276d",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r110.xml"
+    },
+    {
+      "bytes": 13256,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r120.xml",
+      "reason": "Over predeclared per-format hash-rank quota",
+      "selection_rank": "eb2715034ca8ffd936fb85368209473853f66ee101c399a2e11e6060e12986b4",
+      "sha256": "2f00160739f1ec3ced5d591571ccc66aa3b5fbd57b79a0b061557d1d0046b2e2",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r120.xml"
+    }
+  ],
+  "fixtures": [
+    {
+      "bytes": 9757,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-1-test.xml",
+      "selection_rank": "512a575dcac316dec8bd7639625f04713cb489f400be1c5ac621df1f1f9ddd07",
+      "sha256": "6d4ac67e1740174bf1482c2c3effed74a63f54e8e98c8456af6597a5c343c93d",
+      "source_path": "test/instances/cii/cii-br-de-1-test.xml"
+    },
+    {
+      "bytes": 12672,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-10-test.xml",
+      "selection_rank": "50ff3a9f7746f57ab7181938bdbec6ee93f1b444431c61c3c7ec6237f9b3e5ca",
+      "sha256": "655462220b6b9005834aa0a6ddf2d79c55e517ca38e6cf2bceeb57d243dfb49d",
+      "source_path": "test/instances/cii/cii-br-de-10-test.xml"
+    },
+    {
+      "bytes": 12692,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-11-test.xml",
+      "selection_rank": "0c13eca1cfadd5e8b54d5fc029cd1cd8ca6a83f88c9005e66e0b96b6e601b6e3",
+      "sha256": "067a49b7562f34756abd2ad983b966a29b63f5d37c7ac7e7814afad2ccb77d89",
+      "source_path": "test/instances/cii/cii-br-de-11-test.xml"
+    },
+    {
+      "bytes": 12655,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-14-test.xml",
+      "selection_rank": "a165c1b06be646ee981cd3aa6fd592a21d1428306a12aa998a8202d84a60d549",
+      "sha256": "dc0b17f6cde34b37fc940b7654bf40d3c4a0b35459818970e54a1290fbc41024",
+      "source_path": "test/instances/cii/cii-br-de-14-test.xml"
+    },
+    {
+      "bytes": 9860,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-17-tests.xml",
+      "selection_rank": "685315e4308f59f916d29d54c4001f8c60d20f9a892f5c3b825c49bd68788ade",
+      "sha256": "202a1e5e973e991663190be237911b7a121eaf040aa250422267f7f460676501",
+      "source_path": "test/instances/cii/cii-br-de-17-tests.xml"
+    },
+    {
+      "bytes": 9076,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-case-sensitive-keyword-2.xml",
+      "selection_rank": "8d570f37edb45e12f47e8abc95502cf42a56f317ecf8eaf782867998e97efc92",
+      "sha256": "ffcfe29ecc82fd8b75361e5031f9a939be0014c52c980449007260b69b85d3ff",
+      "source_path": "test/instances/cii/cii-br-de-18-case-sensitive-keyword-2.xml"
+    },
+    {
+      "bytes": 9076,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-case-sensitive-keyword-3.xml",
+      "selection_rank": "2634ae2d5a16223651f8ddf994058921d63f319bce8c16153a2bf50b436cd7a6",
+      "sha256": "baefc61c2451b67c2f2d2650346f4d8d3116a7b0ed8ac9b96e957e47f9c75079",
+      "source_path": "test/instances/cii/cii-br-de-18-case-sensitive-keyword-3.xml"
+    },
+    {
+      "bytes": 9059,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-no-newline-after-skonto-2.xml",
+      "selection_rank": "5bf4f4ad460d240caf80caade1cd2cbe81b4ff6df835bf8ef5c6f15609801d95",
+      "sha256": "961b1831cb98b59cd96a4c5253c2ff7b050cba7131e891bab27cf21ad5451ce9",
+      "source_path": "test/instances/cii/cii-br-de-18-no-newline-after-skonto-2.xml"
+    },
+    {
+      "bytes": 8874,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-no-newline-after-skonto-3.xml",
+      "selection_rank": "6609a2f87d7745f7de92dfddef867fdfa20cc03c5c768bfef1d4ca1e23866558",
+      "sha256": "6f6ad7ffe954a0896dfe95c9bf86773f03fbc82741e1663fcb455a6b4a950778",
+      "source_path": "test/instances/cii/cii-br-de-18-no-newline-after-skonto-3.xml"
+    },
+    {
+      "bytes": 9063,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-no-newline-after-skonto-4.xml",
+      "selection_rank": "0ef562e961fe627bc843dcbdd4ea80b4776f17a28998fd5f0c37455957b09ebe",
+      "sha256": "e0598b56efb79a689d07de1c16d153925fac16acfce0f42dd71e632a5894b157",
+      "source_path": "test/instances/cii/cii-br-de-18-no-newline-after-skonto-4.xml"
+    },
+    {
+      "bytes": 9026,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-no-newline-after-skonto.xml",
+      "selection_rank": "44e973aa2eeb1db286b8ddd7e6aa155ebf8e11cc1652c538971edd4ddbc7ad6f",
+      "sha256": "bd6700eea1c946bc84d094aba3714f6f6695953f19b63647986c623b99246741",
+      "source_path": "test/instances/cii/cii-br-de-18-no-newline-after-skonto.xml"
+    },
+    {
+      "bytes": 9127,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-test-skonto-test-no-newline-last-note.xml",
+      "selection_rank": "7850ec2be1ef648b77aae1b8b1906adc5288d64a70e7330903efb0a13c4ed7b7",
+      "sha256": "8c5d1eb35d995f8235cf8b3433e3517670613f31ec4815d63dec1a0d0a583741",
+      "source_path": "test/instances/cii/cii-br-de-18-test-skonto-test-no-newline-last-note.xml"
+    },
+    {
+      "bytes": 9069,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-test-skonto.xml",
+      "selection_rank": "56f5c019f2c84bc2cb2f7e639378902cd32514d4c39e788c975986ca618cbbda",
+      "sha256": "15175eb8e084a7ecb749ddb2fbed03bc38c10434f7ca8f80b641711557556f17",
+      "source_path": "test/instances/cii/cii-br-de-18-test-skonto.xml"
+    },
+    {
+      "bytes": 9096,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-text-after-end-2.xml",
+      "selection_rank": "84ffebcb3605d88576c780ac5d0fd4abc238a000905682067fa9ab47d82137e0",
+      "sha256": "5ed45c638d571f76c220237362c9e0c927a87b1179e312a4ff9093a240d974c8",
+      "source_path": "test/instances/cii/cii-br-de-18-text-after-end-2.xml"
+    },
+    {
+      "bytes": 9092,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-too-much-digits-after-dot-2.xml",
+      "selection_rank": "5cf328550f62cdb1315d2a66493064d509a60f2b640ba140a3d664554f216ca3",
+      "sha256": "771e753708772f59e665cf594e937e9d00a02e2c7d168eb161ea191dddefdac2",
+      "source_path": "test/instances/cii/cii-br-de-18-too-much-digits-after-dot-2.xml"
+    },
+    {
+      "bytes": 9090,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-too-much-digits-after-dot.xml",
+      "selection_rank": "07040c4422b763a1f347c365a8b7b53a4d57e2e54a91300773bad61b8eaaa93f",
+      "sha256": "52944fbac231afd5abeacfe70d60ac15221d7397c7fb412ecf6261ff123e0497",
+      "source_path": "test/instances/cii/cii-br-de-18-too-much-digits-after-dot.xml"
+    },
+    {
+      "bytes": 9049,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-wrong-basisbeitrag.xml",
+      "selection_rank": "698b83ce85e7d60957e95859bf933739dfa74062afc568945967e8604c2214ba",
+      "sha256": "62f43e001175ecaf42e948f2f649f9ccc0d3c2c1b15c716696869377a4ff0add",
+      "source_path": "test/instances/cii/cii-br-de-18-wrong-basisbeitrag.xml"
+    },
+    {
+      "bytes": 9080,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-wrong-basistype.xml",
+      "selection_rank": "6d62eba333306cf8c841f6464cc1be31e29acb2193a59eaac62788c61758ff41",
+      "sha256": "a5b76300aaec02ba147fe0ec2aff2870c510b4cc3918497a8bd8ad952912da3b",
+      "source_path": "test/instances/cii/cii-br-de-18-wrong-basistype.xml"
+    },
+    {
+      "bytes": 9084,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-wrong-numeric-seperator-2.xml",
+      "selection_rank": "3d70dc3fc25241738804b10ca9a699d0914103a8e2e26da8252768036015e48b",
+      "sha256": "fc852430ba9230fd4ce972ab350f41a83ead9d339b24397b9bbaf2010dd9a73f",
+      "source_path": "test/instances/cii/cii-br-de-18-wrong-numeric-seperator-2.xml"
+    },
+    {
+      "bytes": 9082,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-wrong-numeric-seperator.xml",
+      "selection_rank": "0e25e25871817b4f2a3a3e56ca94a3e5221eab667b486f3cbac77475e09ba8b8",
+      "sha256": "375ea859ba936a28c91537995671e0a290b8c458649abe059c1d86db33faddf7",
+      "source_path": "test/instances/cii/cii-br-de-18-wrong-numeric-seperator.xml"
+    },
+    {
+      "bytes": 9064,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-wrong-whitespace-2.xml",
+      "selection_rank": "525270c1bfd2620e7dbdbf09204bb9a8c59934be6a455af42bd61a5d75e932bd",
+      "sha256": "5b41c014767335472cf28e2e6890b595d85d6a0461f18caa76199e353bc22bf0",
+      "source_path": "test/instances/cii/cii-br-de-18-wrong-whitespace-2.xml"
+    },
+    {
+      "bytes": 9063,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-wrong-whitespace-3.xml",
+      "selection_rank": "4f5e5ce0545bdd8b600f3109e96cfdc88153e9f42464078901a17b9eeb47fc03",
+      "sha256": "ab3899dfbc2c0303e8545495bb0f78584ef71524382edf47778a2dab5286b825",
+      "source_path": "test/instances/cii/cii-br-de-18-wrong-whitespace-3.xml"
+    },
+    {
+      "bytes": 9061,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-18-wrong-whitespace.xml",
+      "selection_rank": "4d71ae458011db1aa3c428a94a5567c647a7083423d858ba6469f2eff69d437b",
+      "sha256": "dd4d50710d6085c82385032a8f7ecd016ac8f293b3a82be0da677407a61b6051",
+      "source_path": "test/instances/cii/cii-br-de-18-wrong-whitespace.xml"
+    },
+    {
+      "bytes": 9741,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-2-test.xml",
+      "selection_rank": "5ebad4ad82f950a484c7b85adb42ab21f627fef34ef4e4db2135833e4eff2e49",
+      "sha256": "3c076d7c6c4080eb666498ca18d908f1a47026ceaae85c374a3a804b447702d4",
+      "source_path": "test/instances/cii/cii-br-de-2-test.xml"
+    },
+    {
+      "bytes": 413549,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-22-check-unique-file-name-test-uncefact.xml",
+      "selection_rank": "6a0bbe93dc4dd1535703bdac2d5258380aeefca07b6277901387469e2059db33",
+      "sha256": "91619ceaf33df5c6d81877361506582339390ef29270ddadcba744c960c3f97a",
+      "source_path": "test/instances/cii/cii-br-de-22-check-unique-file-name-test-uncefact.xml"
+    },
+    {
+      "bytes": 9986,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-23-test-bg-17.xml",
+      "selection_rank": "8cbc442957ccabe4e35c1347ff7537b233b479b1df2a2c7582ead614c29ba480",
+      "sha256": "79a4d07977cd91a7ecd19ef867763ecaffaa3918ea253fe058a2cffcd6bed3d1",
+      "source_path": "test/instances/cii/cii-br-de-23-test-bg-17.xml"
+    },
+    {
+      "bytes": 9934,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-24-test-bg-18-with-bg-17.xml",
+      "selection_rank": "6349d879ae0e8205c317f22b28b846d0e48baf56275eec838770a88e03758be0",
+      "sha256": "fe6d480676a99ef71925e6008c6ef1628a1f67732a97a30153719793e304b567",
+      "source_path": "test/instances/cii/cii-br-de-24-test-bg-18-with-bg-17.xml"
+    },
+    {
+      "bytes": 9925,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-24-test-bg-18-with-bg-19-bt-89.xml",
+      "selection_rank": "2a47b3b907731917811828af9bfd3122e560d040f0032dd12ccec07bc4ae1e41",
+      "sha256": "de115cd4cba26ffcb8f604e68dc3fca8e50bcc2da27a3a8fd52388a958b8b378",
+      "source_path": "test/instances/cii/cii-br-de-24-test-bg-18-with-bg-19-bt-89.xml"
+    },
+    {
+      "bytes": 9918,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-24-test-bg-18-with-bg-19-bt-91.xml",
+      "selection_rank": "4a0d2c6102d49665f408a1b99a9a711f55a854b29235aa005a7ee24e28f748c5",
+      "sha256": "0e6f49f5edb8655c3847e85c37f03409c2d299df1ff19740f86a72292138b3a1",
+      "source_path": "test/instances/cii/cii-br-de-24-test-bg-18-with-bg-19-bt-91.xml"
+    },
+    {
+      "bytes": 10050,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-24-test-bg-18.xml",
+      "selection_rank": "3117fd26d37c319079ce3e1282b6526c5ff1253ff8f8c8dc08564d1cd60777a9",
+      "sha256": "871692ea011a4b0881974a9bc949149d0ec12b65469d69a9f7051a54dddc0832",
+      "source_path": "test/instances/cii/cii-br-de-24-test-bg-18.xml"
+    },
+    {
+      "bytes": 9639,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-25-test-bg-19-remove-bt-89.xml",
+      "selection_rank": "2b162774e6389e86abff7dc6971eb3148c78ec2db494417681d75b05d9cf2d42",
+      "sha256": "78ed1c159eca740d5b4bf6f2bfce8c073a93a3f52f66aeb2bc368cc5bc1c2fe3",
+      "source_path": "test/instances/cii/cii-br-de-25-test-bg-19-remove-bt-89.xml"
+    },
+    {
+      "bytes": 9652,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-25-test-bg-19-remove-bt-90.xml",
+      "selection_rank": "9fa7b8a2547f1733b103c5f68f73dec21ab698f7768a6b7b18d51639e1aac108",
+      "sha256": "7e765600da4da9da47d37238fc9c83ca127a1a084ce44333dad89719d520cfe0",
+      "source_path": "test/instances/cii/cii-br-de-25-test-bg-19-remove-bt-90.xml"
+    },
+    {
+      "bytes": 9632,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-25-test-bg-19-remove-bt-91.xml",
+      "selection_rank": "8513992e8e332a27927c98d63e9e8fb0a5f4e1b85e20f784f926243b0ab8b091",
+      "sha256": "7a97a97a13f4d63d34ed8b0369424173acb37736d2e1f19581f1178d9886d96c",
+      "source_path": "test/instances/cii/cii-br-de-25-test-bg-19-remove-bt-91.xml"
+    },
+    {
+      "bytes": 10148,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-25-test-bg-19-with-bg-18.xml",
+      "selection_rank": "5eda808d46a414be2e1831c6cc31a16f64bb6d4673317da81100bb0264f189cd",
+      "sha256": "9ff96d97666ca1fd770874ea0d64d1d364f2cbe82c6fc5ad77f3622762879822",
+      "source_path": "test/instances/cii/cii-br-de-25-test-bg-19-with-bg-18.xml"
+    },
+    {
+      "bytes": 10802,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-25-test-bg-19-with-bt-86-1.xml",
+      "selection_rank": "12de0554864b56823a079c239b56605dc9f619d5329a73d4758625b85a80f7d1",
+      "sha256": "85b52f26f77fded9e1b5f56be55d496f73f1109109a850bdae18a7b007754e58",
+      "source_path": "test/instances/cii/cii-br-de-25-test-bg-19-with-bt-86-1.xml"
+    },
+    {
+      "bytes": 10169,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-25-test-bg-19-with-bt-86-2.xml",
+      "selection_rank": "0ee8939963d54ea6bd7beb651e618073964c1e7d81a573630c5a785795d1ad98",
+      "sha256": "df8e84f5eefcf0ad3e3d4482866f466eb5760aff264c9db1db2fd7c24206dc55",
+      "source_path": "test/instances/cii/cii-br-de-25-test-bg-19-with-bt-86-2.xml"
+    },
+    {
+      "bytes": 10409,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-25-test-bg-19.xml",
+      "selection_rank": "457b19563b1ba03d61dbffe59f1705c4e63ecb8d627a71bd4d2595182c5ccaec",
+      "sha256": "6a3f4879aba625be5f7045b3c61760b5ac7e9aecfe0c974c137a114b0320d046",
+      "source_path": "test/instances/cii/cii-br-de-25-test-bg-19.xml"
+    },
+    {
+      "bytes": 10490,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-28-test.xml",
+      "selection_rank": "3a90937eaa0034eff689aeb09d4e8d994f9a8459a409222b1b6642600a8305ca",
+      "sha256": "0d50a0aab267fad7e6bdb5bc6b21d4a47130b18e603ac6dcea08a4eef062be88",
+      "source_path": "test/instances/cii/cii-br-de-28-test.xml"
+    },
+    {
+      "bytes": 9785,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-3-test.xml",
+      "selection_rank": "9bd14f009cf40ca63fb88bd6a06ff09f62ae8ad5a399655b21e441ba418ba4eb",
+      "sha256": "b3fd660057939794718ada888f8cf00d9db152422c9f470dd230d5d4e3e4c75b",
+      "source_path": "test/instances/cii/cii-br-de-3-test.xml"
+    },
+    {
+      "bytes": 10800,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-30-31-test.xml",
+      "selection_rank": "1fc1da390f24515bd0c0a6a290f0686a43153d6636ee298c099ccb3b58576712",
+      "sha256": "83c0776c0604307aca753d3e6ac6c7f5c3bb7a76f4f8b4da496f3df637be212c",
+      "source_path": "test/instances/cii/cii-br-de-30-31-test.xml"
+    },
+    {
+      "bytes": 9828,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-5-test.xml",
+      "selection_rank": "6adafa2d41936b83fb2003c554cd053aab909457f51435144f36078e74b02e3c",
+      "sha256": "7e7e8d6d3b83aebeca35d9c13c483fd7e3b37967ea1d8b4adb390d35ab2e517f",
+      "source_path": "test/instances/cii/cii-br-de-5-test.xml"
+    },
+    {
+      "bytes": 9888,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-6-test.xml",
+      "selection_rank": "397b2e7741baf6e678d9585bbf7f0ed1da3c3be58e946d3bcddf208662bbbe68",
+      "sha256": "a7b356d475dbe23460c127d3b7f8aa3005800cdd0869bd0704e89e0980be8f55",
+      "source_path": "test/instances/cii/cii-br-de-6-test.xml"
+    },
+    {
+      "bytes": 9912,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-7-test.xml",
+      "selection_rank": "6d6915af286c2718eb5ae020917177eaeb3c1185d74370650f14d72e82e6a56e",
+      "sha256": "0ebfd72c2833e6a835db1ec7ffab3307fe2157fe225fde810f87a5c981645142",
+      "source_path": "test/instances/cii/cii-br-de-7-test.xml"
+    },
+    {
+      "bytes": 9948,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-9-test.xml",
+      "selection_rank": "3a82652a171d2d824f9509f2c751dea2c4cdf71e3acce9d462b2ccc9422ea9aa",
+      "sha256": "87301e7b7c3c8e9bedf52b9754d92da0ac083e2d4327f76bdfd625ae0c436c85",
+      "source_path": "test/instances/cii/cii-br-de-9-test.xml"
+    },
+    {
+      "bytes": 10741,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-cvd-01-test.xml",
+      "selection_rank": "7f7e51f4ebc1c6be60cd5d3a77812b9e0cb101bd741cfdc5928359230615539a",
+      "sha256": "feaaa5c4db3cbd3827c545a78f57d4acda0921a35e53b3241a14ac3f1425cbb3",
+      "source_path": "test/instances/cii/cii-br-de-cvd-01-test.xml"
+    },
+    {
+      "bytes": 10938,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-cvd-02-test.xml",
+      "selection_rank": "9717013564f8654ccc2d1584dd16c94447d0820e2245d1fbc46751771e9770b9",
+      "sha256": "ff85633a926fae8c265039583fda89f0a63e9507323dde56a0485bf388e65e80",
+      "source_path": "test/instances/cii/cii-br-de-cvd-02-test.xml"
+    },
+    {
+      "bytes": 8547,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-de-tmp-32-bg-14-test.xml",
+      "selection_rank": "2447c51c825082b36050a31ff9ecb5547e83a62c38fbc0194fb71c9fd3e991f5",
+      "sha256": "7be211373103be38b26d30a4a658eec9b4966db078d80fc047b3576d4b7f3806",
+      "source_path": "test/instances/cii/cii-br-de-tmp-32-bg-14-test.xml"
+    },
+    {
+      "bytes": 9892,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-01-test.xml",
+      "selection_rank": "418654a19e96f2210c159c0e70c047958e498f43be1c435cbc617ce8d36b6e5a",
+      "sha256": "8d7d6ea9b07294280b532ecd509c19d943023d55ead64a70feb98e5fbe517c47",
+      "source_path": "test/instances/cii/cii-br-dex-01-test.xml"
+    },
+    {
+      "bytes": 9770,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-04-schemeid-test-2.xml",
+      "selection_rank": "633a9971458c2bac0197bb4d4dfa43fd3735612b5e33738cd128392448fce297",
+      "sha256": "14150f76f52ba668ca3005af9962fc93cc4071a4441bcb0a145c531c3899e0c6",
+      "source_path": "test/instances/cii/cii-br-dex-04-schemeid-test-2.xml"
+    },
+    {
+      "bytes": 9784,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-04-schemeid-test-4.xml",
+      "selection_rank": "0523071d50ddd8a7477aa1f75a6c80a3a2ddc715411c26b22e9eb5aa99c0afed",
+      "sha256": "962249e42d367c62da1593b6ff90136b45602a996081d517cf9c6be30ac8f90c",
+      "source_path": "test/instances/cii/cii-br-dex-04-schemeid-test-4.xml"
+    },
+    {
+      "bytes": 9771,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-04-schemeid-test.xml",
+      "selection_rank": "7899ff9b06e3ac416aca6173fe93463ea05c0a0c26bb0f4379db8b6a5dffd8d2",
+      "sha256": "e62fdd6107c05e9e825544d9f6c5a654fdf53b37c980c4fd884495fc077966fe",
+      "source_path": "test/instances/cii/cii-br-dex-04-schemeid-test.xml"
+    },
+    {
+      "bytes": 9717,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-05-schemeid-test-2.xml",
+      "selection_rank": "8eb41ce9b0bd686cb67e6015f87056d37ab7a41982541f0b70e505e4bf1c6f91",
+      "sha256": "3f2ee1240c7e8ad844fc2688a520ea29c1939aa1e4888869df506dffbe17d8b7",
+      "source_path": "test/instances/cii/cii-br-dex-05-schemeid-test-2.xml"
+    },
+    {
+      "bytes": 9731,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-05-schemeid-test-3.xml",
+      "selection_rank": "9f2c1ce7d48f80624eae7f23759886e7256a294027b0fee46a0cd06d9ebbbc9d",
+      "sha256": "189fd88ebd1d298a13159ad24dc916f465dbdc2e30706eae85d49e52f4348f91",
+      "source_path": "test/instances/cii/cii-br-dex-05-schemeid-test-3.xml"
+    },
+    {
+      "bytes": 9731,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-05-schemeid-test-4.xml",
+      "selection_rank": "720f3cbb832759fe41a6327ce4912322a685702f8a70e74610925b621e12e4f8",
+      "sha256": "9a3205673780ca9b81394f010332f184865632bcb57ecd639757d0fc399ad249",
+      "source_path": "test/instances/cii/cii-br-dex-05-schemeid-test-4.xml"
+    },
+    {
+      "bytes": 9717,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-05-schemeid-test.xml",
+      "selection_rank": "24385b249755b7f848d24c43bde08fe4c6d244213723286abb0dd3cd08b3dcfb",
+      "sha256": "92dcfc239809c0fed32e1b2de4dd4c82551089ff0e4f97a82357ef1990617743",
+      "source_path": "test/instances/cii/cii-br-dex-05-schemeid-test.xml"
+    },
+    {
+      "bytes": 9676,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-06-schemeid-test-3.xml",
+      "selection_rank": "3a99c8263991836207f2bf3ea03431b010200d315b24aed66a442a10cf756d5d",
+      "sha256": "fba6a795359775f94b5e4be8581c5332ad45cf8d7fbb497037bc493d420227ae",
+      "source_path": "test/instances/cii/cii-br-dex-06-schemeid-test-3.xml"
+    },
+    {
+      "bytes": 9676,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-06-schemeid-test-4.xml",
+      "selection_rank": "2be6c36fb629e77bde7c16c318b8a7d3676dee5fb8749d3d37529d31345d54e8",
+      "sha256": "40b58b28ae646f6855f7f381952c41758aa0db46f5736794c524dcddca911609",
+      "source_path": "test/instances/cii/cii-br-dex-06-schemeid-test-4.xml"
+    },
+    {
+      "bytes": 9692,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-07-schemeid-test-2.xml",
+      "selection_rank": "4b1c7aade266b5867874daa7c0b0f3ce0bfbcbf9ea3283249a0ae667338a01a7",
+      "sha256": "ee57a6d74451922767ead45baf98e63ef75e5b924946edbfcde9d0bcf5f893c0",
+      "source_path": "test/instances/cii/cii-br-dex-07-schemeid-test-2.xml"
+    },
+    {
+      "bytes": 9706,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-07-schemeid-test-3.xml",
+      "selection_rank": "8a7def6835dc59b68f6134cd569cef864dbf3718a956e5868adb5ab2d39de84a",
+      "sha256": "78d61199b40b45373347d27def566cc5e36e0e1448d4b13c78252853bc5a81f7",
+      "source_path": "test/instances/cii/cii-br-dex-07-schemeid-test-3.xml"
+    },
+    {
+      "bytes": 9706,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-07-schemeid-test-4.xml",
+      "selection_rank": "9aae3929ba600498aabfbfd5efa47af6def1b57b4849b2142801de626c7625a8",
+      "sha256": "3727dd8c353ab49e7bbc550edadf1930c3572339ef1d15292a7f9398a4440c49",
+      "source_path": "test/instances/cii/cii-br-dex-07-schemeid-test-4.xml"
+    },
+    {
+      "bytes": 9692,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-07-schemeid-test.xml",
+      "selection_rank": "98d72f1d671441eded1d08db5574432f4e849eacc5b8922627350d63db166e98",
+      "sha256": "27f8a2ea234f2978160b1a846ba37d8cfbcc59a708203fea7d19e717d2101445",
+      "source_path": "test/instances/cii/cii-br-dex-07-schemeid-test.xml"
+    },
+    {
+      "bytes": 12646,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-08-schemeid-test-2.xml",
+      "selection_rank": "72fd0e167bf0cca39e97ab241351aa0bd78a71535ca31fdf709266e05f5b4407",
+      "sha256": "d3e378bced32bf3c6fe9b1217d26552934bdf2244dee0886787f46402ff4290b",
+      "source_path": "test/instances/cii/cii-br-dex-08-schemeid-test-2.xml"
+    },
+    {
+      "bytes": 12630,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-dex-08-schemeid-test.xml",
+      "selection_rank": "6141f9243128f017f8a0d98e6cc1419dd9e9cc7c3183ad1d65982ce159a9b6df",
+      "sha256": "d14cba9f92cd2d5a2b1971f08598cd4e98c5a84a4c715471fd1015d1e13f6c26",
+      "source_path": "test/instances/cii/cii-br-dex-08-schemeid-test.xml"
+    },
+    {
+      "bytes": 11596,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-tmp-3-negative-test.xml",
+      "selection_rank": "9809c2a590650c3032d10a9276fc44c432784b277ab21babecd0ee03ca5fda30",
+      "sha256": "e3962e0eb7ccf444455201f8f0000f01f66599d72389fe470de31221c010fd69",
+      "source_path": "test/instances/cii/cii-br-tmp-3-negative-test.xml"
+    },
+    {
+      "bytes": 8678,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-tmp-4-test.xml",
+      "selection_rank": "9d6d7888f34e275d9928a19add089227eb13266a1ad4d2336b6e15c998f94bc5",
+      "sha256": "c593c24c69420901200bb0f4a1fa5db4d5c542bb131fe923276b44041445b440",
+      "source_path": "test/instances/cii/cii-br-tmp-4-test.xml"
+    },
+    {
+      "bytes": 16219,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-br-tmp-7-test.xml",
+      "selection_rank": "9ca77e0dafc03cece4702e4f77f1a7db0ce6756c78b90a305704b6d146e43430",
+      "sha256": "1c9940e011dd1b7a6cf59774b1f895dd1c56b8742b9b5d7dad36f599b7fac50b",
+      "source_path": "test/instances/cii/cii-br-tmp-7-test.xml"
+    },
+    {
+      "bytes": 9858,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r001.xml",
+      "selection_rank": "0a3d4a02ca2c40f56bb51091a75fb7deae942fcfe4a1bbef387905de9d9aba00",
+      "sha256": "7f3e08514dddc8802d7ffebd192331f3d85ff9070a08e8e2e710b42f2cd57028",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r001.xml"
+    },
+    {
+      "bytes": 10068,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r005.xml",
+      "selection_rank": "0d77226d2fd6e159e90990aacce83c738c925dbc45f3db29f147b5dcebab8cb8",
+      "sha256": "3ed698503007d2cd5b722afb1ad0f4714640d0125c30de8e282b0672a8d4d9ed",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r005.xml"
+    },
+    {
+      "bytes": 12134,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r008.xml",
+      "selection_rank": "447ed744cb3778f90e010e2f661b45cdbd2217adda226a58759f775c774d894f",
+      "sha256": "31294176c6aef7effbbb8e589214db066ee4a9de1d7df9169797769a33b3c431",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r008.xml"
+    },
+    {
+      "bytes": 9950,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r010.xml",
+      "selection_rank": "4ecc0716daef17992dd12bb22593f3082a7c82ede921a0861871881190a47b3d",
+      "sha256": "3953c747804a0e539477e4feaf4da66c316460a099a12688cebbf7f53c74008a",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r010.xml"
+    },
+    {
+      "bytes": 31803,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r040-HUF-slack.xml",
+      "selection_rank": "71381702be62aba929376108bf47dc5e65ba089036591929f6976901154356f3",
+      "sha256": "74f933c7b65f8acbe9b23b85dfdaa430360c7c61737203eb45de4d1b68db4d69",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r040-HUF-slack.xml"
+    },
+    {
+      "bytes": 38498,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r040.xml",
+      "selection_rank": "58a9a0cc94d57579044b4f23d2be0b5a787cdf9ff9fdab2f154a83296d77d43b",
+      "sha256": "077a52e45851c3cb68502a35a0b952559ba2c61db6500ce9973243eb5ffb8f74",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r040.xml"
+    },
+    {
+      "bytes": 29090,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r042.xml",
+      "selection_rank": "2d379bbab58a298bbc3b773190f54e6cd333517e2a3c1baf30849f08c1bb8f0a",
+      "sha256": "0a8471a8a243668f3e504af89e1d869d23739c4a9924259393448b153d4dd1bd",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r042.xml"
+    },
+    {
+      "bytes": 31499,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r043.xml",
+      "selection_rank": "93b2f5014a30fa5f4607e2d9fe466e00a9ff339e36ea99788c07b69fd7040f31",
+      "sha256": "dccc76206a355a10a98fd2b0c3a7e6981fa45e4b7b355d89fb666c00fb71bf53",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r043.xml"
+    },
+    {
+      "bytes": 29088,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r046-1.xml",
+      "selection_rank": "62ae4d0863f07a13b0541bf4a90315453ba264cc898d42377f6830a23da8346c",
+      "sha256": "3c7535ed66fe60e4985ac9dd2c71ded5bf0b7bace2982d1a4ddba5635192ca80",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r046-1.xml"
+    },
+    {
+      "bytes": 9950,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r053-1.xml",
+      "selection_rank": "2af3dfe489081b6ca619cae6b97001e80cba938a461197bdd650fb0b001ca1a5",
+      "sha256": "f60b83579e73e87182faff8c7d4a6e5ea81fb2866bb9c0d85de4a589fa860661",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r053-1.xml"
+    },
+    {
+      "bytes": 9950,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r054-1.xml",
+      "selection_rank": "15a3fb873a1a5a4cc0d82cf250ff63e7cb59c7590095115506e4a102af936365",
+      "sha256": "dcd7ce98535cd62dae9ab3306d0b20c35010d3e3994c522079af766eb926b0f6",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r054-1.xml"
+    },
+    {
+      "bytes": 10043,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r054-2-negative-test.xml",
+      "selection_rank": "10c68830679779ccd7580bfa3b6a82361774bbd5e65d645e45ecee2db5d2d88b",
+      "sha256": "1cb39fcc013e0e031a2b256910fc3c5a56d67fb11cf0c0aa3875faf8d26ce9a8",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r054-2-negative-test.xml"
+    },
+    {
+      "bytes": 10884,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r055.xml",
+      "selection_rank": "0e6681b5c8212c5b466221f25539110c9e7a1514e7078d7b0981944f163f4612",
+      "sha256": "aeced853f7a994ef600056edd8ab1bff0f9dc2bd0caada39a1cdd3aaf4f23f76",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r055.xml"
+    },
+    {
+      "bytes": 22011,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r101.xml",
+      "selection_rank": "03e94f1011294c6f67d9281b57b949145908e8eea8134ecb3389e91cc3adae6e",
+      "sha256": "2715438b757eebbe72dfd5e6ecb4be69ea197282d9e3d064ab4887a50c4da8ff",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r101.xml"
+    },
+    {
+      "bytes": 10631,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r110.xml",
+      "selection_rank": "5e59448ee85c36bc85458e6bdeda2328c1fc648e978634da18ec7881bd82fdf4",
+      "sha256": "e6ed460c5a809edbaeec16a8e978f558590e8440e8a29e158315013d2f46954c",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r110.xml"
+    },
+    {
+      "bytes": 10631,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r111.xml",
+      "selection_rank": "4bc92c8e42c96a70a69e1e6a997b1e99623504a5d4e1e9e51c449eb9b6d47fe0",
+      "sha256": "4321ca8ff52a3af0e0a468fa009758d4941cc95ed86381f9e24a0e7c06efb6e6",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r111.xml"
+    },
+    {
+      "bytes": 11660,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r130-1.xml",
+      "selection_rank": "4cc85368d6a490692f7d2e9fcf73d0c2f43ee02b3829aefd4153ce13e570e7bc",
+      "sha256": "c29dbf44c488622d975b10b35f2717242d75e0fc179e23b99cca4b54fa5865e7",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r130-1.xml"
+    },
+    {
+      "bytes": 10725,
+      "format": "{urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100}CrossIndustryInvoice",
+      "id": "test/instances/cii/cii-peppol-en16931-r130-2.xml",
+      "selection_rank": "9c224caa23d8475ee1f4674410f1a27813555c1f2c0597ba54b16edab87f9870",
+      "sha256": "435c8fbec017a096b4a2ad0d283d028a95377638ed599a310d50a665c5b28e57",
+      "source_path": "test/instances/cii/cii-peppol-en16931-r130-2.xml"
+    },
+    {
+      "bytes": 11105,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-10-test.xml",
+      "selection_rank": "a5f63f2f8643f6d74f3dbe2ba0d961adf573973b0b9b1725be28e2b890a01e3d",
+      "sha256": "1ae86fdfa40ac179ab1ac2c0d29fa2c037ee88392d832b18457381d75871837e",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-10-test.xml"
+    },
+    {
+      "bytes": 11112,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-11-test.xml",
+      "selection_rank": "a77497206f82a8264313ca6b5390b8f2de66d02954e81bf1354ed03b39733037",
+      "sha256": "94a2566c179758cd46d8c93ceda1401e26946ef6333218d9ca9d387469e676c5",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-11-test.xml"
+    },
+    {
+      "bytes": 11082,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-14-test.xml",
+      "selection_rank": "736cf1842683d9deebd9ab7ed9222e0dede681cc5b1c9231acf07ee286fa35bb",
+      "sha256": "bbdfaa48e9147ae60aa49dddd332fd2adfc867926726c2ad59e5e7612b53455f",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-14-test.xml"
+    },
+    {
+      "bytes": 11044,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-15-test.xml",
+      "selection_rank": "0d5277f296532c3ebcf31704c4497b1dcaa1bf0a746bc183adfc8a9fea7662ca",
+      "sha256": "4ad2f228c00d4b1001248320007cfd1791b88cf45b7dfc3f1d729d47f73bdb80",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-15-test.xml"
+    },
+    {
+      "bytes": 11232,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-16-negative-test-bt-102.xml",
+      "selection_rank": "652571ae9ac0ab5b1b6f0057c797fc79cd6c2fe411b48409bcb720a4b1dd1669",
+      "sha256": "7826c7f21f2dfdb8b96d018af651873ac9647d2461eac0a72c86132aee220357",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-16-negative-test-bt-102.xml"
+    },
+    {
+      "bytes": 10398,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-16-negative-test-bt-151.xml",
+      "selection_rank": "79c5047af2dab56adc2286317c230f01a45eb10b4b52f66af21f7413fb0e8fe1",
+      "sha256": "952bfb3f6e690d6cb2dcd077667570fd2f940b1e5bb7a0933f4246824507474c",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-16-negative-test-bt-151.xml"
+    },
+    {
+      "bytes": 10999,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-16-negative-test-bt-95.xml",
+      "selection_rank": "57b800b1da5a7f11fdde2d61a9fc428fdc76934a89e5f99a5d7bcb5a3c64d53f",
+      "sha256": "ea4d5318f228dda873934bb0763680971e1098e935e83f4baaa13322d79818db",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-16-negative-test-bt-95.xml"
+    },
+    {
+      "bytes": 11367,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-16-test-bt-102.xml",
+      "selection_rank": "c65fb207e946434764f7fa47c704a5743bd7692e9dcb932ddf7cbdeeaa6f4ea2",
+      "sha256": "74761c77e6cf0c9518dbaaaf34ebe5cef526d879ad5e8339553d72fdefd5d579",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-16-test-bt-102.xml"
+    },
+    {
+      "bytes": 11201,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-16-test-bt-151.xml",
+      "selection_rank": "696255ef51dac50fbeadef3b4eb4722a032ef4b755a80f78ee553cfb803e9c8e",
+      "sha256": "9a636cffb53a96806092ea07a8648c11ed36d6b94cefa782414798da56cecbeb",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-16-test-bt-151.xml"
+    },
+    {
+      "bytes": 10939,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-16-test-bt-95.xml",
+      "selection_rank": "9a5e724a837b6ebec1ceaab254d422c2be6334d4295b7ecdfea31acbda1d999a",
+      "sha256": "9a8a90c95c494e917e7f6c3dcd7f62538d890392f1336759a6973eeba088aa4a",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-16-test-bt-95.xml"
+    },
+    {
+      "bytes": 6286,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-16-test-code-O-2.xml",
+      "selection_rank": "5bfbd783bb6088b2cd49f026f6b7dc0524ca175de4cdf76e872708a6cfab8c87",
+      "sha256": "5a467bb90279b0717e9192bd7dd9f816506c622cbfab644ab62235ddee38c42d",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-16-test-code-O-2.xml"
+    },
+    {
+      "bytes": 6389,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-16-test-code-O.xml",
+      "selection_rank": "7a7192b474ad30f3012071851a06d5d964989cce1f877d7e955b47dec4dfecc2",
+      "sha256": "e28dc424be3bd6cd9c025cd6de1a6c16685432951184116b5cfdc17b5997a00c",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-16-test-code-O.xml"
+    },
+    {
+      "bytes": 11129,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-17-test.xml",
+      "selection_rank": "9c3c4714c1fbeb22687b9d9bcc5885fabe3d8763796a913bad7576af6435952a",
+      "sha256": "0c687f862dbef1db60d365fb5f1e0a4307fc43b43e82365500d33d089ea8f8ab",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-17-test.xml"
+    },
+    {
+      "bytes": 10929,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-case-sensitive-keyword-2.xml",
+      "selection_rank": "996fff24d687a79a96cf268b5bd0597090b545fce2b5099ce151ffe7c7547070",
+      "sha256": "fb5adbd99ee0091d8008392755e0c63162c83a5b4938d1e029b9d43c5e60d64d",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-case-sensitive-keyword-2.xml"
+    },
+    {
+      "bytes": 10931,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-case-sensitive-keyword-3.xml",
+      "selection_rank": "df321c3ad4098e871e1fb0aa9a532dd694c40bca6e377c74af235ede3b42c9cf",
+      "sha256": "2e3d1ebb3161cc5215f342e85bf93a7e5d7b21661620f3935b11e137d8947260",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-case-sensitive-keyword-3.xml"
+    },
+    {
+      "bytes": 10923,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-case-sensitive-keyword.xml",
+      "selection_rank": "2882cc02f08db34db6f05d63ef42229910bc5d3a883bb815f2c4eeca9ef6bb14",
+      "sha256": "a1e80a846eef87c675091ca9f1629f99a1b3cb26b8d4984f3ae2733c6435f5f6",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-case-sensitive-keyword.xml"
+    },
+    {
+      "bytes": 11060,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-freespace-test.xml",
+      "selection_rank": "c171ba5968d49faecd68731d84b8d0667806fac604f68bafe853c035eabfc900",
+      "sha256": "39be3a558d56f36ef18ebda9ce79f407dba53c462e8b2fba03a0079a3ea692cc",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-freespace-test.xml"
+    },
+    {
+      "bytes": 10844,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-no-newline-2.xml",
+      "selection_rank": "a52c67ee0968f910f14ec343b3a61829e82bfe40efc0286d5f6db4a3ce7b9b5d",
+      "sha256": "308d6930bbf4ecdf3464d175027ab6358ca4112bb6807f9ca5c56b307c7ce6ac",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-no-newline-2.xml"
+    },
+    {
+      "bytes": 10901,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-no-newline.xml",
+      "selection_rank": "c37101d1b0561c96dd1f31cab3778c545e80312e201c31db2d3a46ce350c9a0e",
+      "sha256": "d963a2204edf0e9986c99406a1d80b7dc00c959afc046a1ab12dad51c27b6ff5",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-no-newline.xml"
+    },
+    {
+      "bytes": 10914,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-test-incorrect-verzug.xml",
+      "selection_rank": "1bcb2dba72427064e9a63240d25c4e2278239bee3ec5e4793d201deb9eff34fe",
+      "sha256": "4b1f65e9a3ef890d90ea5bbe06a83a1073cad5cd98ac5a480a93db3087796af3",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-test-incorrect-verzug.xml"
+    },
+    {
+      "bytes": 10999,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-test-no-newline-last-note.xml",
+      "selection_rank": "07dd65c4b366e298fbc0445818b1bb504334d79ed7df6a53f42caff75b93118c",
+      "sha256": "d12fa48b46763abf1f98ba6c689d455f06977a276956c4b2544a66b9c8ced200",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-test-no-newline-last-note.xml"
+    },
+    {
+      "bytes": 10927,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-test.xml",
+      "selection_rank": "5286f21303d2f433255fa42185ca31ea5ae02e823b0c4a8dd659d76584d32c51",
+      "sha256": "2ba290359e50162fda2bc7315bb7c0bbcb0715ff4124a0972da7ce2d88a74f4d",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-test.xml"
+    },
+    {
+      "bytes": 10919,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-text-after-end-2.xml",
+      "selection_rank": "04056a17904967c473bb2d3694eb373d9d2e82940149005dc4b0d061e4ff5023",
+      "sha256": "18ca965f851c3eb7722d3da877e4fbbe0cf0964da06043758b720bf3db38184a",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-text-after-end-2.xml"
+    },
+    {
+      "bytes": 10914,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-text-after-end.xml",
+      "selection_rank": "a89f0cd64148600268367130d53a7e3cd27234c8920acbba0cd5bd2bcd96c3ac",
+      "sha256": "14f94e9c0daade7718c93861ba10b11691924f83dbb1c30fe13fc6cc2397cee3",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-text-after-end.xml"
+    },
+    {
+      "bytes": 10954,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-too-much-digits-after-dot-2.xml",
+      "selection_rank": "766650c0161253457824e5c62696f97b4eccbbd597d1c1a00c4af1174a527c6f",
+      "sha256": "e9f571a8b49f8e3a599b6d03c23dd8c263d274fa85170f06d03e61577238afe0",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-too-much-digits-after-dot-2.xml"
+    },
+    {
+      "bytes": 10928,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-too-much-digits-after-dot.xml",
+      "selection_rank": "0a1504eeab86e7139131306c2a3fff6faaa34758557f36f5f015c790f37664bb",
+      "sha256": "5340c03399a08e92b0635e6989947c2f333636368a9bfa3851248f35bf5f5da3",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-too-much-digits-after-dot.xml"
+    },
+    {
+      "bytes": 10959,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-wrong-numeric-seperator.xml",
+      "selection_rank": "0ae8c86dbd023db136630ab0b0e1dcfbac6a055770a736616cf4bebcf9793454",
+      "sha256": "35db4356052f86452b630ac9be061ab8447437539a4fca32743958d1b6f267a2",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-wrong-numeric-seperator.xml"
+    },
+    {
+      "bytes": 10954,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-wrong-skonto-basisbetrag-test.xml",
+      "selection_rank": "d3851eae2d5a332cf20e6244bbc7bf606e38c8b9b74d3b63a106cb827a687d6f",
+      "sha256": "f798353b2e7aed36d4494acc29deaf136ef8a88d7bac69c73afe53c8fb4ca099",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-wrong-skonto-basisbetrag-test.xml"
+    },
+    {
+      "bytes": 10951,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-wrong-whitespace-2.xml",
+      "selection_rank": "455d84fcc3d9cdc9bac042e806c8fa40fd26ab66da657f0bfadb5631e012f066",
+      "sha256": "c9d7cfd92c0dc625d1ee3aedd3c0a0cd1e82af43e89c367ba5193dbb68ed005f",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-wrong-whitespace-2.xml"
+    },
+    {
+      "bytes": 10951,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-wrong-whitespace-3.xml",
+      "selection_rank": "8973b843231848a5828c9229b25d53fce2486a1289daa94b98a7d97b5de370dc",
+      "sha256": "b3c34ba966eace3719af4da6a749f905ebacf3a56df4d6ac2045fb7bbf2fe66a",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-wrong-whitespace-3.xml"
+    },
+    {
+      "bytes": 10951,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-18-wrong-whitespace.xml",
+      "selection_rank": "017572b880335febe6fcc47b5ed716cfda2c933a1c1341d2dd1ed7c43b7a4610",
+      "sha256": "1426854fed77c51d5e8ee95962da9ce32e2e471fc2b179912d31d6f4d7498123",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-18-wrong-whitespace.xml"
+    },
+    {
+      "bytes": 11020,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-2-test.xml",
+      "selection_rank": "678a5956075cba00ba155196259777d5e3a892c48af79b97ac757124cb0cb339",
+      "sha256": "b28ebe6344c4f7b6844006c0587f365d6dc8f20d3281f7998ad208f1cdc44453",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-2-test.xml"
+    },
+    {
+      "bytes": 10191,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-23-test-bg-17-with-bg-19.xml",
+      "selection_rank": "d3f1964932ed6e724d2a178de003c0e856d22e9c8a8ea8e7653c9eca89cc91c6",
+      "sha256": "3d41b3163ff9a8f27aa5820456930fe4862cc24e7b60b510a035650098e71ce8",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-23-test-bg-17-with-bg-19.xml"
+    },
+    {
+      "bytes": 10260,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-23-test-bg-17.xml",
+      "selection_rank": "180bcffbcfb4a4dbc57a42e3d9b22bc95f7eab290bf506d860997b204e1f9527",
+      "sha256": "786c6adc7b123977905a606f3b0c045fc5433c518cdd22544e6a1199b359f05e",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-23-test-bg-17.xml"
+    },
+    {
+      "bytes": 10080,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-24-test-bg-18-with-bg-17.xml",
+      "selection_rank": "cdeed11cba9a73781a011a350751954969e4aae681eff96653fd687972b24f3e",
+      "sha256": "29114594b7b134e9d592e17765c6945317f24cb9754f5dbb435c77a02cf8cf89",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-24-test-bg-18-with-bg-17.xml"
+    },
+    {
+      "bytes": 10241,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-24-test-bg-18-with-bg-19.xml",
+      "selection_rank": "c33b6e8031f185ce8d5c2c43a724d2a4c7cfdd63d6763173f979a9e8c1bea44e",
+      "sha256": "923a775c7997405394ea92e0ececf9c46824abd6e92add763d78cb41e8550cdc",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-24-test-bg-18-with-bg-19.xml"
+    },
+    {
+      "bytes": 10331,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-24-test-bg-18.xml",
+      "selection_rank": "a73473c23f0cb57c4f732e6a2c391e0e1785cb55053bb10e80d5ac239b63cf3d",
+      "sha256": "bea704615682ebb9f7aed47d57fe072984c54ba9cc53e0e72029faa1e6e70a84",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-24-test-bg-18.xml"
+    },
+    {
+      "bytes": 10206,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-25-test-bg-19-with-bg-17.xml",
+      "selection_rank": "c538660a8a4983fda6985bb92266f778adbfa7f09ebfc6d83ccbbe484efc9209",
+      "sha256": "c91ec40a511c93e9a054bec01ebcce01141b19c3017c7b71731d1422bbf62d76",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-25-test-bg-19-with-bg-17.xml"
+    },
+    {
+      "bytes": 10239,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-25-test-bg-19-with-bg-18.xml",
+      "selection_rank": "515bc35b1cb29f03a4230850399d94203359d0f5f0faf792a4cef08bc60002ef",
+      "sha256": "50b7ee4ff787908648b89dfe7bcffd560ec0b080c88b9ae7fa47c04126ef2a81",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-25-test-bg-19-with-bg-18.xml"
+    },
+    {
+      "bytes": 10297,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-25-test-bg-19.xml",
+      "selection_rank": "2663b6ee901b332966abb5bfb6f934e733ace464aa64aaec10b6da547020a427",
+      "sha256": "ff49175265ca87bb96ec8d47b2129bfcc732b618d3e60d1dd1954e35a559f903",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-25-test-bg-19.xml"
+    },
+    {
+      "bytes": 11242,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-26-test.xml",
+      "selection_rank": "e399f402d84f75f6305868b50fc993345894aa8d45bf90075f04a76df37509ef",
+      "sha256": "b3ad25e2113f3dc1b794d8a2d1ae1c7071dff0b4397097d5012c6585179e22c6",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-26-test.xml"
+    },
+    {
+      "bytes": 11489,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-27-test.xml",
+      "selection_rank": "565c1953c258acd7d6ade2411e3f8e5aa373d0e5c8325bb9bb297b5fb2be6ba3",
+      "sha256": "f1e70a8f756c5d757b7b6f42ca5df88927953a16150e410d68884ac7291cec21",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-27-test.xml"
+    },
+    {
+      "bytes": 11996,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-28-test.xml",
+      "selection_rank": "409ac596c6826dbd69e53d6dff60a747dea9a1b14a15f8712e2e002ff2dfe465",
+      "sha256": "1ad2066586ca009adb27085504d491e497eac6a0006b8053208c9927483ebb7f",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-28-test.xml"
+    },
+    {
+      "bytes": 11023,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-3-test.xml",
+      "selection_rank": "c62af43ba135f7f5a34fc634edd98e5a867cd78f66848132648f15cbdda5cc3c",
+      "sha256": "d8bf93fbb556bd96210cc2cbbb8ad10bcd484234f88e776f19222e62cea023e5",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-3-test.xml"
+    },
+    {
+      "bytes": 10857,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-30-31-test.xml",
+      "selection_rank": "8c8a698363f0b4d6884e112af9fb2f1c69a561283f3d827508e4b92e1e25d887",
+      "sha256": "11b6c0032a0db8076e9c2839ad8e4f399dfb92f57579b11d16f9a7eb01db8058",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-30-31-test.xml"
+    },
+    {
+      "bytes": 11026,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-4-test.xml",
+      "selection_rank": "26c2d1dc86a7f3828af5b7b501cc080fe35f338f1a45cbcd800f52f652e2a463",
+      "sha256": "08706370e1dedfef3837960957c9fe01c7c49503527ad6b7c52a8631f4f8a7dc",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-4-test.xml"
+    },
+    {
+      "bytes": 11025,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-5-test.xml",
+      "selection_rank": "3ab1ee161c3e858d407b0b39aaf880c6ffb9a64aeced4ef9d3a3c421a4530c10",
+      "sha256": "2b4e5ce2f383dc7d7f0548344ef7ee410e8e0244c3a28efc3f8ae949e0613669",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-5-test.xml"
+    },
+    {
+      "bytes": 11049,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-6-test.xml",
+      "selection_rank": "37a552f64782e5560e80c672084fde8d51aa077cca89ee0a5d0e371d53f2caed",
+      "sha256": "6efdd5d1b3ac07327c743b5d6109f9ebf71f60105c2c4111038e823ec3e7bf0d",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-6-test.xml"
+    },
+    {
+      "bytes": 11057,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-7-test.xml",
+      "selection_rank": "dce689e317a9e1fb2f812eb6ffacd28eb24f15a22528c8dcb24db88f7e187459",
+      "sha256": "0d4826f8b01d2afc69574aed07f18bebba30f3de99f28e65a26e87a890e15866",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-7-test.xml"
+    },
+    {
+      "bytes": 11066,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-8-test.xml",
+      "selection_rank": "c92471bfddcbeae113ed17d0a76c07286a1384a83a16dd99f2ef1e0fe2955a9c",
+      "sha256": "3a06e4d882188aff9d689d7110d10819f6a2609307912c58d9c8a79d71eb6fe2",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-8-test.xml"
+    },
+    {
+      "bytes": 11072,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-9-test.xml",
+      "selection_rank": "371f7bf47f9d72909d7dceed59aff3cf17a2d1a6c67c93ce3e773a4fef67ff36",
+      "sha256": "bce2b24c0a814ecd5fa5e0a277002551867784b76a17bd70398eb0872f745974",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-9-test.xml"
+    },
+    {
+      "bytes": 10779,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-cvd-01-test.xml",
+      "selection_rank": "1a03facedfd52bff969b7055bbffc83e6291a90d82c78996553c1efd3a453a48",
+      "sha256": "d04ab741e509abbe18660cc918a3cc65d538a0b44b1908c7cb2d573b211d87a6",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-cvd-01-test.xml"
+    },
+    {
+      "bytes": 10607,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-cvd-02-test.xml",
+      "selection_rank": "3799f43f39895714b8b7b61421891aff910fa60c7f6534b50ed5ef4786981713",
+      "sha256": "a102ac798ae073312922018c0b50ef85349cfad3b473360754b8cba137aa58ba",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-cvd-02-test.xml"
+    },
+    {
+      "bytes": 10146,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-tmp-32-bg-14-test.xml",
+      "selection_rank": "8add668e91efd9de827054900ee46484e564a35e36828998b1b1a229a0dde204",
+      "sha256": "b74f2ec73562fa2d00942912a221144ee4d39f8749ef8a1bea2adb8fff056f30",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-tmp-32-bg-14-test.xml"
+    },
+    {
+      "bytes": 10739,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-de-tmp-32-bt-72-test.xml",
+      "selection_rank": "20316e62a5f4ab43b4c071abc8f0250cc307ac87faa561d1a83b8db539f131d0",
+      "sha256": "898fe800741ee2809fd973184fe33261181398f8959dd0546ea667fbffa5dde8",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-de-tmp-32-bt-72-test.xml"
+    },
+    {
+      "bytes": 11479,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-tmp-2-test.xml",
+      "selection_rank": "c771495dc0201052816c3db85eea185f7037564e06d093bb9a7002fe5368fdbd",
+      "sha256": "0b515b27b6ff7b0ffd9a29ee66f3d1ea3c660dadaacabdd926b4405cc799d3f7",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-tmp-2-test.xml"
+    },
+    {
+      "bytes": 8057,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-br-tmp-6-test.xml",
+      "selection_rank": "5c51a397781aa76564f97db207fd41b833845820ba49810feed59479c1ac53d4",
+      "sha256": "1cb1c7915cd444bbb4eb2c90cbe3cea0bf795220bfe88de5c5f2a9e26acef8d6",
+      "source_path": "test/instances/ubl-cn/ubl-cn-br-tmp-6-test.xml"
+    },
+    {
+      "bytes": 10490,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r005.xml",
+      "selection_rank": "bc014c95268a3e020737b56e5464ca5c095a40a1ce9432032356472fcc40b085",
+      "sha256": "47b249a208e5187f3909b7541963155046368aa69045e2f4407e68f8fcc72457",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r005.xml"
+    },
+    {
+      "bytes": 11577,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r008.xml",
+      "selection_rank": "831da3c0e796d8110cdbb357d5b19c5da9e89741350fd9d47ce8e4dd86ede88e",
+      "sha256": "8ed9f9ae48796d50870dccba3ace63b616c539fe2ab18a8fc74a13e1cacdeed9",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r008.xml"
+    },
+    {
+      "bytes": 10257,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r010.xml",
+      "selection_rank": "2a14801dc0c4a69f20479da36abaf937fb065ee75a2be15afcb1fdd5c79d1b66",
+      "sha256": "7ab90de1136754a82ca4850584e98c1546d55cb88a0508a40309ea28f7d2da67",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r010.xml"
+    },
+    {
+      "bytes": 11660,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r020.xml",
+      "selection_rank": "0ed9bc681d95d221eb37eb3db51a08a63b4a7719e9f1d6a992f14a4ffa830ba1",
+      "sha256": "c7e51e752877dcc5faca4c4b3082a1c32a472f18d0dd897aa2242e5448af72d0",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r020.xml"
+    },
+    {
+      "bytes": 12563,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r040-allowance.xml",
+      "selection_rank": "8102a358aa5845f9f014b60f5ecce94e2b39f9f0c3e1cdd3a496b6f66f70b5b4",
+      "sha256": "2da2ad968030e2ad31314ebfdd397497eb2506437bdfdda9ff63bb8ff92f992b",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r040-allowance.xml"
+    },
+    {
+      "bytes": 12180,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r040-charge.xml",
+      "selection_rank": "40f15d2acaece4ac4c88510af2983ccb7ee34dd6e70aa8470330bbfbab8908ad",
+      "sha256": "aaa26e2011e99eb26425e4621fd37abd86631bca94cf80ffa61f8fdf608a1755",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r040-charge.xml"
+    },
+    {
+      "bytes": 17751,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r040-r120-HUF-slack.xml",
+      "selection_rank": "0e71ef3df9e71f2e06039eed85e526767a44fa37682ca73651bfac99b3a4acff",
+      "sha256": "fc19f92983c52e63a33ea4bf82d1158406b289074086df45752f7f7595e55275",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r040-r120-HUF-slack.xml"
+    },
+    {
+      "bytes": 11913,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r040.xml",
+      "selection_rank": "9aa9f2246799e9ca40016d31993f22810f85abc74359f59de434f17606ba3976",
+      "sha256": "7a73bb11d6eb6a0ae49e69cd47c8a1c115fcabc9ff90bae87c8451eccd5c755b",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r040.xml"
+    },
+    {
+      "bytes": 11899,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r043.xml",
+      "selection_rank": "572f58b9ad52934c10f0ac813adb5acb5d38a8ee13fee0fbcff79f6c5f9f70fb",
+      "sha256": "56acfc7976213f359d89a60abfd35be56cd611732af2171622261e8eab2dd147",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r043.xml"
+    },
+    {
+      "bytes": 10716,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r044.xml",
+      "selection_rank": "e67e86e28f4f51d6cb6d40b3caae9fafda554df96bc2e5272fc07843b1fee059",
+      "sha256": "9e7b2cbf58c8b45608d2d21f252329841c74a260155ca2afd160d81e87adeb01",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r044.xml"
+    },
+    {
+      "bytes": 12497,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r046-1.xml",
+      "selection_rank": "24d4ed6058409a2b36595128ebb6f957b3dab4135207c495c20ac4716eee8ced",
+      "sha256": "ec35a555d3516207c0b20f3e00a5f3fc34b0621d757601ba2f670fc5e1bc98ac",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r046-1.xml"
+    },
+    {
+      "bytes": 6763,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r053-1.xml",
+      "selection_rank": "97ebfda70184e675ebb041b12fabc29eb8084b42668fd5da71f561f23877b838",
+      "sha256": "010f2b74584bb1b231aa7ec98ea1885a0241732b99bdf0ff78b77e5c68febfde",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r053-1.xml"
+    },
+    {
+      "bytes": 7319,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r053-2.xml",
+      "selection_rank": "25a0ddd4edb5443e48ac19f06dd399fb3185fd1f1df4c042fc6d57cee7efbae4",
+      "sha256": "527185d5588119d47479af3c68f7e1ba0d85b838be6d27491fb249b7725c7812",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r053-2.xml"
+    },
+    {
+      "bytes": 6561,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r054-1.xml",
+      "selection_rank": "c9e1c980f2c3cba38cecd156883652b2ca4441e1195382c63ccdaa35dbc9e4be",
+      "sha256": "8b471f0f29a8d683f3f90a20abef7333864a63b9f2d1e098e26a99bc83e4efc5",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r054-1.xml"
+    },
+    {
+      "bytes": 6690,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r054-2.xml",
+      "selection_rank": "b6cc16d4647849b9cfb69a3caae6d993f522dd37095b028f05824d65257122d6",
+      "sha256": "eb916f3874b166db66d5dddd40fe310bbc00dc6b7f768d85ea1cce1107d89483",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r054-2.xml"
+    },
+    {
+      "bytes": 11596,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r055-1.xml",
+      "selection_rank": "47d4d27a2aba33968985c973f796b427584370cd61879075dbf8d24fe75d41bd",
+      "sha256": "c38983b98a88c18bd4a6347736931c9ae31d50add9406472ab1f927bb0932ba2",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r055-1.xml"
+    },
+    {
+      "bytes": 11608,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r055-2.xml",
+      "selection_rank": "5148d7e8935f52c59aa9315b0036c8fe2a0f087055c4f7928d77db9019afc908",
+      "sha256": "0b30ed484aceea3498244a928f9fbbf810dd85295cdd2ce5ec6d2a0ad282c017",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r055-2.xml"
+    },
+    {
+      "bytes": 10311,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r055-without-bt-6.xml",
+      "selection_rank": "e120981c776836407b3c148ee2659c80751c9f2e9ef8795a06f866feab566c34",
+      "sha256": "05232e1c17d3c8b4214981b1cf1d27a8aa627af6672fcefa9531a3c675b82b5d",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r055-without-bt-6.xml"
+    },
+    {
+      "bytes": 10420,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r061-1.xml",
+      "selection_rank": "63445a335b145ac563cdc20f4b2307719fc7065400d49d0ac867c6c60614708b",
+      "sha256": "59f86254b81c274102781a59bc56852faef205be280c9a82d4b6b61e6bd232dc",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r061-1.xml"
+    },
+    {
+      "bytes": 10030,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r061-2.xml",
+      "selection_rank": "3650006d71c335f988a2ef1fb44334645e78e24db22f6c9763ccc517b5007e25",
+      "sha256": "e2f5561df1ee97c63c5f4313aee7d68f52ebca2d94ede90d0a415bc24bc37ab8",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r061-2.xml"
+    },
+    {
+      "bytes": 10774,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r101.xml",
+      "selection_rank": "207625c3a396c5e967eba5c50c00991a984c5fc6ff9cadceb85d19e8dbc7576c",
+      "sha256": "6bf411432e48f7f339d83f2cf87259b814ab3e7bb9b75a19aea5b40eaff5dc9b",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r101.xml"
+    },
+    {
+      "bytes": 10738,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r110.xml",
+      "selection_rank": "aec03611817935da6fd74a5163c9bb2e6cb49f225855fd4ed6174ab970eed3d6",
+      "sha256": "eb08d0f9c706c1963c9d91fd37b1733d637a5d60f08f6db64b6c37a9639f442c",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r110.xml"
+    },
+    {
+      "bytes": 10597,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r111.xml",
+      "selection_rank": "6676c085c2b6430d31f8f4931686466edcd15acbb896800b991f4ea15b60c5b4",
+      "sha256": "aa89a3946c481f3c0c0f3327131163c4e0ea5b74162ae744bec5bba95fabbb46",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r111.xml"
+    },
+    {
+      "bytes": 12798,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r120.xml",
+      "selection_rank": "20aa52ba35990e1d0ffe5951dd676087698c13412ab42a399a97c8ac66e24c00",
+      "sha256": "63e3f4d66cfa51294daf89cdb9c80edc660181cf6bfd4dd5abdb2dd1a4d8226e",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r120.xml"
+    },
+    {
+      "bytes": 10821,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r121.xml",
+      "selection_rank": "d40e097d0dafa2c8592805190b715c1c2dde20ccd0216f27d026c6ab6498bb17",
+      "sha256": "c27aacd338ff5d500659af6e571a3de6aac288f19e14ab33dcae1ae3d2bdd138",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r121.xml"
+    },
+    {
+      "bytes": 10442,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2}CreditNote",
+      "id": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r130.xml",
+      "selection_rank": "af4e025bad074c0f3fecfb9708a03660dc232411043f19381c3c69ca69004220",
+      "sha256": "0da5b18be424c861eee23a3306940506788c09230c0955b7d3693e1954d8322c",
+      "source_path": "test/instances/ubl-cn/ubl-cn-peppol-en16931-r130.xml"
+    },
+    {
+      "bytes": 11314,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-1-test.xml",
+      "selection_rank": "0e09a2c609ba835835710aa1181d6fea73fa802993821f26e15a8861da947561",
+      "sha256": "c54a3b7c3a2630488fa131d1746029f24abaa2ddef12c0dca201d8d53c900f2c",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-1-test.xml"
+    },
+    {
+      "bytes": 11394,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-10-test.xml",
+      "selection_rank": "1b60ef540eda35d70274aaf31b73428b8b0e4711bfd743ec721a22a97b2d9104",
+      "sha256": "ea21b9629fb4e99e07b0178fb8d68fc738413d1e6ca31f540c4ea4d359d2e43e",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-10-test.xml"
+    },
+    {
+      "bytes": 11402,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-11-test.xml",
+      "selection_rank": "5ded35f5c36d9310f8985dde55ad6e46b2dc26650a580c746ae0fd3d4e562f51",
+      "sha256": "44bf76f5aedd46b5b5864c2af59b549996fe700654340cf43937c872e7d9cb34",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-11-test.xml"
+    },
+    {
+      "bytes": 10948,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-14-test.xml",
+      "selection_rank": "0ad452218d7a8841f91f8459562b5bcb6f30105f0512ace69ba4210391fe598b",
+      "sha256": "bd9f29f7f448bd8d32a26c3caea067224263bc391cbbe68f53a2f8dd312e7f6f",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-14-test.xml"
+    },
+    {
+      "bytes": 10901,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-15-test.xml",
+      "selection_rank": "57adc74a1c0cdf7238be71e72028b5a36b018447064b5d32a300ac3e859712ad",
+      "sha256": "7009647ed76520a2060bd11c312718a9df2a3e52750bc71f3dff8f46284d1087",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-15-test.xml"
+    },
+    {
+      "bytes": 6678,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-16-negative-test-bt-151.xml",
+      "selection_rank": "1acda1a492b0dd95ad4885938c6b6c6ad63e912d08be00de226f0e82c248b9ad",
+      "sha256": "683c6aff9df35e521085057eab73b187bcf7d5b582f0a3aa011096af6efdf8ad",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-16-negative-test-bt-151.xml"
+    },
+    {
+      "bytes": 11303,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-16-negative-test-bt-95.xml",
+      "selection_rank": "4034d2ccb068ad3c3f1af70c3f661e75e3f8aa5f44e991d82dc04c95391dd7ce",
+      "sha256": "5c541f618052df5977f0b6424acb4f6067c32c3f999e979d686004799100fc21",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-16-negative-test-bt-95.xml"
+    },
+    {
+      "bytes": 6376,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-16-test-bt-151.xml",
+      "selection_rank": "8f00464eb68a8d2199bd55504574700e8008165620f424dd268a58365a108a76",
+      "sha256": "8ceb00668f816da92d71334f8c2de8f1c6ba7ae1a3872f8f5ef2b8a014f9c094",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-16-test-bt-151.xml"
+    },
+    {
+      "bytes": 11202,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-16-test-bt-95.xml",
+      "selection_rank": "61796d394e55d269ca40e81e4db40636bc23549791e9f0855d78dc517478b026",
+      "sha256": "4cb5ab1b62ce6950f67ce9b41646b0b5f969e7ea3f52d8e7587c21819835cc7c",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-16-test-bt-95.xml"
+    },
+    {
+      "bytes": 6284,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-16-test-code-O-2.xml",
+      "selection_rank": "819ed0a4d455238260ac31c63901dc80779422e5cd4ddebc266af7fa712ce3af",
+      "sha256": "9b2051fc31727fdc7abc10f5121b6c6cfda13fa7e131d7ea5f15607bab8e4ba5",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-16-test-code-O-2.xml"
+    },
+    {
+      "bytes": 7310,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-case-sensitive-keyword-2.xml",
+      "selection_rank": "a1ca4b708b2d3b75776acf0610b2ce55697f97281ad69b8878f88374cb8de6a2",
+      "sha256": "d2ef5332281c8ffe5440a21eab40f34e5c4df8f36d9aa97740daa677c3d0c5d3",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-case-sensitive-keyword-2.xml"
+    },
+    {
+      "bytes": 7310,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-case-sensitive-keyword-3.xml",
+      "selection_rank": "84764044220f6023a05e8df4220648a6c6d2999d93013a979f44ec5dbca32882",
+      "sha256": "e48e8c0222244d6b2735d9fd1da2aa358a7eb4675bda5935c782e65b11899279",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-case-sensitive-keyword-3.xml"
+    },
+    {
+      "bytes": 7412,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-skonto-many-tests.xml",
+      "selection_rank": "32e37935aa4cd69dec90dea51f6516e6d2ba3778e8f27999c94548d90efaec20",
+      "sha256": "d1e6b5933e8a2fad4222c3e2d4ac54ff08b1ecc961a35bd8244059b329624336",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-skonto-many-tests.xml"
+    },
+    {
+      "bytes": 7301,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-test-incorrect-verzug.xml",
+      "selection_rank": "7b5de36c99c1e407ce9772100a04e92000d1f427ab696467a887c181c3d118a8",
+      "sha256": "a9176aa01f2111e803893b288b4b8b838a58de1978036db58ecccc7eed89139d",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-test-incorrect-verzug.xml"
+    },
+    {
+      "bytes": 6716,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-test-no-newline-last-note.xml",
+      "selection_rank": "5303f879f6f0b5cf9fbc04fac6e4daeb05f9bbba95d287da149660b0eb342d1d",
+      "sha256": "8562e729bba0d0145f406666deb9a1910d81801aebf96e3d268cb213061a8885",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-test-no-newline-last-note.xml"
+    },
+    {
+      "bytes": 6671,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-test-no-newline.xml",
+      "selection_rank": "2d0e7befe853e868a3701a6405c90322194f6dd8991bdb1659d0a68dd99d097e",
+      "sha256": "135cbc2aa7b50a64d09f5d032d36fe02ace5f1ed3efd68e1ae28ffcbd441073c",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-test-no-newline.xml"
+    },
+    {
+      "bytes": 7318,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-too-much-digits-after-dot-2.xml",
+      "selection_rank": "6c7bf31622cdac71c7bfd7ce5b84fbffc5a8c48dbf561446eb7139a31056acbe",
+      "sha256": "55ebb2103c23adad16bdd24110f103407a2ca7f3f54838e0eee5b60063706cbf",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-too-much-digits-after-dot-2.xml"
+    },
+    {
+      "bytes": 7316,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-too-much-digits-after-dot.xml",
+      "selection_rank": "48fd99ff0f0fb2239bda4926567b466ebda64a30dad023602f1f40351d162255",
+      "sha256": "211b970fa10a5447010e6e6c006cf9e5a8bc146da1305ab06d62d8e787ecc1ac",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-too-much-digits-after-dot.xml"
+    },
+    {
+      "bytes": 7295,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-wrong-numeric-seperator-2.xml",
+      "selection_rank": "271adb8ee11a83c4a9651e501127bcf54a02b0db1b2441626133e3642a3f7fbe",
+      "sha256": "0c0ad6a41f3640a4d06f2c0292b91ad33e127d6e1c6175b04a5d9535cf9285f0",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-wrong-numeric-seperator-2.xml"
+    },
+    {
+      "bytes": 7311,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-wrong-numeric-seperator.xml",
+      "selection_rank": "68e2d4f75fffa8f026f6945d827f0e557884162fd2befdd9116f7e6142444133",
+      "sha256": "1662b559f4663739d6d2dbd2b5b67100a3c224382b4f0dbd5daa0ad79f0f6b53",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-wrong-numeric-seperator.xml"
+    },
+    {
+      "bytes": 7282,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-18-wrong-whitespace-3.xml",
+      "selection_rank": "81576667c2a390a4f39554c7b49dc7ba692bce0446a0d6f7543af5f54b529254",
+      "sha256": "9a29db4e8b96c9cbf369778b68885449c522e6a883330a3431b40fd11458d9ab",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-18-wrong-whitespace-3.xml"
+    },
+    {
+      "bytes": 6203,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-19-iban-tests.xml",
+      "selection_rank": "49f136347aec33bbb1748cde66644b270aa7c06787dad7d8e9540db0261842dc",
+      "sha256": "e8350d3bb50a55b7b084dbd0ffd11f2e8b33f1406b20bccbe3c6d3b924e76db1",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-19-iban-tests.xml"
+    },
+    {
+      "bytes": 11298,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-2-test.xml",
+      "selection_rank": "697b07d4c94d649e5811c1423cadb8f3dc7f097ff65f7a8b0f94c3b8c98f36d6",
+      "sha256": "8f09f392f641ac5406e94f94c2f5c86e0ea81ba851fd9238c04958a43eca6988",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-2-test.xml"
+    },
+    {
+      "bytes": 13033,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-22-check-unique-file-name-test.xml",
+      "selection_rank": "a022a2311a0ea0d382180d87deed689862cc5192297f7fb712b55e2b3c298f7c",
+      "sha256": "e11e2750b881ee7750b81ff6e6c727a39427a9806777a0b4930a633fc787838b",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-22-check-unique-file-name-test.xml"
+    },
+    {
+      "bytes": 7201,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-23-test-bg-17-with-bg-19.xml",
+      "selection_rank": "398184fc3dad9103b4e9b252965edaa630f44db8331fd8e974ff14dce8f4fed1",
+      "sha256": "d9028c4d00831b0d2626fdbc42806c3811f650b09970bfc092675bd99a1f5bea",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-23-test-bg-17-with-bg-19.xml"
+    },
+    {
+      "bytes": 7060,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-24-test-bg-18-with-bg-17.xml",
+      "selection_rank": "37887d3066661525389b3732beb1a6fa489d6fff486f32283d1f1fae11e7fae7",
+      "sha256": "5bfcbb54efdf25d19ddbdb5ba020fc499eb8ab430f49d42efbc2e21a44083fed",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-24-test-bg-18-with-bg-17.xml"
+    },
+    {
+      "bytes": 7240,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-24-test-bg-18-with-bg-19.xml",
+      "selection_rank": "0e9bf457f6f3527c2e6aa8607dbc1a3a67337177d2b7fc9582a6d897cb4a9ac2",
+      "sha256": "0414d629aaa556c2b9eeeb780490310a8a401d32e03a93640f90df9d04005826",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-24-test-bg-18-with-bg-19.xml"
+    },
+    {
+      "bytes": 7311,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-24-test-bg-18.xml",
+      "selection_rank": "457a90f438d27cc46812b128b483bfd838bff0e4970f2f85c07ac63ef0e2cd7a",
+      "sha256": "6b0a3e4a342cd6d83c9149d1a8e1e7f8b247f68b75eca2585c846b127159b0bf",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-24-test-bg-18.xml"
+    },
+    {
+      "bytes": 7233,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-25-test-bg-19-with-bg-18.xml",
+      "selection_rank": "67e46d58def77a0acecc29ef1b6b2da4c10d8292eb0125ed9ab8fb9da1abca06",
+      "sha256": "284e9853944a425594992b3f0c9f0c3086284f8a0db13ec971e307ed61bf6f33",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-25-test-bg-19-with-bg-18.xml"
+    },
+    {
+      "bytes": 8738,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-26-test.xml",
+      "selection_rank": "462b1655883cc5363c1858508fbf13b1b31db22ea7662f788981dea83f6967d6",
+      "sha256": "d1d36b4265eac5dea44043e0550775c1303f77189fb14dc7f5714dac19944f80",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-26-test.xml"
+    },
+    {
+      "bytes": 12212,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-27-test.xml",
+      "selection_rank": "40b6f81f47147a83dca5164ffe84569d32be96c5d28846b4bdab700abae3fa64",
+      "sha256": "b8c7e505cd299042d29b7d44923fffba8fa37286f92433ad45ff9813668b6b46",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-27-test.xml"
+    },
+    {
+      "bytes": 218275,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-30-31-test.xml",
+      "selection_rank": "8a5d753660e5c8cd617916325738db6d035152c2e47f8cd19e1a746ac93dc9de",
+      "sha256": "98fa53dbee38918822cac864df9828209e76bf71711aced343fc4093ca27cd87",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-30-31-test.xml"
+    },
+    {
+      "bytes": 11316,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-4-test.xml",
+      "selection_rank": "42ffe5caa3d3c8f821b04ed844404be8b6a58ddd8a894e8c6877d1eac8056f6e",
+      "sha256": "4c97ea12b1211012c5d847a88a57952b58285e87aafab9e751745a8e35ede2b6",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-4-test.xml"
+    },
+    {
+      "bytes": 11332,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-6-test.xml",
+      "selection_rank": "4dfcb227bd6748074fd6a8ac0462a1164689a2956a76bec083bf014b7f746534",
+      "sha256": "2bdc081a41d9d5b7864f8de346078b06e75e7adb511af488aa4af74c0e8c5e18",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-6-test.xml"
+    },
+    {
+      "bytes": 11346,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-7-test.xml",
+      "selection_rank": "1582bfd8c80036b556de0597a3f5624aadafea4bb07a33b9564ae123c78243a6",
+      "sha256": "25d4e354a70504ee427387eebaf9990d4057a908da09e451d7ed24214b03ed9e",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-7-test.xml"
+    },
+    {
+      "bytes": 12515,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-cvd-01-test.xml",
+      "selection_rank": "4c50366a673dc225484b743cc1253088a61336b27c2a5c7b46235e7d88266d20",
+      "sha256": "c7bb4f02a7564cff714fcbe1358a12b2698f11724df9220dac1ea00583eaa2da",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-cvd-01-test.xml"
+    },
+    {
+      "bytes": 12473,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-cvd-02-test.xml",
+      "selection_rank": "8521d8cfae7d7ea78949532023a5e7cec575524569132cb3bb04a21e16709880",
+      "sha256": "11676843f97620f1dbb4db3f2b022f1e1b08ff3ebf9dbdb996cd2d966c8c8f41",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-cvd-02-test.xml"
+    },
+    {
+      "bytes": 4565,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-tmp-32-bg-14-test.xml",
+      "selection_rank": "8a926042fffd0e03dece5339b6ea1f39a4e6fbf51e7d0a22de8a245f5a1c8905",
+      "sha256": "015be75e21da350ad582c9c151d4ca6724640a74e097306ae5c3a18d0a95dc61",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-tmp-32-bg-14-test.xml"
+    },
+    {
+      "bytes": 4516,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-de-tmp-32-bt-72-test.xml",
+      "selection_rank": "68819df6b55a82f55ec806743bb71e034c5a4d65ee12ed125afb25c40edd8433",
+      "sha256": "65db172153369814839e277baaa92f3e29137cd394f77a9a4a5756b1475e2d73",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-de-tmp-32-bt-72-test.xml"
+    },
+    {
+      "bytes": 13321,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-01-extension_mime_code_test.xml",
+      "selection_rank": "3a88111816ac61f3b064270df4862d73af9d2075e4aadf36ad1fef39ab102671",
+      "sha256": "4f5f420bfff696652cc2ee212b1730a292a17487d8889526f15cdd6ef8a9db41",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-01-extension_mime_code_test.xml"
+    },
+    {
+      "bytes": 11076,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-02-check-0-values.xml",
+      "selection_rank": "75f140a69a8331b59ca6eeb13487c73fa3fb7bed38bd44e98ab0e7b271883218",
+      "sha256": "59f65f570e968ddb5e9403614937dc69444129516a1e566c3ddd8a341cb702bd",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-02-check-0-values.xml"
+    },
+    {
+      "bytes": 14204,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-02-check-correct-sums-sub-invoice-line-2.xml",
+      "selection_rank": "96fa22c26911465e45c1ef1a687381d962f800e4edb8f00eef2747f14b4c1143",
+      "sha256": "931cf25a0c9d9e6afb7673ad8f6f317554c8b219c6f915613e1e0fc90510b370",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-02-check-correct-sums-sub-invoice-line-2.xml"
+    },
+    {
+      "bytes": 6577,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-02-check-correct-sums-sub-invoice-line.xml",
+      "selection_rank": "542697ea87bac748b361b1964280cd04cd20e9c14fd8a32c5ff8305128635f23",
+      "sha256": "c6de61ff222d7bced650c4ce9e81f1d007b406066579684aa1a7e6db8456dd83",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-02-check-correct-sums-sub-invoice-line.xml"
+    },
+    {
+      "bytes": 13235,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-02-some-invoicelines-with-sub.xml",
+      "selection_rank": "78b4e59441e1012f54d50dfbb2ddddd1f8e418197ec9811494e9c69517db7b8e",
+      "sha256": "7257799950265e8d0ea0a28ee236218726c0eed02937fea6f4e72d8a27e92015",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-02-some-invoicelines-with-sub.xml"
+    },
+    {
+      "bytes": 6950,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-04-schemeid-test-2.xml",
+      "selection_rank": "25b6944557c5fa45cad86e3d8a3eb51a1bf4253f13baffd7b23426b80645f819",
+      "sha256": "21a09d3b13d8fa8590ba0cda06e84559818613cc4b40a36f3abf29ca9c2030d7",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-04-schemeid-test-2.xml"
+    },
+    {
+      "bytes": 6964,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-04-schemeid-test-3.xml",
+      "selection_rank": "5c30bedad24cdfdd871f6dc4a7cdbf845151e4055ca2e79c1e4da96260de6304",
+      "sha256": "d1b63cb1f3e6a6a58ff20015c8fad43b94fd3c710c96cae28b703ede38c7c513",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-04-schemeid-test-3.xml"
+    },
+    {
+      "bytes": 7117,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-06-schemeid-test-2.xml",
+      "selection_rank": "4dded3f4d25c96c2874fff52b5abbca5711aae74a14fb54eaaf312d65507cb3c",
+      "sha256": "c91bfc907077b66d7f5f04822efda49be00b7773f6f544f59a2a41604daef4ef",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-06-schemeid-test-2.xml"
+    },
+    {
+      "bytes": 7131,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-06-schemeid-test-4.xml",
+      "selection_rank": "868f4c29a687fc447204c4d040a70016ec8bb720278aef5faa6ccdf8caf47563",
+      "sha256": "0b1ce71488c80c9dcdc0cd1bfffcb87f5f6db742b91813170036275ce5fd3547",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-06-schemeid-test-4.xml"
+    },
+    {
+      "bytes": 7118,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-06-schemeid-test.xml",
+      "selection_rank": "6fff0abf7cadbb3c231005bbd0a69ecb4cc7f0b3b8b51914fd482f2c569c93ea",
+      "sha256": "c226d719211a7f5e388c41f669b9bd0d823e3901de176f6e537c6ee949cf4555",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-06-schemeid-test.xml"
+    },
+    {
+      "bytes": 12510,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-07-schemeid-test-2.xml",
+      "selection_rank": "7f4ed9a9ac3a7b01de592e506f9132541c634fa00869a9fc7ba93920430b0bef",
+      "sha256": "1f20efc91718b927d791f8db8e7d6d7235c9c5015b25528d29cbafba004735dd",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-07-schemeid-test-2.xml"
+    },
+    {
+      "bytes": 12548,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-08-schemeid-test-3.xml",
+      "selection_rank": "104a0d0c98b08224e908c4f85d0bdb4bd2300ba5a4d1a874c46bf155ceaf7b33",
+      "sha256": "e965c37500e65c46399f1526da01fcb551ff6882ead6eb9f9e38bda052138855",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-08-schemeid-test-3.xml"
+    },
+    {
+      "bytes": 12548,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-08-schemeid-test-4.xml",
+      "selection_rank": "0991f5af7d71742b3f9c348b43988603e1380c2c5cb91698208db67378fba180",
+      "sha256": "b0402955df8ad49d3004935d97f969cb54f4187834555b2f0ff30e09884cf59d",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-08-schemeid-test-4.xml"
+    },
+    {
+      "bytes": 12535,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-08-schemeid-test.xml",
+      "selection_rank": "3b4ccee027a55ed0765a86aa0c25fbb2844479517615423fbc43491e3f88dbb8",
+      "sha256": "04f99310fecf5c6980d6a2aea8ac44564c2ac1b15aa01e8c52716a19b681dd8b",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-08-schemeid-test.xml"
+    },
+    {
+      "bytes": 8444,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-09-test-2.xml",
+      "selection_rank": "4fb55e03e6e0a1e218498fc1c7ade79b1d6832a6f7d61030ecb168e7a1969bd5",
+      "sha256": "85f7a6b8d2e409be51be9f1dcc2233e290d4267e581c1ad4c2cbdf64326a6da0",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-09-test-2.xml"
+    },
+    {
+      "bytes": 8463,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-09-test-3.xml",
+      "selection_rank": "7877e70ddc626e77f458fe80266a4f1745aca5690e633059f8d9846279774982",
+      "sha256": "268e69397aecb55b1ae4204e49c44fc2c86098a997e8e74cd0a339b0e813fa00",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-09-test-3.xml"
+    },
+    {
+      "bytes": 8575,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-09-test-4.xml",
+      "selection_rank": "60d13dc8914ff8d9b92a29ce2c2f4e75bd511b49b638891aebf43fd49e085bd5",
+      "sha256": "679307007e815a2d5d9c804a26bb0a4c90d48d7f6946775de7003943f9f92ad7",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-09-test-4.xml"
+    },
+    {
+      "bytes": 8703,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-09-test.xml",
+      "selection_rank": "48450a349798a946fb9cf5584f5c8fc7fa2c54ddb70209d0b4a87746cf1dac5f",
+      "sha256": "f4b8e608eb3c03206323bd84adceafe2e519e22feb6acf8056db8ac281120ce7",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-09-test.xml"
+    },
+    {
+      "bytes": 7889,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-10-11-12-negative-test.xml",
+      "selection_rank": "698e4d448e24b3f3c7bb81b8d13ec9411c7029e9ee87942577991d49d3b5900b",
+      "sha256": "20647aef6f769cdb7af844464dcb9bf5c6e5c6aa321f3d5e07e7f9f637ba8109",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-10-11-12-negative-test.xml"
+    },
+    {
+      "bytes": 7725,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-10-test.xml",
+      "selection_rank": "1ce7d0b92cc392e07080bc5bbf087840f5ed4d109d6c882249fe110004a92734",
+      "sha256": "c55ab72aba6e0d5dbb23aaad326e6eda8bcdc220094ebdc4436067654a733c61",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-10-test.xml"
+    },
+    {
+      "bytes": 7725,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-12-test.xml",
+      "selection_rank": "799bd2ec4a3aaf0283dadc498db703a432e880c020684a87c44dd04ac9e5139f",
+      "sha256": "a514f56d1664c2899cf41e2933e2416ad061deda693a71d171bd4ca0982ded67",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-12-test.xml"
+    },
+    {
+      "bytes": 8011,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-13-test.xml",
+      "selection_rank": "4bc115317142c5108f0bc5e1bde37aac122cf16dfdea8fca7407a47209a55373",
+      "sha256": "730bfa0eaddc17939a6ec092085101b5a523ae8deda74b4dd6ca9d65266a85f5",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-13-test.xml"
+    },
+    {
+      "bytes": 8110,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-dex-14-test.xml",
+      "selection_rank": "60961b825ff87acca72171fc2bb566f947b992c150c40ec51b27dc48113f67d0",
+      "sha256": "1db6a075c142f7d2ada58efae2cf37eb8d92c4b49fd6a0c33774d064fa0b2123",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-dex-14-test.xml"
+    },
+    {
+      "bytes": 19391,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-tmp-2-test.xml",
+      "selection_rank": "5521bdbceb02014ad7184a13054c235c4b141e19167c45b5e7d836db9526ad74",
+      "sha256": "53b283d344e3e3709fdb359f14f12b3935a2c872ae578af2a2fc3b469cfbfc9a",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-tmp-2-test.xml"
+    },
+    {
+      "bytes": 8099,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-br-tmp-6-test.xml",
+      "selection_rank": "2e70b37394e6421953765d7f0496e7b947b0fd204a4ae5988b31bd81ed3943c4",
+      "sha256": "68db08d7de9bdcb9ffd4ea5507a076564e90ea30402365939bf778abd24f87ba",
+      "source_path": "test/instances/ubl-inv/ubl-inv-br-tmp-6-test.xml"
+    },
+    {
+      "bytes": 6211,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-paymentmeans-test.xml",
+      "selection_rank": "936686b9ca45dd2642dca90f06f2a92029c1e8ab83e71aef3556d43a0d79dadc",
+      "sha256": "e4150db87b50cdf0c1156d0c6fac0e4178a28bc5619b464f8302e34a2f9d2145",
+      "source_path": "test/instances/ubl-inv/ubl-inv-paymentmeans-test.xml"
+    },
+    {
+      "bytes": 11153,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r001.xml",
+      "selection_rank": "9870d431a00829b9df74110d2b1350f45ebbe6db5917b2e97aaae01c88fe1f9c",
+      "sha256": "b95ae89f62556d8fa7d134884f3b6ceada6b94978c25ead2fbbba9f2d4273fe7",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r001.xml"
+    },
+    {
+      "bytes": 12432,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r008.xml",
+      "selection_rank": "9cbca87ede0055d7673c43556ff16b5678ed6861a6bc252004209b4e63211811",
+      "sha256": "40295365e447266f0573369346ca161685dcd182fa480ee8515f47b16959ff9f",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r008.xml"
+    },
+    {
+      "bytes": 11119,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r010.xml",
+      "selection_rank": "88e9ccf8ea42f576d1c870677c371d2a5ab84c09ba0b9970f473a0120bbb9bbe",
+      "sha256": "30eaa3b72a6bd0dc0eb27503b5f266bf91870f62ec27b5569d2ca644d41c158c",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r010.xml"
+    },
+    {
+      "bytes": 11267,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r020.xml",
+      "selection_rank": "96ac60caad34b8cf2e74bd0d08c497fa6713b3670eb7b3684ca148683c387e58",
+      "sha256": "49e4f55b5fdddae064e4fc1e419cb40a58fbd9cd66b49d767c6ffe109e8f0559",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r020.xml"
+    },
+    {
+      "bytes": 13151,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r040-allowance.xml",
+      "selection_rank": "7c37dc1b31fe8ce098d748b8f58a32918f1e747da9409f886402853c4a682b02",
+      "sha256": "e9e3d2404893243f4d44dc5d1ba864f00348dbeabe4ab197a453393f1f35a532",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r040-allowance.xml"
+    },
+    {
+      "bytes": 17968,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r040-r120-HUF-slack.xml",
+      "selection_rank": "51efb46d5637e788c3d4b27e76860c33ec7c8011aeaae6de1dd91f117549beec",
+      "sha256": "02dedb60486c94344840de06d8321cfaefb77a4338341202541e440723d4ec53",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r040-r120-HUF-slack.xml"
+    },
+    {
+      "bytes": 12779,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r040.xml",
+      "selection_rank": "79c906f0b59a36f0a7481a20ec281c7d33b14097ced9f87fbc1583f6c28c876e",
+      "sha256": "24db12e849ef1a3f9ccb9c1f53a245781f2724f6cf79c606bb7371376dbd38d6",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r040.xml"
+    },
+    {
+      "bytes": 12782,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r043.xml",
+      "selection_rank": "3def5143c932326687c8a1fcce3df6f28564a1f86ef61635a14e7916cf1a056e",
+      "sha256": "14b6e46af47ed79932e17635fea46c4c2e56ffe85adceb4ecf4429672002af96",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r043.xml"
+    },
+    {
+      "bytes": 13253,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r046-1.xml",
+      "selection_rank": "2ae35b06bfbd8ddd61e814048869b964638e48dadb4a6f6b766540197eea31b3",
+      "sha256": "95cf1ff2c8a79825864b394585fcf71967e5ff5e06159a5a101e213390d1a4cc",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r046-1.xml"
+    },
+    {
+      "bytes": 6864,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r053-1.xml",
+      "selection_rank": "2304105e25fae67c41a8b0931f01c9403d21f488f8979d6f962c39f2107b4e0d",
+      "sha256": "31278d56c4083f0c5b043b1ea9f1f7ca87df09cc530eaac9f5f386bfb4730580",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r053-1.xml"
+    },
+    {
+      "bytes": 6675,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r054-1.xml",
+      "selection_rank": "4d64fafd2a819d8574a91ba3f13812244ff9d5beb1b2eb8ed34a9eb2eda8e8b4",
+      "sha256": "76c9e18af060754fb9f0debec126ad209e2600b0dc05272b9b1cd64a46149d50",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r054-1.xml"
+    },
+    {
+      "bytes": 6804,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r054-2.xml",
+      "selection_rank": "54dd529c8983526af812bea444567a0fdded866c15080e2d132431087d3fc40e",
+      "sha256": "25b26d09f08f9d6daa11de7119ad681eb28607878b596809a10d2956bbd8a637",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r054-2.xml"
+    },
+    {
+      "bytes": 12464,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r055-1.xml",
+      "selection_rank": "32f099b4c45dc17075e9af1aea7f53753d6f8112458c0381535911851d83a5e1",
+      "sha256": "98c28b96c96d80a122b615665e01b9a306c4f7c45dc11f48bd4c983cd427a6c6",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r055-1.xml"
+    },
+    {
+      "bytes": 12471,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r055-2.xml",
+      "selection_rank": "64b1090eb2a14dfe1bd7e49c6cea555e029ac71c67eba0f55ac2be85e108be8b",
+      "sha256": "fc40a586dee2c1a02ccf561d3a318c8f9e078f04bbd260b29d02768b70fce9f8",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r055-2.xml"
+    },
+    {
+      "bytes": 11640,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r101.xml",
+      "selection_rank": "7fb8ab7d2a26c8ad490d9808dc5ddb9652df3453222329d7c49805c8b167812f",
+      "sha256": "36a954a66e0c7c3083608f9bb0f5eb21ae8ec49198968d9179d7143c35a3013b",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r101.xml"
+    },
+    {
+      "bytes": 11463,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r111.xml",
+      "selection_rank": "5a465470d9323a764a8a3d77cc66e2c0021ab7bbc869cd81dc42c0a5df6c9922",
+      "sha256": "541501593fada68e79019e08990a3e4dc9ab04d409d0b81c1af7cdb965f31b4b",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r111.xml"
+    },
+    {
+      "bytes": 11328,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r121.xml",
+      "selection_rank": "7b97d33655c27957c1360ca1714b2fd78fd743deec6dedbb19acad53485dcd82",
+      "sha256": "35b650b0c8674068faffe64258c25f6e1c0802809508d02bf6c37e5a15a22338",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r121.xml"
+    },
+    {
+      "bytes": 11302,
+      "format": "{urn:oasis:names:specification:ubl:schema:xsd:Invoice-2}Invoice",
+      "id": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r130.xml",
+      "selection_rank": "92cf656a613a0ca4730e5679648ccd5310076794b214903232b25776fde7bb96",
+      "sha256": "10902e8ffd2a14e9ffd7b5cc26a2c2a429e7d8bbb4ff1191d02b67017bb03226",
+      "source_path": "test/instances/ubl-inv/ubl-inv-peppol-en16931-r130.xml"
+    }
+  ],
+  "label": "frozen-public-corpus",
+  "licence": "Apache-2.0 (repository LICENSE)",
+  "method": "All XML in test/instances; SHA256 of UTF-8 relative POSIX path ranked within each directory; cii 84, ubl-inv 83, ubl-cn 83; no validation results examined. Exclude other source-tree XML (build/tools, not invoices). Embedded mutation instructions are not expanded.",
+  "schema": 1,
+  "source_prefix": "xrechnung-schematron-2.6.0",
+  "source_url": "https://github.com/itplr-kosit/xrechnung-schematron/tree/v2.6.0/test/instances"
+}

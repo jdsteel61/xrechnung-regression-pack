@@ -1,0 +1,108 @@
+[
+  {
+    "jar": "validator-1.6.3.jar",
+    "licence_entries": [
+      "LICENSE.validator",
+      "META-INF/NOTICE",
+      "ui/assets/js/main.f9d0e01c.js.LICENSE.txt"
+    ]
+  },
+  {
+    "jar": "angus-activation-2.0.3.jar",
+    "licence_entries": [
+      "META-INF/LICENSE.md",
+      "META-INF/NOTICE.md"
+    ]
+  },
+  {
+    "jar": "commons-io-2.22.0.jar",
+    "licence_entries": [
+      "META-INF/LICENSE.txt",
+      "META-INF/NOTICE.txt"
+    ]
+  },
+  {
+    "jar": "commons-lang3-3.20.0.jar",
+    "licence_entries": [
+      "META-INF/LICENSE.txt",
+      "META-INF/NOTICE.txt"
+    ]
+  },
+  {
+    "jar": "istack-commons-runtime-4.1.2.jar",
+    "licence_entries": []
+  },
+  {
+    "jar": "jakarta.activation-api-2.1.4.jar",
+    "licence_entries": [
+      "META-INF/LICENSE.md",
+      "META-INF/NOTICE.md"
+    ]
+  },
+  {
+    "jar": "jakarta.xml.bind-api-4.0.5.jar",
+    "licence_entries": [
+      "META-INF/LICENSE.md",
+      "META-INF/NOTICE.md"
+    ]
+  },
+  {
+    "jar": "jansi-2.4.3.jar",
+    "licence_entries": []
+  },
+  {
+    "jar": "jaxb-core-4.0.8.jar",
+    "licence_entries": [
+      "META-INF/LICENSE.md",
+      "META-INF/NOTICE.md"
+    ]
+  },
+  {
+    "jar": "jaxb-runtime-4.0.8.jar",
+    "licence_entries": [
+      "META-INF/LICENSE.md",
+      "META-INF/NOTICE.md"
+    ]
+  },
+  {
+    "jar": "picocli-4.7.7.jar",
+    "licence_entries": []
+  },
+  {
+    "jar": "Saxon-HE-12.9.jar",
+    "licence_entries": [
+      "net/sf/saxon/Configuration$LicenseFeature.class",
+      "net/sf/saxon/trans/LicenseException.class"
+    ]
+  },
+  {
+    "jar": "slf4j-api-2.0.18.jar",
+    "licence_entries": [
+      "META-INF/LICENSE.txt"
+    ]
+  },
+  {
+    "jar": "slf4j-simple-2.0.18.jar",
+    "licence_entries": [
+      "META-INF/LICENSE.txt"
+    ]
+  },
+  {
+    "jar": "txw2-4.0.8.jar",
+    "licence_entries": [
+      "META-INF/LICENSE.md",
+      "META-INF/NOTICE.md"
+    ]
+  },
+  {
+    "jar": "xmlresolver-5.3.3-data.jar",
+    "licence_entries": [
+      "org/xmlresolver/notices/",
+      "org/xmlresolver/notices/w3c-license.txt"
+    ]
+  },
+  {
+    "jar": "xmlresolver-5.3.3.jar",
+    "licence_entries": []
+  }
+]

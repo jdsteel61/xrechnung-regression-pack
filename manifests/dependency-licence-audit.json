@@ -1,0 +1,40 @@
+{
+  "notes": [
+    "Four JARs lack licence-named embedded entries. Jansi declares Apache-2.0 in embedded pom.xml. Others checked via version-pinned published Maven POMs; istack runtime inherits istack-commons parent licences. No redistribution performed."
+  ],
+  "sources": [
+    {
+      "component": "istack-commons 4.1.2",
+      "url": "https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/4.1.2/istack-commons-4.1.2.pom",
+      "sha256": "d8883eb70364701dae0e37449c88fd9275117ac3d86040e89f1be3e9d47e9c9d",
+      "licenses": [
+        {
+          "name": "Eclipse Distribution License - v 1.0",
+          "url": "http://www.eclipse.org/org/documents/edl-v10.php"
+        }
+      ]
+    },
+    {
+      "component": "picocli 4.7.7",
+      "url": "https://repo.maven.apache.org/maven2/info/picocli/picocli/4.7.7/picocli-4.7.7.pom",
+      "sha256": "1b18d363134df66631d2b9f7475068d734225ba389cdf9082a1bd8bda90d57d3",
+      "licenses": [
+        {
+          "name": "The Apache Software License, version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ]
+    },
+    {
+      "component": "xmlresolver 5.3.3",
+      "url": "https://repo.maven.apache.org/maven2/org/xmlresolver/xmlresolver/5.3.3/xmlresolver-5.3.3.pom",
+      "sha256": "261ada76d9e6676008dcac377a4d4589749166b606559f59f2e45ea62d8b75ec",
+      "licenses": [
+        {
+          "name": "Apache License version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        }
+      ]
+    }
+  ]
+}

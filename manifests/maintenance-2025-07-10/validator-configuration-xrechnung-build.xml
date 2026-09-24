@@ -1,0 +1,725 @@
+<project name="xrechnung-validation-configuration" default="compile" basedir=".">
+  <description>Build the XRechnung validation configuration for ITPLR-KoSIT
+        validator</description>
+  <!-- set global default properties for this build -->
+  <!-- main build directories -->
+  <property name="src.dir" location="${basedir}/src" />
+  <property name="lib.dir" location="${basedir}/lib" />
+  <property name="build.dir" location="${basedir}/build" />
+  <property name="download.dir" location="${build.dir}/download" />
+  <property name="dist.dir" location="${basedir}/dist" />
+  <property name="test.src.dir" location="${src.dir}/test" />
+  <property name="test.build.dir" location="${build.dir}/test" />
+  <property name="test.docs.custom.dir" location="${test.src.dir}/custom"></property>
+  <property name="test.docs.dir" location="${test.build.dir}" />
+  <property name="test.docs.cen.unit.unexpected.dir" location="${test.docs.dir}/unexpected" />
+  <property name="test.docs.cen.unit.dir" location="${test.docs.dir}/cen-unit-test" />
+  <property name="test.docs.integration.dir" location="${test.docs.dir}/integration" />
+  <property name="testsuite.instances.dir" location="${test.build.dir}/testsuite" />
+
+  <!-- Naming -->
+  <property name="xrechnung.version.major.minor" value="3.0" />
+  <property name="xrechnung.version.patch" value="2" />
+  <property name="xrechnung.version"
+    value="${xrechnung.version.major.minor}.${xrechnung.version.patch}" />
+  <property name="cen.spec.id" value="urn:cen.eu:en16931:2017" />
+  <property name="xrechnung.spec.id"
+    value="${cen.spec.id}#compliant#urn:xeinkauf.de:kosit:xrechnung_${xrechnung.version.major.minor}" />
+  <property name="xrechnung.extension.id"
+    value="${xrechnung.spec.id}#conformant#urn:xeinkauf.de:kosit:extension:xrechnung_${xrechnung.version.major.minor}" />
+  <property name="xrechnung.cvd.version.major.minor" value="0.9" />
+  <property name="xrechnung.cvd.id"
+    value="${xrechnung.spec.id}#compliant#urn:xeinkauf.de:kosit:xrechnung:cvd_${xrechnung.cvd.version.major.minor}" />
+
+  <property name="validator.configuration.version.full" value="2025-07-10" />
+  <property name="dist.name"
+    value="validator-configuration-xrechnung_${xrechnung.version}_${validator.configuration.version.full}.zip" />
+  <!-- 3rd party resources -->
+  <!-- KoSIT XML Validator -->
+  <property name="validator.version" value="1.5.0" />
+  <property name="validator.download.url.prefix"
+    value="https://github.com/itplr-kosit/validator/releases/download" />
+    
+  <property name="validator.zip" value="validator-${validator.version}-distribution.zip" />
+  
+  <!-- Pick by default the standalone distribution -->  
+  <property name="validator.jar" value="validationtool-${validator.version}-standalone.jar" />
+
+  <!-- Part of the download path -->
+  <property name="saxon.url.version" value="9.9" />
+  <!-- Part of the download path -->
+  <property name="saxon.file.version" value="9-9-1-8J" />
+  <!-- the name of the JAR file in the downloaded ZIP file -->
+  <property name="saxon.jar" value="saxon9he.jar" />
+
+  <property name="cii.version" value="D16B" />
+  <property name="cii.schema.artifact.id" value="D16B_SCRDM__Subset__CII" />
+  <property name="cii.schema.zip" value="${cii.schema.artifact.id}-${cii.version}.zip" />
+  <property name="cii.schema.uncoupled.zip" value="d16b-cii-uncoupled.zip" />
+  <property name="cii.download.url"
+    value="https://projekte.kosit.org/api/v4/projects/356/packages/maven/de/xeinkauf/${cii.schema.artifact.id}/${cii.version}/${cii.schema.zip}" />
+  <property name="ubl.version" value="2.1" />
+  <property name="ubl.download.url.prefix"
+    value="http://docs.oasis-open.org/ubl/os-UBL-${ubl.version}" />
+  <property name="ubl.schema.zip" value="UBL-${ubl.version}.zip" />
+
+  <property name="ubl.download.url"
+    value="${ubl.download.url.prefix}/${ubl.schema.zip}" />
+
+  <!-- set to "master" if you want latest code -->
+  <property name="cen.rules.version" value="1.3.14.2" />
+  <property name="cen.rules.version.download" value="${cen.rules.version}" />
+  <property name="cen.download.url.owner" value="ConnectingEurope" />
+  <property name="cen.download.url.prefix"
+    value="https://github.com/${cen.download.url.owner}/eInvoicing-EN16931/releases/download/validation-${cen.rules.version}" />
+  <property name="cen.download.url.ubl"
+    value="${cen.download.url.prefix}/en16931-ubl-${cen.rules.version.download}.zip" />
+  <property name="cen.download.url.cii"
+    value="${cen.download.url.prefix}/en16931-cii-${cen.rules.version.download}.zip" />
+  <property name="cen.download.url.master.prefix" value="https://github.com/${cen.download.url.owner}/eInvoicing-EN16931/"/>
+
+
+  <!-- XRechnung Schematron Rules section -->
+  <property name="xr.schematron.version.major.minor" value="2.4" />
+  <property name="xr.schematron.version.patch" value="0" />
+  <property name="xr.schematron.version.full"
+    value="${xr.schematron.version.major.minor}.${xr.schematron.version.patch}" />
+
+  <property name="xr.schematron.download.url.prefix"
+    value="https://github.com/itplr-kosit/xrechnung-schematron/releases/download/release-${xr.schematron.version.full}" />
+  <property name="xr.schematron.zip"
+    value="xrechnung-${xrechnung.version}-schematron-${xr.schematron.version.full}.zip" />
+  <property name="xr.schematron.download.url" value="${xr.schematron.download.url.prefix}/${xr.schematron.zip}" />  
+
+  <property name="xr.testsuite.version" value="2025-07-10" />
+  <property name="xr.testsuite.download.url.prefix"
+    value="https://github.com/itplr-kosit/xrechnung-testsuite/releases/download" />
+
+
+  <!-- root/work directory where KoSIT validationtool expects Schema(s)-and trons -->
+  <property name="repository.dir" location="${build.dir}" />
+  <property name="resource.dir" location="${repository.dir}/resources" />
+  <property name="resource.xr.dir" location="${resource.dir}/xrechnung/${xrechnung.version}/xsl" />
+  <property name="resource.xsl.cen.ubl"
+    location="${resource.dir}/ubl/2.1/xsl/EN16931-UBL-validation.xsl" />
+  <property name="resource.xsl.cen.cii"
+    location="${resource.dir}/cii/16b/xsl/EN16931-CII-validation.xsl" />
+
+  <property name="resource.xsl.xr.ubl"
+    location="${resource.xr.dir}/XRechnung-UBL-validation.xsl" />
+  <property name="resource.xsl.xr.cii" location="${resource.xr.dir}/XRechnung-CII-validation.xsl" />
+
+  <!-- Resource directories -->
+  <property name="reports.schema.dir" location="${resource.dir}/xsd" />
+
+
+  <property name="reports.dir" location="${build.dir}/reports" />
+
+  <macrodef name="xslt-saxon">
+    <sequential>
+      <fail message="Not implemented yet" />
+    </sequential>
+  </macrodef>
+  <macrodef name="schematron-compile" description="Compiles Schematron to XSLT using Saxon">
+    <attribute name="schematron" description="Schematron file to compile." />
+    <attribute name="workdir"
+      description="Base directory in which to download Schematron Skeleton and keep intermediaries." />
+    <attribute name="outdir" />
+    <attribute name="insuffix" default="sch" />
+    <attribute name="saxon.jar" default="${lib.dir}/${saxon.jar}"
+      description="Location of Saxon jar." />
+    <attribute name="deleteonexit" default="true"
+      description="Whether to delete intermediate XSLT files on exit. Note if not deleting, then subsequent runs of macro produce wrong results!" />
+    <attribute name="schematronbinding" default="xslt2"
+      description="Which XSLT version to build for." />
+    <sequential>
+      <local name="schematron.basename" />
+      <basename file="@{schematron}" suffix="@{insuffix}" property="schematron.basename" />
+      <echo message="Compiling '@{schematron}' Schematron with basename='${schematron.basename}'" />
+      <mkdir dir="@{workdir}" />
+      <tempfile property="expanded.sch" prefix="expanded" suffix=".sch" destdir="@{workdir}"
+        deleteonexit="@{deleteonexit}" />
+      <tempfile property="unabstract.sch" prefix="unabstract" suffix=".sch" destdir="@{workdir}"
+        deleteonexit="@{deleteonexit}" />
+      <tempfile property="schematron.xsl" prefix="schematron" suffix=".xsl" destdir="@{workdir}"
+        deleteonexit="@{deleteonexit}" />
+      <tempfile property="check-schematron.xsl" prefix="check-schematron" suffix=".xsl"
+        destdir="@{workdir}" deleteonexit="@{deleteonexit}" />
+      <!-- Download schematron skeletons -->
+      <property name="schematron.skeleton.url"
+        value="https://raw.githubusercontent.com/Schematron/schematron/master/trunk/schematron/code" />
+      <get src="${schematron.skeleton.url}/iso_dsdl_include.xsl" dest="@{workdir}" verbose="true"
+        skipexisting="true" usetimestamp="true" httpusecaches="true" />
+      <get src="${schematron.skeleton.url}/iso_abstract_expand.xsl" dest="@{workdir}" verbose="true"
+        skipexisting="true" usetimestamp="true" httpusecaches="true" />
+      <get src="${schematron.skeleton.url}/iso_svrl_for_@{schematronbinding}.xsl" dest="@{workdir}"
+        verbose="true" skipexisting="true" usetimestamp="true" httpusecaches="true" />
+      <get src="${schematron.skeleton.url}/iso_schematron_skeleton_for_saxon.xsl" dest="@{workdir}"
+        verbose="true" skipexisting="true" usetimestamp="true" httpusecaches="true" />
+      <!-- expand inclusions -->
+      <xslt style="@{workdir}/iso_dsdl_include.xsl" in="@{schematron}"
+        out="@{workdir}/${schematron.basename}-expanded.sch" classpath="@{saxon.jar}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl" />
+      </xslt>
+      <!-- expand abstract patterns -->
+      <xslt style="@{workdir}/iso_abstract_expand.xsl"
+        in="@{workdir}/${schematron.basename}-expanded.sch"
+        out="@{workdir}/${schematron.basename}-unabstract.sch" classpath="@{saxon.jar}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl" />
+      </xslt>
+      <!-- svrl it -->
+      <xslt style="@{workdir}/iso_svrl_for_@{schematronbinding}.xsl"
+        in="@{workdir}/${schematron.basename}-unabstract.sch"
+        out="@{outdir}/${schematron.basename}.xslt" classpath="@{saxon.jar}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl" />
+        <param name="generate-fired-rule" expression="false" />
+        <param name="full-path-notation" expression="3" />
+      </xslt>
+      <echo message="finished schematron compile output to @{outdir}/${schematron.basename}.xslt" />
+    </sequential>
+  </macrodef>
+
+  <target name="init" description="Initializes build directory structure and ISO timestamp">
+    
+    <!-- sets the property cen.master.target if version is set to master and the only downloads from master instaead of release.  -->
+    <condition property="cen.master.target">
+      <equals arg1="${cen.rules.version}" arg2="master" />
+    </condition>
+    
+    <!-- Create timestamps -->
+    <tstamp>
+      <format property="build.date" pattern="yyyy-MM-dd" />
+    </tstamp>
+    <echo>Build date: ${build.date}</echo>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build.dir}" />
+    <mkdir dir="${download.dir}" />
+    <mkdir dir="${lib.dir}" />
+    <mkdir dir="${dist.dir}" />
+  </target>
+
+
+  <target name="prepare-saxon" depends="init"
+    description="Download Saxon-HE and add jar to library directory">
+    <get
+      src="https://sourceforge.net/projects/saxon/files/Saxon-HE/${saxon.url.version}/SaxonHE${saxon.file.version}.zip/download"
+      dest="${download.dir}/SaxonHE${saxon.file.version}.zip" verbose="true" skipexisting="true"
+      usetimestamp="true" />
+    <unzip src="${download.dir}/SaxonHE${saxon.file.version}.zip" dest="${lib.dir}">
+      <patternset>
+        <include name="**/${saxon.jar}" />
+      </patternset>
+      <flattenmapper />
+    </unzip>
+  </target>
+
+  <target name="delete-saxon" depends="init" description="Remove downloaded Saxon-HE stuff">
+    <delete file="${download.dir}/SaxonHE${saxon.file.version}.zip" />
+    <delete file="${lib.dir}/${saxon.jar}" />
+  </target>
+
+
+  <target name="retrieve-validator-from-local-build" depends="init" if="develop.local.validator">
+    <get src="${validator.download.url.prefix}/target/${validator.zip}" dest="${download.dir}/"
+      verbose="true" skipexisting="true" usetimestamp="true" />
+  </target>
+
+
+  <target name="retrieve-validator-from-github-release" depends="init"
+    unless="develop.local.validator">
+    <property name="download.url.full"
+      value="${validator.download.url.prefix}/v${validator.version}/${validator.zip}" />
+
+    <echo message="Retrieving validator version=${validator.version} from ${download.url.full}" />
+
+    <get src="${download.url.full}" dest="${download.dir}" verbose="true" skipexisting="true"
+      usetimestamp="true" />
+  </target>
+
+
+  <target name="retrieve-validator"
+    depends="init, retrieve-validator-from-local-build, retrieve-validator-from-github-release">
+    <!-- add check something was downloaded -->
+  </target>
+
+
+
+  <target name="provide-validator" depends="init, retrieve-validator"
+    description="Download KoSIT validation tool and add jar to library directory">
+
+    <echo message="Unpacking Validator resources" />
+
+    <unzip src="${download.dir}/${validator.zip}" dest="${lib.dir}">
+      <patternset>
+        <include name="**/${validator.jar}" />
+      </patternset>
+      <flattenmapper />
+    </unzip>
+
+    <unzip src="${lib.dir}/${validator.jar}" dest="${resource.dir}">
+      <patternset>
+        <include name="xsd/scenarios.xsd" />
+      </patternset>
+    </unzip>
+  </target>
+
+
+
+  <property name="xr.testsuite.zip"
+    value="xrechnung-${xrechnung.version}-testsuite-${xr.testsuite.version}.zip" />
+
+
+
+  <target name="retrieve-xr-testsuite-from-local-build" depends="init"
+    if="develop.local.xr.testsuite">
+    <get src="${xr.testsuite.download.url.prefix}/${xr.testsuite.zip}" dest="${download.dir}"
+      verbose="true" skipexisting="false" usetimestamp="false" httpusecaches="false" />
+  </target>
+
+  <target name="retrieve-xr-testsuite-from-github-release" depends="init-test"
+    unless="develop.local.xr.testsuite">
+
+    <get
+      src="${xr.testsuite.download.url.prefix}/release-${xr.testsuite.version}/${xr.testsuite.zip}"
+      dest="${download.dir}" verbose="true" skipexisting="true" usetimestamp="true" />
+  </target>
+
+
+  <target name="retrieve-xr-testsuite"
+    depends="init-test, retrieve-xr-testsuite-from-local-build, retrieve-xr-testsuite-from-github-release">
+    <!-- add check something was downloaded -->
+  </target>
+
+  <target name="provide-testsuite" depends="init-test, retrieve-xr-testsuite"
+    description="Download and prepare KoSIT xrechnung-testsuite for testing">
+
+    <unzip src="${download.dir}/${xr.testsuite.zip}" dest="${testsuite.instances.dir}">
+      <patternset>
+        <include name="**/*.xml" />
+      </patternset>
+      <flattenmapper />
+    </unzip>
+
+
+  </target>
+
+  <target name="retrieve-cen-rules"
+    depends="retrieve-cen-rules-from-master,retrieve-cen-rules-from-release,init" >
+    <fail message="No cen rule zip files available :(!">
+      <condition>
+        <not>
+          <or>
+            <resourceexists>
+              <file file="${download.dir}/master.zip" />
+            </resourceexists>
+            <and>
+              <resourceexists>
+                <file file="${download.dir}/en16931-cii-${cen.rules.version.download}.zip" />
+              </resourceexists>
+              <resourceexists>
+                <file file="${download.dir}/en16931-ubl-${cen.rules.version.download}.zip" />
+              </resourceexists>
+            </and>
+          </or>
+        </not>
+      </condition>
+    </fail>
+    <unzip dest="${download.dir}" failonemptyarchive="true">
+      <!-- If master.zip or the other gets finally extracted depends on download targets -->
+      <fileset dir="${download.dir}">
+        <include name="en16931-*-${cen.rules.version.download}.zip" />
+        <include name="master.zip" />
+      </fileset>
+      
+      <regexpmapper from=".*/(schematron/.*\.sch$$)" to="\1" />
+    </unzip>
+    <!-- Testing if important files were unzipped -->
+    <path id="schematron-path">
+      <fileset dir="${download.dir}" includes="**schematron/**.sch" />
+    </path>
+    <fail
+      message="Could not extract CEN schematron rules file EN16931-UBL-validation.sch does not exist in ${download.dir}">
+      <condition>
+        <not>
+          <available file="EN16931-UBL-validation.sch">
+            <filepath refid="schematron-path" />
+          </available>
+        </not>
+      </condition>
+    </fail>
+    <fail message="Could not extract file EN16931-CII-validation.sch">
+      <condition>
+        <not>
+          <available file="EN16931-CII-validation.sch">
+            <filepath refid="schematron-path" />
+          </available>
+        </not>
+      </condition>
+    </fail>
+    
+  </target>
+
+  
+
+  <target name="retrieve-cen-rules-from-master" depends="init" if="${cen.master.target}"
+    description="Download CEN business rules (schematron) from master branch to download directory">
+    <get src="${cen.download.url.master.prefix}/archive/master.zip"
+      dest="${download.dir}" verbose="true" skipexisting="true"
+      usetimestamp="true" />
+  </target>
+
+  <target name="retrieve-cen-rules-from-release" depends="init"
+    unless="${cen.master.target}"
+    description="Download CEN business rules (schematron) version ${cen.rules.version.download} to download directory">
+    <!-- download UBL specific rules -->
+    <get src="${cen.download.url.ubl}" dest="${download.dir}" verbose="true" skipexisting="true"
+      usetimestamp="true" />
+    <!-- download CII specific rules -->
+    <get src="${cen.download.url.cii}" dest="${download.dir}" verbose="true" skipexisting="true"
+      usetimestamp="true" />
+  </target>
+
+
+  <target name="retrieve-xrechnung-schematron-from-local-build" depends="init"
+    if="develop.local.xr.schematron">
+    <echo message="Loading from file ${xr.schematron.download.url}" />
+
+    <get src="${xr.schematron.download.url}" dest="${download.dir}"
+      verbose="true" skipexisting="false" usetimestamp="false" httpusecaches="false" />
+  </target>
+
+  <target name="retrieve-xrechnung-schematron-from-github-release" depends="init"
+    unless="develop.local.xr.schematron">
+    <echo message="Loading from GitHub ${xr.schematron.download.url}" />
+    <get src="${xr.schematron.download.url}" dest="${download.dir}"
+      verbose="true" skipexisting="true" usetimestamp="true" />
+  </target>
+
+
+  <target name="provide-xrechnung-schematron"
+    depends="init, retrieve-xrechnung-schematron-from-local-build, retrieve-xrechnung-schematron-from-github-release"
+    description="Retrieve and prepare XRechnung Schemtaron">
+    <!-- Prepare XRechnung Schematron -->
+    <unzip src="${download.dir}/${xr.schematron.zip}"
+      dest="${resource.dir}/xrechnung/${xrechnung.version}/xsl">
+      <patternset>
+        <include name="**/XRechnung*.xsl" />
+      </patternset>
+      <flattenmapper />
+    </unzip>
+
+  </target>
+
+
+  <target name="retrieve-ubl-schema" depends="init"
+    description="Download UBL schemas to download directory">
+    <get src="${ubl.download.url}" dest="${download.dir}" verbose="true" skipexisting="true"
+      usetimestamp="true" />
+  </target>
+  <target name="retrieve-cii-schema" depends="init"
+    description="Download UN/CEFACT CII schemas to download directory">
+    <get src="${cii.download.url}" dest="${download.dir}" verbose="true" skipexisting="true"
+      usetimestamp="true" />
+    <unzip src="${download.dir}/${cii.schema.zip}" dest="${download.dir}">
+      <patternset>
+        <include name="**/D16B*uncoupled.zip" />
+      </patternset>
+      <mergemapper to="${cii.schema.uncoupled.zip}" />
+    </unzip>
+  </target>
+
+  <target name="retrieve-all-schema-rules"
+    depends="retrieve-ubl-schema,retrieve-cen-rules,provide-xrechnung-schematron,retrieve-cii-schema"
+    description="Retrieve and prepare all 3rd party XSDs and XSLTs" />
+  
+  <target name="compile-cen-rules-only" description="Works for zip from master and release zips">
+    
+    <schematron-compile schematron="${download.dir}/schematron/EN16931-UBL-validation.sch"
+      insuffix="sch" workdir="${build.dir}/schematron" outdir="${build.dir}" />
+    <schematron-compile schematron="${download.dir}/schematron/EN16931-CII-validation.sch"
+      insuffix="sch" workdir="${build.dir}/schematron" outdir="${build.dir}" />
+    <!-- Creating schematron now using Saxon 9he-->
+    <!-- according to https://www.saxonica.com/html/documentation/using-xsl/xsltfromant.html-->
+    <!-- customize CEN schematron rules for UBL -->
+    <xslt in="${build.dir}/EN16931-UBL-validation.xslt" out="${resource.xsl.cen.ubl}"
+      style="${src.dir}/remove-dead-apply-templates.xsl">
+      <classpath location="${lib.dir}/${saxon.jar}" />
+      <factory name="net.sf.saxon.TransformerFactoryImpl" />
+    </xslt>
+    <!-- customize CEN schematron rules for CII -->
+    <xslt in="${build.dir}/EN16931-CII-validation.xslt" out="${resource.xsl.cen.cii}"
+      style="${src.dir}/remove-dead-apply-templates.xsl">
+      <classpath location="${lib.dir}/${saxon.jar}" />
+      <factory name="net.sf.saxon.TransformerFactoryImpl" />
+    </xslt>
+  </target>
+
+  <target name="compile-cen-rules" depends="retrieve-cen-rules,prepare-saxon,compile-cen-rules-only"
+    description="Works for zip from master and release zips"/>
+
+
+  <target name="compile-scenario" depends="init">
+    <filter token="build.date" value="${build.date}" />
+    <filter token="cen.spec.id" value="${cen.spec.id}" />
+    <filter token="cen.rules.version" value="${cen.rules.version}" />
+    <filter token="cen.download.url.ubl" value="${cen.download.url.ubl}" />
+    <filter token="cen.download.url.cii" value="${cen.download.url.cii}" />
+    <!-- This is actually the schematron part of it -->
+    <filter token="xrechnung.download.url" value="${xr.schematron.download.url}" />
+    <filter token="xrechnung.rules.version.full" value="${xr.schematron.version.full}" />
+    <filter token="xrechnung.rules.version.major.minor" value="${xr.schematron.version.major.minor}" />
+    <!-- This is actually the specification part of it -->
+    <filter token="xrechnung.version" value="${xrechnung.version}" />
+    <filter token="xrechnung.spec.id" value="${xrechnung.spec.id}" />
+    <filter token="xrechnung.extension.id" value="${xrechnung.extension.id}" />
+    <filter token="xrechnung.cvd.id" value="${xrechnung.cvd.id}" />
+    <filter token="ubl.version" value="${ubl.version}" />
+    <filter token="ubl.download.url" value="${ubl.download.url}" />
+    <filter token="cii.version" value="${cii.version}" />
+    <filter token="cii.download.url" value="${cii.download.url}" />
+    <copy file="scenarios.xml" todir="${repository.dir}" failonerror="true" filtering="true" />
+  </target>
+
+
+
+
+  <target name="compile"
+    depends="compile-scenario,retrieve-all-schema-rules,compile-cen-rules,prepare-saxon"
+    description="Compile XSDs and XSLTs into validation configuration conformat repository directory">
+    <echo>Compiling Schemas and XSLTs ...</echo>
+    <copy file="${src.dir}/default-report.xsl" todir="${resource.dir}" />
+    <copy file="${src.dir}/xrechnung-report.xsl" todir="${resource.dir}" />
+    <copy file="${src.dir}/report.xsd" todir="${resource.dir}/xsd" />
+
+
+
+    <unzip src="${download.dir}/${ubl.schema.zip}" dest="${resource.dir}/ubl/2.1/xsd">
+      <patternset>
+        <include name="xsdrt/**/*.xsd" />
+      </patternset>
+      <cutdirsmapper dirs="1" />
+    </unzip>
+
+    <unzip src="${download.dir}/${cii.schema.uncoupled.zip}" dest="${resource.dir}/cii/16b/xsd">
+      <patternset>
+        <include name="**/CrossIndustryInvoice*.xsd" />
+      </patternset>
+      <flattenmapper />
+    </unzip>
+  </target>
+
+
+  <target name="compile-test-sources">
+
+    <filter token="xrechnung.spec.id" value="${xrechnung.spec.id}" />
+    <copy todir="${test.build.dir}" failonerror="true" filtering="true">
+      <fileset dir="${test.src.dir}" casesensitive="false">
+        <include name="**/*.xml" />
+      </fileset>
+    </copy>
+  </target>
+
+  <target name="init-test" depends="init, compile, compile-scenario, compile-test-sources"
+    description="Initializes test directory structure">
+    <mkdir dir="${test.build.dir}" />
+    <!-- XSDs for validating e.g. scenario.xml and the output report -->
+    <mkdir dir="${resource.dir}/xsd" />
+    <mkdir dir="${testsuite.instances.dir}" />
+    <!-- customize scenarios.xml for testing purpose -->
+    <xslt in="${repository.dir}/scenarios.xml" out="${test.build.dir}/scenarios.xml"
+      style="${src.dir}/create-test-scenario.xsl">
+      <classpath location="${lib.dir}/${saxon.jar}" />
+      <factory name="net.sf.saxon.TransformerFactoryImpl" />
+    </xslt>
+  </target>
+
+  <target name="test-validator-assertions"
+    depends="init-test,provide-validator,test-validator-assertions-only,test-validator-report-with-schema-only"
+    description="Test XRechnung Configuration">
+    <echo message="Testing with full build chain." />
+  </target>
+
+  <target name="test-validator-report-with-schema-only">
+    <echo>Schema validating reports against ${reports.schema.dir}/report.xsd ...</echo>
+    <schemavalidate fullchecking="yes" failonerror="yes">
+      <schema namespace="http://www.xoev.de/de/validator/varl/1"
+        file="${reports.schema.dir}/report.xsd" />
+      <schema namespace="http://www.xoev.de/de/validator/framework/1/scenarios"
+        file="${reports.schema.dir}/scenarios.xsd" />
+      <fileset dir="${reports.dir}" includes="*-report.xml" />
+    </schemavalidate>
+    <echo>Schematron validating reports ...</echo>
+    <xslt style="${src.dir}/report.sch.xsl" includes="${reports.dir}/*.xml" destdir="${reports.dir}">
+      <classpath location="${lib.dir}/${saxon.jar}" />
+      <factory name="net.sf.saxon.TransformerFactoryImpl" />
+    </xslt>
+  </target>
+
+  <target name="test-validator-assertions-only" description="Only test XRechnung Configuration"
+    unless="test.skip">
+    <echo>Creating validation reports with ${lib.dir}/${validator.jar}.</echo>
+    <java jar="${lib.dir}/${validator.jar}" failonerror="yes" fork="yes" dir="${build.dir}">
+      <arg value="-s" />
+      <arg value="${test.build.dir}/scenarios.xml" />
+      <arg value="-r" />
+      <arg value="${build.dir}" />
+      <arg value="--html" />
+      <arg value="-l" />
+      <arg value="INFO" />
+      <arg value="--check-assertions" />
+      <arg value="${test.src.dir}/assertions.xml" />
+      <arg value="-o" />
+      <arg value="${reports.dir}" />
+      <arg value="${test.docs.dir}/instances" />
+    </java>
+  </target>
+
+
+  <!-- TODO name could be improved -->
+  <target name="create-validator-reports-from-testsuite"
+    depends="init-test, provide-validator, provide-testsuite"
+    description="Only test XRechnung Configuration" unless="test.skip">
+    <fail unless="testsuite.instances.dir"
+      message="Property testsuite.instances.dir must exist for this target to work" />
+
+    <echo>Creating validation reports with ${lib.dir}/${validator.jar} for ${testsuite.instances.dir}.</echo>
+    <java jar="${lib.dir}/${validator.jar}" failonerror="true" fork="true" dir="${build.dir}">
+      <arg value="-s" />
+      <arg value="scenarios.xml" />
+      <arg value="-r" />
+      <arg value="${build.dir}" />
+      <arg value="--html" />
+      <arg value="-o" />
+      <arg value="${reports.dir}/testsuite" />
+      <arg value="${testsuite.instances.dir}" />
+
+    </java>
+  </target>
+  
+  <target name="check-custom-tests-folder-is-empty">
+    <fileset dir="${test.docs.custom.dir}" id="custom"/>
+    <pathconvert refid="custom" property="fileset.nonempty" setonempty="false"/>    
+  </target>
+  
+  <target name="create-validator-reports-from-custom-tests" depends="init-test, provide-validator, check-custom-tests-folder-is-empty"
+    description="Validate custom test" unless="test.skip" if="fileset.nonempty">    
+    <fail unless="test.docs.custom.dir"
+      message="Property test.docs.custom.dir must exist for this target to work"/>    
+    <echo>Creating validation reports with ${lib.dir}/${validator.jar} for
+      ${test.docs.custom.dir}.</echo>
+    <java jar="${lib.dir}/${validator.jar}" failonerror="true" fork="true" dir="${build.dir}">
+      <arg value="-s"/>
+      <arg value="scenarios.xml"/>
+      <arg value="-r"/>
+      <arg value="${build.dir}"/>
+      <arg value="--html"/>
+      <arg value="-o"/>
+      <arg value="${reports.dir}/custom-tests"/>
+      <arg value="${test.docs.custom.dir}"/>
+    </java>
+  </target>
+
+  <target name="retrieve-xmute" depends="init">
+    <property name="xmute.download.url.prefix" value="file:///C:/Users/PeepoShy/IdeaProjects/xml-mutate" />
+    <fail unless="xmute.download.url.prefix"
+      message="Property xmute.download.url.prefix must exist for this target to work" />
+    <property name="xmute.version.full" value="0.5" />
+    <property name="xmute.jar" value="xml-mutate.jar" />
+    <get src="${xmute.download.url.prefix}/target/xml-mutate-${xmute.version.full}.jar"
+      dest="${lib.dir}/${xmute.jar}" verbose="true" skipexisting="false" usetimestamp="true" />
+  </target>
+
+  <target name="test-cen-expected-behaviour" depends="compile, init-test, retrieve-xmute"
+    description="Test Schematron Rules with XML-Mutate" if="xmute.download.url.prefix">
+    <echo>Generate and test instances with expected behaviour ...</echo>
+    <java jar="${lib.dir}/${xmute.jar}" failonerror="true" fork="true" dir="${basedir}">
+      <arg value="--schematron" />
+      <arg value="xrubl=${resource.xsl.xr.ubl}" />
+      <arg value="--schematron" />
+      <arg value="cenubl=${resource.xsl.cen.ubl}" />
+      <arg value="--schematron" />
+      <arg value="cencii=${resource.xsl.cen.cii}" />
+      <arg value="--target ${test.docs.dir}/generated" />
+      <arg value="${test.docs.cen.unit.dir}" />
+    </java>
+  </target>
+
+  <target name="test-integration" depends="init-test, provide-validator, provide-testsuite, test-cen-expected-behaviour, test-integration-only" 
+    description="Integration testing result of XRechnung Configuration"></target>
+
+  <target name="test-cen-unexpected-behaviour" depends="compile, init-test, retrieve-xmute"
+    description="Test for unexpected behaviour in CEN Schematron Rules">
+    <echo>Generate and test instances with unexpected behaviour ...</echo>
+    <java jar="${lib.dir}/${xmute.jar}" failonerror="true" fork="true" dir="${basedir}">
+
+      <arg value="--schematron" />
+      <arg value="xrubl=${resource.xsl.xr.ubl}" />
+      <arg value="--schematron" />
+      <arg value="cenubl=${resource.xsl.cen.ubl}" />
+      <arg value="--schematron" />
+      <arg value="cencii=${resource.xsl.cen.cii}" />
+      <arg value="--target ${test.docs.dir}/generated" />
+      <arg value="${test.docs.cen.unit.unexpected.dir}" />
+    </java>
+  </target>
+
+  <target name="test-integration-only" description="Nothing but integration testing">
+    <echo message="Compiling instances for integration tests"/>
+    <!-- Requires output of XML Mutate -->
+    <copy todir="${test.docs.integration.dir}" verbose="true">
+      <fileset dir="${test.docs.cen.unit.dir}">
+        <include name="cii-br-s-08-rounding-rule.xml"/>
+        <include name="cii-bt-20-cardinality-check.xml"/>
+        <include name="cii-bt-20-cardinality-check-2.xml"/>
+        <include name="cii-cii-sr-454-negative-test.xml"/>
+        <!-- Local files - not in repository -->
+        <include name="XRechnung-CEFACT*.xml"/>
+      </fileset>
+      <fileset dir="${test.src.dir}/integration"></fileset>
+    </copy>
+    
+    <echo>Creating validation reports with ${lib.dir}/${validator.jar} for ${test.docs.integration.dir}</echo>
+    <java jar="${lib.dir}/${validator.jar}" failonerror="true" fork="true" dir="${build.dir}">
+      <arg value="-l" />
+      <arg value="DEBUG" />
+      <arg value="-s" />
+      <arg value="scenarios.xml" />
+      <arg value="-r" />
+      <arg value="${build.dir}" />
+      <arg value="--check-assertions" />
+      <arg value="${test.docs.dir}/assertions-integration-testing.xml" />
+      <arg value="--html" />
+      <arg value="-o" />
+      <arg value="${reports.dir}/integration" />
+      <arg value="${test.docs.integration.dir}" />
+    </java>
+  </target>
+
+
+  <target name="test"
+    depends="init-test, test-validator-assertions,create-validator-reports-from-testsuite, test-cen-expected-behaviour, test-integration, create-validator-reports-from-custom-tests">
+    <echo message="Testing all" />
+  </target>
+
+  <target name="dist-only" description="Generate the distribution without testing">
+    <mkdir dir="${build.dir}/docs" />
+    <copy todir="${build.dir}">
+      <fileset dir="${basedir}">
+        <include name="README.md" />
+        <include name="CHANGELOG.md" />
+      </fileset>
+    </copy>
+    <copy file="docs/usage.md" todir="${build.dir}/docs" failonerror="true" filtering="true" />
+    <zip destfile="${dist.dir}/${dist.name}" basedir="${build.dir}"
+      excludes="download/**,test/**,schematron/**,reports/**" />
+  </target>
+
+  <target name="dist" depends="compile,test, dist-only" description="Generate the distribution"> </target>
+  <target name="clean" description="clean up">
+    <!-- Delete the ${build} and ${dist} directory trees -->
+    <delete dir="${build.dir}" verbose="true" includeEmptyDirs="true" />
+    <delete dir="${dist.dir}" />
+    <delete dir="${lib.dir}" />
+    <delete dir="${reports.dir}" />
+  </target>
+</project>

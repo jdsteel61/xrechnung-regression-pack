@@ -1,0 +1,62 @@
+[
+  {
+    "path": "licences/CEN-1.3.16-LICENSE.txt",
+    "sha256": "fc22ec1dcd8bee4636a395fb332e2308cde870fb3fdc71a2e260b919877cdef5",
+    "bytes": 13871
+  },
+  {
+    "path": "licences/istack-commons-4.1.2.pom",
+    "sha256": "d8883eb70364701dae0e37449c88fd9275117ac3d86040e89f1be3e9d47e9c9d",
+    "bytes": 26305
+  },
+  {
+    "path": "licences/picocli-4.7.7.pom",
+    "sha256": "1b18d363134df66631d2b9f7475068d734225ba389cdf9082a1bd8bda90d57d3",
+    "bytes": 1376
+  },
+  {
+    "path": "licences/validator-configuration-xrechnung-v2026-01-31-LICENSE",
+    "sha256": "73f2898ad26e1fcb9ec4649cdf8466ea0bda47644b7c12efc10a703bdfb94a9f",
+    "bytes": 12845
+  },
+  {
+    "path": "licences/validator-configuration-xrechnung-v2026-01-31-NOTICE",
+    "sha256": "aaba5a88c905a8d421877698396755abb3b9563b7655bfb02b76d634c9e861e4",
+    "bytes": 207
+  },
+  {
+    "path": "licences/validator-configuration-xrechnung-v2026-08-31-LICENSE",
+    "sha256": "73f2898ad26e1fcb9ec4649cdf8466ea0bda47644b7c12efc10a703bdfb94a9f",
+    "bytes": 12845
+  },
+  {
+    "path": "licences/validator-configuration-xrechnung-v2026-08-31-NOTICE",
+    "sha256": "aaba5a88c905a8d421877698396755abb3b9563b7655bfb02b76d634c9e861e4",
+    "bytes": 207
+  },
+  {
+    "path": "licences/validator-v1.6.3-LICENSE",
+    "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+    "bytes": 10173
+  },
+  {
+    "path": "licences/validator-v1.6.3-NOTICE",
+    "sha256": "56e0cd9ecfcf7cc5c8e9542e4f21364cdcb3b761b82213b6d5fff694c7fe0483",
+    "bytes": 897
+  },
+  {
+    "path": "licences/xmlresolver-5.3.3.pom",
+    "sha256": "261ada76d9e6676008dcac377a4d4589749166b606559f59f2e45ea62d8b75ec",
+    "bytes": 1464
+  },
+  {
+    "path": "licences/xrechnung-schematron-v2.5.0-LICENSE",
+    "sha256": "57e93bb611b8aeb93ff0f23b271a23291217b0016f6e66297dfd5e9467538a5f",
+    "bytes": 12850
+  },
+  {
+    "path": "licences/xrechnung-schematron-v2.6.0-LICENSE",
+    "sha256": "57e93bb611b8aeb93ff0f23b271a23291217b0016f6e66297dfd5e9467538a5f",
+    "bytes": 12850
+  }
+]

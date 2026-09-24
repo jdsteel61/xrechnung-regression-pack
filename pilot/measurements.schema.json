@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pilot external cost/usage reconciliation record (no customer content)",
+  "type": "object",
+  "required": ["record_id", "period", "category", "allocation", "cash_gbp", "subscription_allocation_gbp", "api_equivalent_usd", "source", "unknowns"],
+  "properties": {
+    "record_id": {"type":"string"},
+    "period": {"type":"string"},
+    "category": {"enum":["acquisition", "payment_fee", "refund", "validation_compute", "model_tool_usage", "support", "shared_maintenance", "overhead", "development", "owner_intervention"]},
+    "allocation": {"enum":["per_pack", "shared", "one_off"]},
+    "order_id": {"type":["string","null"]},
+    "campaign_code": {"type":["string","null"]},
+    "cash_gbp": {"type":["number","null"], "minimum":0},
+    "subscription_allocation_gbp": {"type":["number","null"], "minimum":0},
+    "api_equivalent_usd": {"type":["number","null"], "minimum":0},
+    "input_tokens": {"type":["integer","null"]},
+    "cached_input_tokens": {"type":["integer","null"]},
+    "output_including_reasoning_tokens": {"type":["integer","null"]},
+    "tool_calls": {"type":["integer","null"]},
+    "cpu_seconds": {"type":["number","null"]},
+    "wall_seconds": {"type":["number","null"]},
+    "human_minutes": {"type":["number","null"]},
+    "source": {"type":"string"},
+    "unknowns": {"type":"array","items":{"type":"string"}}
+  },
+  "additionalProperties": false,
+  "$comment": "Null is unknown, never zero. Cash, subscription allocation and API-equivalent sensitivity are separate accounting views; never sum allocation and sensitivity for the same work. Provider invoices must be reconciled before spending gates reopen. This is a schema, not a populated billing integration."
+}

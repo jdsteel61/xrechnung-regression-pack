@@ -1,0 +1,349 @@
+{
+  "additional_spending_gbp": 0,
+  "commercial_viability_or_production_readiness_claimed": false,
+  "created_utc": "2026-09-16T10:55:17.134465+00:00",
+  "elapsed_seconds_through_report": 3954.926465,
+  "final_code_audit_passed": true,
+  "final_matrix_correction_verified": true,
+  "known_false_negatives": {
+    "established_remaining_within_tested_supported_pair": [],
+    "limitation": "No global absence claim. Unsupported locations and unproven different-byte correspondence are incomplete, not no-regression."
+  },
+  "known_false_positives": {
+    "genuine_warning_change_fixtures_with_no_policy_regression": 6,
+    "historical_regression_flags_cleared": 131,
+    "interim_interaction_flags_cleared": 4,
+    "notation_only_fixtures": 125
+  },
+  "operator_intervention_requests": [],
+  "reconciliation": {
+    "all_raw_validator_records_identical": true,
+    "change_counts": {
+      "added": 21,
+      "message_changes": 0,
+      "notation_only": 421,
+      "removed": 1,
+      "reported_severity_changes": 0,
+      "severity_changes": 0
+    },
+    "corrected_regression_flags": 3,
+    "flag_categories": {
+      "document_transition": 2,
+      "genuine_finding_or_severity_change": 7,
+      "notation_only": 125
+    },
+    "occurrence_categories": {
+      "genuine_added": 21,
+      "genuine_removed": 1,
+      "notation_only": 842
+    },
+    "original_flag_occurrences": 864,
+    "original_flags": 134,
+    "outcomes": {
+      "fail->fail": 132,
+      "pass->fail": 2,
+      "pass->pass": 116
+    },
+    "unresolved_fixtures": 0
+  },
+  "requirements": [
+    {
+      "detail": "65.92 minutes through report creation; no paid API, customer documents, new profiles/rulesets, website, billing or deployment.",
+      "evidence": [
+        "starting-state.json",
+        "final/usage.json"
+      ],
+      "id": "bounds",
+      "requirement": "90-minute limit, \u00a30 additional spending and excluded-work boundaries",
+      "status": "PASS"
+    },
+    {
+      "detail": "No Git metadata exists. Starting file hashes substitute for an unavailable commit; only pre-existing xreg.py changed.",
+      "evidence": [
+        "starting-state.json",
+        "final/preservation.json"
+      ],
+      "id": "preservation",
+      "requirement": "Starting hashes; unchanged tests and historical evidence",
+      "status": "PASS"
+    },
+    {
+      "detail": "",
+      "evidence": [
+        "verification-clean/reconciliation.json",
+        "original-134-flags.json"
+      ],
+      "id": "categories",
+      "requirement": "Separate notation, genuine finding/severity changes, verdict transitions and ambiguity",
+      "status": "PASS"
+    },
+    {
+      "detail": "",
+      "evidence": [
+        "compiler-location-evidence.json",
+        "verification-clean/independent-node-proof.json",
+        "final-pack/tests.txt"
+      ],
+      "id": "xml_structure",
+      "requirement": "Preserve namespaces, node occurrence and finding multiplicity",
+      "status": "PASS"
+    },
+    {
+      "detail": "864/864 independently checked locations, zero disagreements; 421 notation-only finding pairs.",
+      "evidence": [
+        "verification-clean/independent-node-proof.json"
+      ],
+      "id": "same_bytes",
+      "requirement": "Prove equivalent expressions identify the same node in identical bytes",
+      "status": "PASS"
+    },
+    {
+      "detail": "Shared findings in different-byte documents remain unresolved; 374 application-axis comparisons per pack. Verdict transitions remain visible.",
+      "evidence": [
+        "paired-output-evidence.json",
+        "final-pack/maximum-pack/results.json",
+        "final-pack/tests.txt"
+      ],
+      "id": "different_bytes",
+      "requirement": "Do not infer business correspondence for reordered/different outputs",
+      "status": "PASS"
+    },
+    {
+      "detail": "Unresolved comparison has comparable=false and regression=null unless an independently observable regression remains; CLI exit 3, JUnit incomplete errors or confirmed failures carrying matching_complete=false.",
+      "evidence": [
+        "verification-clean/reconciliation.json",
+        "final-pack/maximum-pack/results.json",
+        "final-pack/maximum-pack/junit.xml"
+      ],
+      "id": "verdicts",
+      "requirement": "Keep validator verdicts separate; matching failure cannot be green",
+      "status": "PASS"
+    },
+    {
+      "detail": "134 fixture flags; all 442 additions and 422 removals accounted for individually.",
+      "evidence": [
+        "original-134-flags.json",
+        "verification-clean/reconciliation.json"
+      ],
+      "id": "flags",
+      "requirement": "Reconcile every original maintenance flag and churn occurrence",
+      "status": "PASS"
+    },
+    {
+      "detail": "",
+      "evidence": [
+        "verification-clean/reconciliation.json",
+        "before-after-examples.json"
+      ],
+      "id": "br_de_25",
+      "requirement": "Preserve both BR-DE-25-b pass-to-fail transitions",
+      "status": "PASS"
+    },
+    {
+      "detail": "Original pair: 6 additions, 12 effective severity escalations, 17 message changes; all checked by fixture, stage, rule and location.",
+      "evidence": [
+        "original-changes-preserved.json",
+        "verification-clean/original-benchmark/public/results.json"
+      ],
+      "id": "other_changes",
+      "requirement": "Preserve other genuine finding, message and severity changes",
+      "status": "PASS"
+    },
+    {
+      "detail": "42 tests pass, including all 22 unchanged acceptance tests.",
+      "evidence": [
+        "final-pack/tests.txt",
+        "final-unit-tests.json"
+      ],
+      "id": "edge_tests",
+      "requirement": "Repeated findings, namespaces, indices, node additions/removals, reorder and unresolved locations",
+      "status": "PASS"
+    },
+    {
+      "detail": "All 250 identical application pairs have no application regression or interaction; four interim false interaction annotations cleared in fresh final runs.",
+      "evidence": [
+        "same-byte-matrix-check.json",
+        "interaction-verification-correction.json",
+        "final-pack/maximum-pack/results.json"
+      ],
+      "id": "matrix",
+      "requirement": "Notation/proof metadata cannot manufacture an application/rules interaction",
+      "status": "PASS"
+    },
+    {
+      "detail": "",
+      "evidence": [
+        "verification-clean/summary.json",
+        "verification-clean/original-benchmark/benchmark-summary.json"
+      ],
+      "id": "corpus",
+      "requirement": "Rerun the complete frozen public corpus and unchanged acceptance harness",
+      "status": "PASS"
+    },
+    {
+      "detail": "8/8 against July and 8/8 against August; negative probes remain explicit execution errors.",
+      "evidence": [
+        "verification-clean/integration-july.json",
+        "verification-clean/original-benchmark/integration.json"
+      ],
+      "id": "integration",
+      "requirement": "Unchanged real integration/cleanup checks",
+      "status": "PASS"
+    },
+    {
+      "detail": "1,000/1,000 direct validations; both severity levels and raw locations preserved.",
+      "evidence": [
+        "verification-clean/maintenance-direct/parity.json",
+        "verification-clean/original-benchmark/direct/parity.json"
+      ],
+      "id": "parity",
+      "requirement": "Direct official KoSIT outcome/finding parity",
+      "status": "PASS"
+    },
+    {
+      "detail": "Four independently repeated data sets; both canonical formats; final-source audit of all eight result sets.",
+      "evidence": [
+        "final/final-code-audit.json",
+        "final-pack/summary.json",
+        "verification-clean/summary.json"
+      ],
+      "id": "determinism",
+      "requirement": "Repeat JSON and JUnit determinism with final comparison code",
+      "status": "PASS"
+    },
+    {
+      "detail": "",
+      "evidence": [
+        "before-after-examples.json",
+        "original-134-flags.json",
+        "verification-clean/reconciliation.json",
+        "verification-clean/independent-node-proof.json"
+      ],
+      "id": "trace",
+      "requirement": "Before/after examples and per-classification evidence",
+      "status": "PASS"
+    },
+    {
+      "detail": "131 original policy flags cleared; 4 interim interaction false positives corrected. No established false negatives remain in tested public same-byte pairs; no completeness claim beyond tested scope.",
+      "evidence": [
+        "final/gate1.json",
+        "paired-output-evidence.json"
+      ],
+      "id": "error_inventory",
+      "requirement": "Known false positives/negatives and unresolved scope",
+      "status": "PASS"
+    },
+    {
+      "detail": "Only the two identified project-session logs were inspected; no unrelated sessions or credentials. Missing usage remains UNKNOWN and is not a technical gate failure.",
+      "evidence": [
+        "final/usage.json"
+      ],
+      "id": "historical_usage",
+      "requirement": "Original build and maintenance model/token/tool/runtime usage",
+      "status": "PASS"
+    },
+    {
+      "detail": "Measured through 2026-09-16T10:55:15.042Z; final report/answer tail is not yet observable. Tokens are not inferred from elapsed time.",
+      "evidence": [
+        "final/usage.json"
+      ],
+      "id": "current_usage",
+      "requirement": "This task usage through completion",
+      "status": "INCOMPLETE"
+    },
+    {
+      "detail": "\u00a30 additional spending; existing subscription/local execution, no paid fallback or credit purchase initiated.",
+      "evidence": [
+        "final/usage.json"
+      ],
+      "id": "cash",
+      "requirement": "A: additional cash spending",
+      "status": "PASS"
+    },
+    {
+      "detail": "Actual price/utilisation UNKNOWN. Illustrative allocation is S \u00d7 task_seconds / (160 \u00d7 3600), with S monthly GBP price. This is not an allowance estimate.",
+      "evidence": [
+        "final/usage.json"
+      ],
+      "id": "subscription",
+      "requirement": "B: allocated subscription cost",
+      "status": "INCOMPLETE"
+    },
+    {
+      "detail": "Exact GPT-6 Astra usage repriced at official 2026-09-16 Standard rates; not actual subscription cash charges. Reasoning/cached tokens are not double counted.",
+      "evidence": [
+        "pricing-sources.json",
+        "final/usage.json"
+      ],
+      "id": "model_equivalent",
+      "requirement": "C: dated Standard model API-equivalent component",
+      "status": "PASS"
+    },
+    {
+      "detail": "Tool events are counted, but Codex web actions do not establish billable Responses API call mapping. Model component measured; hosted-tool component/total UNKNOWN.",
+      "evidence": [
+        "final/usage.json"
+      ],
+      "id": "tool_equivalent",
+      "requirement": "C: hosted-tool and total API-equivalent cost",
+      "status": "INCOMPLETE"
+    },
+    {
+      "detail": "B and C are alternative allocations, never added for the same work. Shared maintenance per pack depends on unknown number of packs sharing it; support/host monetary costs UNKNOWN.",
+      "evidence": [
+        "final/usage.json",
+        "final-pack/maximum-pack-resources.json"
+      ],
+      "id": "cost_categories",
+      "requirement": "Separate development, shared maintenance and per-pack execution/support",
+      "status": "PASS"
+    },
+    {
+      "detail": "2,000 full validations; actual public corpus sizes, not a byte-limit stress test at 5 MiB per input. CPU, wall time and observed Java peak working set measured; total host RAM/energy and peak temporary disk UNKNOWN.",
+      "evidence": [
+        "final-pack/maximum-pack-resources.json",
+        "final-pack/resource-processes.json"
+      ],
+      "id": "maximum_pack",
+      "requirement": "Measure 250 paired IDs, both rulesets and included rerun",
+      "status": "PASS"
+    },
+    {
+      "detail": "374 incomplete application-axis comparisons in the synthetic maximum pack; blocks a clean paired-application claim, not the same-byte ruleset comparison gate.",
+      "evidence": [
+        "final-pack/maximum-pack/results.json"
+      ],
+      "id": "unrestricted_app",
+      "requirement": "Clean correspondence for unrestricted different-byte application pairs",
+      "status": "INCOMPLETE"
+    },
+    {
+      "detail": "Zero requests. Owner was not asked to debug, label findings or choose matching rules. Human active/support minutes UNKNOWN.",
+      "evidence": [
+        "final/gate1.json"
+      ],
+      "id": "operator",
+      "requirement": "Operator-intervention requests",
+      "status": "PASS"
+    },
+    {
+      "detail": "Included subscription usage remains allowance-limited; measured development and validation are not a commercial proof.",
+      "evidence": [
+        "GATE1.md"
+      ],
+      "id": "claims",
+      "requirement": "No commercial viability, margin or production-readiness claim",
+      "status": "PASS"
+    }
+  ],
+  "supported_scope": "Frozen public 250-fixture, identical-byte ruleset comparison: July 2025 configuration (XRechnung Schematron 2.4.0) to January 2026 (2.5.0), KoSIT 1.6.3; original January/August (2.5.0/2.6.0) also reverified.",
+  "technical_gate": "GO",
+  "unresolved": {
+    "affects_same_byte_supported_pair": false,
+    "affects_unrestricted_app_pairs": true,
+    "public_january_august": 0,
+    "public_july_january": 0,
+    "synthetic_maximum_pack_app_axes": 374
+  },
+  "unrestricted_paired_application_scope": "INCOMPLETE / NO-GO for a clean correspondence claim"
+}

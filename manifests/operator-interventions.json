@@ -1,0 +1,12 @@
+{
+  "requests": [],
+  "request_count": 0,
+  "operator_active_minutes": "unknown; not instrumented",
+  "operator_time_limit_minutes": 30,
+  "notes": "No intervention, approval, credential, account or installation request was made. Zero requests is not a measured operator-time total.",
+  "additional_cash_spending_gbp": 0,
+  "coding_agents": 1,
+  "subagents": 0,
+  "paid_api_calls": 0,
+  "subscription_usage_tokens": "unknown"
+}
